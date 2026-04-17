@@ -1,0 +1,67 @@
+itemkey,itemvalue,itemlink
+tcp/20,FTP data,https://en.wikipedia.org/wiki/File_Transfer_Protocol
+tcp/21,FTP control,https://en.wikipedia.org/wiki/File_Transfer_Protocol
+tcp/22,SSH,https://en.wikipedia.org/wiki/Secure_Shell
+tcp/23,Telnet,https://en.wikipedia.org/wiki/Telnet
+tcp/25,SMTP,https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol
+tcp/49,TACACS,https://en.wikipedia.org/wiki/TACACS
+udp/53,DNS,
+udp/67,DHCP Discover and Request (broadcast),
+udp/68,DHCP Offer and Acknowledge (broadcast),
+udp/69,Trivial FTP,
+tcp/80,HTTP,
+tcp/110,POP3,
+udp/123,NTP,
+tcp/137,NetBIOS name services,
+udp/138,NetBIOS datagram services,
+tcp/139,NetBIOS session services,
+tcp/143,IMAP,
+udp/161,SNMP queries,
+udp/162,SNMP traps,
+tcp/179,BGP,
+tcp/389,LDAP,
+tcp/443,HTTPS,
+tcp/445,SMB,
+udp/514,Syslog,
+tcp/587,SMTPS (SMTP over TLS),https://en.wikipedia.org/wiki/SMTPS
+tcp/636,LDAPS,
+tcp/1433,MS-SQL,
+tcp/3389,RDP (Windows),
+udp/4789,VXLAN,
+udp/5004,VoIP,
+tcp/5060,SIP,
+tcp/5061,SIP overTLS,
+tcp/5900,RFB (VNC),
+BGP,tcp/179,
+DHCP Discover and Request (broadcast),udp/67,
+DHCP Offer and Acknowledge (broadcast),udp/68,
+DNS,udp/53,
+FTP control,tcp/21,https://en.wikipedia.org/wiki/File_Transfer_Protocol
+FTP data,tcp/20,https://en.wikipedia.org/wiki/File_Transfer_Protocol
+HTTP,tcp/80,
+HTTPS,tcp/443,
+IMAP,tcp/143,
+LDAP,tcp/389,
+LDAPS,tcp/636,
+MS-SQL,tcp/1443,
+NetBIOS datagram services,tcp/138,
+NetBIOS name services,tcp/137,
+NetBIOS session services,tcp/139,
+NTP,udp/123,
+POP3,tcp/110,
+RDP (Windows),tcp/3389,
+RFB (VNC),tcp/5900,
+SIP,tcp/5060,
+SIP over TLS,tcp/5061,
+SMB,tcp/445,
+SMTP,tcp/25,https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol
+SMTPS (SMTP over TLS),tcp/587,https://en.wikipedia.org/wiki/SMTPS
+SNMP queries,udp/161,
+SNMP traps,udp/162,
+SSH,tcp/22,https://en.wikipedia.org/wiki/Secure_Shell
+Syslog,udp/514,
+TACACS,tcp/49,https://en.wikipedia.org/wiki/TACACS
+Telnet,tcp/23,https://en.wikipedia.org/wiki/Telnet
+Trivial FTP,udp/69,
+VoIP,udp/5004,
+VXLAN,udp/4789,

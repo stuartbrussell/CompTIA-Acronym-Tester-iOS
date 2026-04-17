@@ -1,0 +1,367 @@
+itemkey,itemvalue,itemlink,strict
+AAA,"Authentication, Authorization, and Accounting","https://en.wikipedia.org/wiki/Authentication,_authorization,_and_accounting",true
+AC,Alternating Current,https://en.wikipedia.org/wiki/Alternating_current,true
+ACL,Access Control List,https://en.wikipedia.org/wiki/Access-control_list,true
+ACPI,Advanced Configuration and Power Interface,https://en.wikipedia.org/wiki/ACPI,true
+ADF,Automatic Document Feeder,https://en.wikipedia.org/wiki/Automatic_document_feeder,true
+ADK,Assessment and Deployment Kit (Windows),https://en.wikipedia.org/wiki/Windows_Assessment_and_Deployment_Kit,false
+AES,Advanced Encryption Standard,https://en.wikipedia.org/wiki/Advanced_Encryption_Standard,true
+AFP,Apple Filing Protocol,https://en.wikipedia.org/wiki/Apple_Filing_Protocol,false
+AGP,Accelerated Graphics Port,https://en.wikipedia.org/wiki/Accelerated_Graphics_Port,true
+AIO,"All In One (a.k.a. MFP, MFD, e.g. printer-scanner-fax)",https://en.wikipedia.org/wiki/Multi-function_printer,false
+AP,(Wireless) Access Point,https://en.wikipedia.org/wiki/Wireless_access_point,true
+API,Application Programming Interface,https://en.wikipedia.org/wiki/API,true
+APFS,Apple File System,https://en.wikipedia.org/wiki/Apple_File_System,true
+APIPA,Automatic Private Internet Protocol Addressing (IPv4),https://en.wikipedia.org/wiki/Link-local_address,true
+APK,Android Package Kit,https://en.wikipedia.org/wiki/Apk_(file_format),true
+APN,Access Point Name (Android phone setting),https://en.wikipedia.org/wiki/Access_Point_Name,false
+ARM,Advanced RISC Machine,https://en.wikipedia.org/wiki/ARM_architecture_family,true
+ARP,Address Resolution Protocol,https://en.wikipedia.org/wiki/Address_Resolution_Protocol,true
+ASCII,American Standard Code for Information Interchange,https://en.wikipedia.org/wiki/ASCII,false
+ATA,Advanced Technology Attachment,https://en.wikipedia.org/wiki/Parallel_ATA,true
+ATM,Asynchronous Transfer Mode,https://en.wikipedia.org/wiki/Asynchronous_Transfer_Mode,true
+ATX,Advanced Technology EXtended,https://en.wikipedia.org/wiki/ATX,true
+AUP,Acceptable Use Policy,https://en.wikipedia.org/wiki/Acceptable_use_policy,true
+AV,Antivirus,https://en.wikipedia.org/wiki/Antivirus_software,true
+BCD,Boot Configuration Data (Windows),https://en.wikipedia.org/wiki/Windows_Boot_Manager#Boot_Configuration_Data,false
+BD-ROM,Blu-ray Disc-Read-Only Memory,https://en.wikipedia.org/wiki/Blu-ray,false
+BIOS,Basic Input/Output System,https://en.wikipedia.org/wiki/BIOS,true
+BSOD,Blue Screen of Death,https://en.wikipedia.org/wiki/Blue_screen_of_death,true
+BYOD,Bring Your Own Device,https://en.wikipedia.org/wiki/Bring_your_own_device,true
+CA,Certificate Authority (DNS),https://en.wikipedia.org/wiki/Certificate_authority,true
+CaaS,Containers as a Service,https://www.docker.com/blog/containers-as-a-service-caas/,true
+CAD,Computer-aided Design,https://en.wikipedia.org/wiki/Computer-aided_design,true
+CAM,Computer-Aided Manufacturing,https://en.wikipedia.org/wiki/Computer-aided_manufacturing,false
+CAPTCHA,Completely Automated Public Turing test to tell Computers and Humans Apart,https://en.wikipedia.org/wiki/CAPTCHA,true
+CCMP,Counter Mode CBC-MAC Protocol (WPA2),https://en.wikipedia.org/wiki/CCMP_(cryptography),false
+CCTV,Closed Circuit Television,https://en.wikipedia.org/wiki/Closed-circuit_television,false
+CD,Compact Disc,https://en.wikipedia.org/wiki/Compact_disc,true
+CDFS,Compact Disc File System,https://en.wikipedia.org/wiki/Compact_Disc_File_System,true
+CD-ROM,Compact Disc-Read-Only Memory,https://en.wikipedia.org/wiki/CD-ROM,true
+CD-RW,Compact Disc-Rewritable,https://en.wikipedia.org/wiki/CD-RW,false
+CDMA,Code-Division Multiple Access,https://en.wikipedia.org/wiki/Code-division_multiple_access,true
+CERT,Computer Emergency Response Team,https://en.wikipedia.org/wiki/Computer_emergency_response_team,true
+CIA,"Confidentiality, Integrity, and Availability",https://en.wikipedia.org/wiki/Information_security#CIA_triad,false
+CIFS,Common Internet File System (Microsoft ≈ SMB 1.0),https://en.wikipedia.org/wiki/Server_Message_Block,true
+CMD,Command Prompt (Windows),https://en.wikipedia.org/wiki/Cmd.exe,true
+CMOS,Complementary Metal-Oxide Semiconductor,https://en.wikipedia.org/wiki/CMOS,true
+CNAME,Canonical Name (DNS),https://en.wikipedia.org/wiki/CNAME_record,true
+CNR,Communications and Networking Riser (outdated),https://en.wikipedia.org/wiki/Communications_and_networking_riser,false
+CPU,Central Processing Unit,https://en.wikipedia.org/wiki/Central_processing_unit,true
+CRL,Certificate Revocation List,https://en.wikipedia.org/wiki/Certificate_revocation_list,true
+CRUD,"Create, Read, Update, Delete","https://en.wikipedia.org/wiki/Create,_read,_update_and_delete",false
+CSS,Cascading Style Sheets,https://en.wikipedia.org/wiki/CSS,false
+CVE,Common Vulnerabilities and Exposures,https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures,false
+DaaS,Data as a Service,https://en.wikipedia.org/wiki/Data_as_a_service,true
+DBaaS,Database as a Service,https://en.wikipedia.org/wiki/Cloud_database,true
+DC,Direct Current,https://en.wikipedia.org/wiki/Direct_current,true
+DDoS,Distributed Denial-of-Service,https://en.wikipedia.org/wiki/Denial-of-service_attack#Distributed_DoS,true
+DDL,Data Definition Language (e.g. SQL CREATE),https://en.wikipedia.org/wiki/Data_definition_language,true
+DDR,Double Data Rate,https://en.wikipedia.org/wiki/DDR_SDRAM,true
+DHCP,Dynamic Host Configuration Protocol,https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol,true
+DIG,Domain Information Groper (dig),https://en.wikipedia.org/wiki/Dig_(command),false
+DIMM,Dual Inline Memory Module,https://en.wikipedia.org/wiki/DIMM,true
+DKIM,DomainKeys Identified Mail (email),https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail,true
+DLL,Dynamic-Link Library,https://en.wikipedia.org/wiki/Dynamic-link_library,false
+DLP,Data Loss Prevention,https://en.wikipedia.org/wiki/Data_loss_prevention_software,false
+DML,Data Manipulation Language (e.g. SQL INSERT),https://en.wikipedia.org/wiki/Data_manipulation_language,false
+DMA,Direct Memory Access,https://en.wikipedia.org/wiki/Direct_memory_access,true
+DMARC,"Domain-based Message Authentication, Reporting, and Conformance",https://en.wikipedia.org/wiki/DMARC,true
+DMZ,Demilitarized Zone,https://en.wikipedia.org/wiki/DMZ_(computing),false
+DNS,Domain Name System,https://en.wikipedia.org/wiki/Domain_Name_System,true
+DOCSIS,Data Over Cable Service Interface Specification,https://en.wikipedia.org/wiki/DOCSIS,false
+DoS,Denial-of-Service,https://en.wikipedia.org/wiki/Denial-of-service_attack,true
+DOS,Disk Operating System,https://en.wikipedia.org/wiki/DOS,false
+DRaaS,Disaster Recovery as a Service,https://en.wikipedia.org/wiki/Recovery_as_a_service,true
+DRAM,Dynamic Random-Access Memory,https://en.wikipedia.org/wiki/Dynamic_random-access_memory,true
+DRM,Digital Rights Management,https://en.wikipedia.org/wiki/Digital_rights_management,true
+DSL,Digital Subscriber Line,https://en.wikipedia.org/wiki/Digital_subscriber_line,true
+DVI,Digital Visual Interface,https://en.wikipedia.org/wiki/Digital_Visual_Interface,true
+DVI-A,Digital Visual Interface-Analog,https://en.wikipedia.org/wiki/Digital_Visual_Interface,false
+DVI-D,Digital Visual Interface-Digital,https://en.wikipedia.org/wiki/Digital_Visual_Interface,true
+DVI-I,Digital Visual Interface-Integrated,https://en.wikipedia.org/wiki/Digital_Visual_Interface,false
+DVD,Digital Versatile Disc,https://en.wikipedia.org/wiki/DVD,false
+DVD-R,Digital Versatile Disc-Recordable,https://en.wikipedia.org/wiki/DVD_recordable,false
+DVD-RW,Digital Versatile Disc-Rewritable,https://en.wikipedia.org/wiki/DVD_recordable,false
+EAP,Extensible Authentication Protocol,https://en.wikipedia.org/wiki/Extensible_Authentication_Protocol,true
+ECC,Error Correcting Code,https://en.wikipedia.org/wiki/ECC_memory,true
+EFS,Encrypting File System (Windows),https://en.wikipedia.org/wiki/Encrypting_File_System,true
+EMI,Electromagnetic Interference,https://en.wikipedia.org/wiki/Electromagnetic_interference,true
+eMMC,Embedded Multimedia Card,https://en.wikipedia.org/wiki/MultiMediaCard#eMMC,true
+EOL,End-of-life,https://en.wikipedia.org/wiki/End-of-life_product,true
+EOSL,End of Service Life,https://en.wikipedia.org/wiki/End-of-life_product,false
+eSATA,External Serial Advanced Technology Attachment,https://en.wikipedia.org/wiki/SATA#eSATA,true
+ESD,Electrostatic Discharge,https://en.wikipedia.org/wiki/Electrostatic_discharge,true
+EULA,End-User License Agreement,https://en.wikipedia.org/wiki/End-user_license_agreement,true
+exFAT,Extensible File Allocation Table (Microsoft),https://en.wikipedia.org/wiki/ExFAT,true
+ext,Extended File System (Linux),https://en.wikipedia.org/wiki/Extended_file_system,true
+FAT,File Allocation Table (DOS and Windows 9x),https://en.wikipedia.org/wiki/File_Allocation_Table,true
+FAT12,12-bit File Allocation Table,https://en.wikipedia.org/wiki/File_Allocation_Table#FAT12,true
+FAT16,16-bit File Allocation Table,https://en.wikipedia.org/wiki/File_Allocation_Table#FAT16,true
+FAT32,32-bit File Allocation Table,https://en.wikipedia.org/wiki/File_Allocation_Table#FAT32,true
+FCoE,Fibre Channel over Ethernet,https://en.wikipedia.org/wiki/Fibre_Channel_over_Ethernet,false
+FDE,Full Disk Encryption (BitLocker),https://en.wikipedia.org/wiki/BitLocker,false
+FDE,Full Disk Encryption (FileVault),https://en.wikipedia.org/wiki/FileVault,false
+FOSS,Free and Open Source Software,https://en.wikipedia.org/wiki/Free_and_open-source_software,false
+FSB,Front-Side Bus (Intel based boards),https://en.wikipedia.org/wiki/Front-side_bus,true
+FTP,File Transfer Protocol,https://en.wikipedia.org/wiki/File_Transfer_Protocol,true
+FTPS,File Transfer Protocol Secure (FTP with TLS),https://en.wikipedia.org/wiki/FTPS,true
+Gb,Gigabit,https://en.wikipedia.org/wiki/Gigabit_Ethernet,false
+GB,Gigabyte,https://en.wikipedia.org/wiki/Gigabyte,false
+Gbps,Gigabits per second,https://en.wikipedia.org/wiki/Data-rate_units#Gigabit_per_second,false
+GCMP,Galois/Counter Mode Protocol (WPA3),https://en.wikipedia.org/wiki/Galois/Counter_Mode,false
+GDDR,Graphics DDR [Double Data Rate],https://en.wikipedia.org/wiki/GDDR_SDRAM,true
+GDPR,General Data Protection Regulation (EU privacy),https://en.wikipedia.org/wiki/General_Data_Protection_Regulation,false
+GFS,Grandfather-Father-Son,https://en.wikipedia.org/wiki/Backup_rotation_scheme#Grandfather-father-son,true
+GHz,Gigahertz,https://en.wikipedia.org/wiki/Hertz,false
+GPO,Group Policy Object (Active Directory),https://en.wikipedia.org/wiki/Group_Policy,false
+GPS,Global Positioning System,https://en.wikipedia.org/wiki/Global_Positioning_System,true
+GPT,GUID [Globally Unique Identifier] Partition Table,https://en.wikipedia.org/wiki/GUID_Partition_Table,true
+GPU,Graphics Processing Unit,https://en.wikipedia.org/wiki/Graphics_processing_unit,true
+GSM,Global System for Mobile Communications (2G),https://en.wikipedia.org/wiki/GSM,true
+GUI,Graphical User Interface,https://en.wikipedia.org/wiki/Graphical_user_interface,true
+GUID,Globally Unique Identifier,https://en.wikipedia.org/wiki/Universally_unique_identifier,true
+HAL,Hardware Abstraction Layer,https://en.wikipedia.org/wiki/Hardware_abstraction,true
+HAV,Hardware-assisted Virtualization,https://en.wikipedia.org/wiki/Hardware-assisted_virtualization,true
+HCL,Hardware Compatibility List,https://en.wikipedia.org/wiki/Hardware_compatibility_list,true
+HDCP,High-bandwidth Digital Content Protection,https://en.wikipedia.org/wiki/High-bandwidth_Digital_Content_Protection,true
+HDD,Hard Disk Drive,https://en.wikipedia.org/wiki/Hard_disk_drive,true
+HDMI,High-Definition Multimedia Interface,https://en.wikipedia.org/wiki/HDMI,true
+HFS,Hierarchical File System (Macintosh),https://en.wikipedia.org/wiki/Hierarchical_File_System_(Apple),false
+HHD,Hybrid Hard Drive,https://en.wikipedia.org/wiki/Hybrid_drive,true
+HSM,Hardware Security Module (see TPM),https://en.wikipedia.org/wiki/Hardware_security_module,true
+HTML,Hypertext Markup Language,https://en.wikipedia.org/wiki/HTML,true
+HTTP,Hypertext Transfer Protocol,https://en.wikipedia.org/wiki/HTTP,true
+HTTPS,Hypertext Transfer Protocol Secure,https://en.wikipedia.org/wiki/HTTPS,true
+I/O,Input/Output,https://en.wikipedia.org/wiki/Input/output,true
+IaaS,Infrastructure as a Service,https://en.wikipedia.org/wiki/Infrastructure_as_a_service,true
+ICMP,Internet Control Message Protocol,https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol,true
+ICR,Intelligent Character Recognition,https://en.wikipedia.org/wiki/Intelligent_character_recognition,true
+IDE,Integrated Drive Electronics,https://en.wikipedia.org/wiki/Parallel_ATA#IDE_and_ATA-1,true
+IDS,Intrusion Detection System,https://en.wikipedia.org/wiki/Intrusion_detection_system,true
+IEEE,Institute of Electrical and Electronics Engineers,https://en.wikipedia.org/wiki/Institute_of_Electrical_and_Electronics_Engineers,true
+IMAP,Internet Message Access Protocol,https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol,true
+IOPS,Input/Output Operations Per Second,https://en.wikipedia.org/wiki/IOPS,true
+IoT,Internet of Things,https://en.wikipedia.org/wiki/Internet_of_things,true
+IP,Internet Protocol,https://en.wikipedia.org/wiki/Internet_Protocol,true
+IPSec,Internet Protocol Security,https://en.wikipedia.org/wiki/IPsec,true
+IPS,Intrusion Prevention System,https://en.wikipedia.org/wiki/Intrusion_detection_system#Intrusion_prevention,false
+IPS,In-Plane Switching (LCD),https://en.wikipedia.org/wiki/IPS_panel,false
+IR,Infrared,https://en.wikipedia.org/wiki/Infrared,true
+IrDA,Infrared Data Association,https://en.wikipedia.org/wiki/Infrared_Data_Association,true
+IRP,Incident Response Plan,https://en.wikipedia.org/wiki/Information_security#Incident_response_plans,true
+ISO,International Organization for Standardization,https://en.wikipedia.org/wiki/International_Organization_for_Standardization,true
+iSCSI,Internet SCSI,https://en.wikipedia.org/wiki/ISCSI,false
+ISP,Internet Service Provider,https://en.wikipedia.org/wiki/Internet_service_provider,true
+IT,Information Technology,https://en.wikipedia.org/wiki/Information_technology,true
+ITX,"Information Technology eXtended (Mini-ITX, Nano-ITX, Pico-ITX, mobile-ITX)",https://en.wikipedia.org/wiki/Mini-ITX,true
+JBOD,Just A Bunch Of Disks (i.e. not RAID),https://en.wikipedia.org/wiki/Non-RAID_drive_architectures#JBOD,false
+Kb,Kilobit,https://en.wikipedia.org/wiki/Kilobit,false
+KB,Kilobyte,https://en.wikipedia.org/wiki/Kilobyte,false
+KB,Knowledge Base,https://en.wikipedia.org/wiki/Knowledge_base,true
+Kbps,Kilobits per second,https://en.wikipedia.org/wiki/Data-rate_units#Kilobit_per_second,false
+KVM,Keyboard-Video-Mouse,https://en.wikipedia.org/wiki/KVM_switch,true
+L2TP,Layer 2 Tunneling Protocol,https://en.wikipedia.org/wiki/Layer_2_Tunneling_Protocol,true
+LAN,Local Area Network,https://en.wikipedia.org/wiki/Local_area_network,true
+LC,Lucent/Little/Local Connector (Fiber Optic),https://en.wikipedia.org/wiki/Optical_fiber_connector,true
+LCD,Liquid Crystal Display,https://en.wikipedia.org/wiki/Liquid-crystal_display,true
+LDAP,Lightweight Directory Access Protocol,https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol,true
+LEAP,Lightweight Extensible Authentication Protocol (Cisco),https://en.wikipedia.org/wiki/Lightweight_Extensible_Authentication_Protocol,true
+LED,Light-Emitting Diode,https://en.wikipedia.org/wiki/Light-emitting_diode,true
+LLDP,Link Layer Discovery Protocol,https://en.wikipedia.org/wiki/Link_Layer_Discovery_Protocol,false
+LTE,Long Term Evolution,https://en.wikipedia.org/wiki/LTE_(telecommunication),true
+MAC,Media Access Control,https://en.wikipedia.org/wiki/Medium_access_control,true
+MAC,Mandatory Access Control,https://en.wikipedia.org/wiki/Mandatory_access_control,true
+MAC,Message Authentication Code,https://en.wikipedia.org/wiki/Message_authentication_code,false
+MAM,Mobile Application Management,https://en.wikipedia.org/wiki/Mobile_application_management,true
+MAN,Metropolitan Area Network,https://en.wikipedia.org/wiki/Metropolitan_area_network,true
+Mb,Megabit,https://en.wikipedia.org/wiki/Megabit,false
+MB,Megabyte,https://en.wikipedia.org/wiki/Megabyte,false
+Mbps,Megabits per second,https://en.wikipedia.org/wiki/Data-rate_units#Megabit_per_second,false
+MBR,Master Boot Record (IBM PC - superseded by GPT),https://en.wikipedia.org/wiki/Master_boot_record,true
+MDM,Mobile Device Management,https://en.wikipedia.org/wiki/Mobile_device_management,true
+MFA,Multifactor Authentication,https://en.wikipedia.org/wiki/Multi-factor_authentication,true
+MFD,"Multi-Function Device (a.k.a. AIO, MFP)",https://en.wikipedia.org/wiki/Multi-function_printer,true
+MFP,"Multi-Function Printer (a.k.a. AIO, MFD)",https://en.wikipedia.org/wiki/Multi-function_printer,true
+MHz,Megahertz,https://en.wikipedia.org/wiki/Hertz,false
+MIC,Message Integrity Code (prefer Message Authentication Code),https://en.wikipedia.org/wiki/Message_authentication_code,false
+MITM,Man in the Middle,https://en.wikipedia.org/wiki/Man-in-the-middle_attack,false
+MMC,Microsoft Management Console (Windows - snap-ins),https://en.wikipedia.org/wiki/Microsoft_Management_Console,true
+MMS,Multimedia Messaging Service,https://en.wikipedia.org/wiki/Multimedia_Messaging_Service,true
+MOU,Memorandum of Understanding,https://en.wikipedia.org/wiki/Memorandum_of_understanding,true
+MP3,Moving Picture Experts Group Layer 3 Audio,https://en.wikipedia.org/wiki/MP3,false
+MP4,Moving Picture Experts Group Layer 4 Video,https://en.wikipedia.org/wiki/MP4_file_format,false
+mSATA,mini SATA [Serial Advanced Technology Attachment],https://en.wikipedia.org/wiki/SATA#Mini-SATA_(mSATA),true
+MSDS,Material Safety Data Sheet,https://en.wikipedia.org/wiki/Safety_data_sheet,true
+MSP,Managed Service Provider,https://en.wikipedia.org/wiki/Managed_services,true
+MSRA,Microsoft Remote Assistance (Quick Assist in Win 10 and later),https://en.wikipedia.org/wiki/Quick_Assist,true
+MTBF,Mean Time Between Failure,https://en.wikipedia.org/wiki/Mean_time_between_failures,true
+MX,Mail Exchange,https://en.wikipedia.org/wiki/MX_record,true
+NAC,Network Access Control,https://en.wikipedia.org/wiki/Network_Access_Control,true
+NAS,Network Access Server,https://en.wikipedia.org/wiki/Network_Access_Server,false
+NAS,Network-attached Storage,https://en.wikipedia.org/wiki/Network-attached_storage,true
+NAT,Network Address Translation,https://en.wikipedia.org/wiki/Network_address_translation,true
+NDA,Non-Disclosure Agreement,https://en.wikipedia.org/wiki/Non-disclosure_agreement,true
+NetBIOS,Networked Basic Input/Output System,https://en.wikipedia.org/wiki/NetBIOS,true
+NetBT,NetBIOS over TCP/IP,https://en.wikipedia.org/wiki/NetBIOS_over_TCP/IP,true
+NFC,Near-Field Communication,https://en.wikipedia.org/wiki/Near-field_communication,true
+NFS,Network File System,https://en.wikipedia.org/wiki/Network_File_System,true
+NIC,Network Interface Card,https://en.wikipedia.org/wiki/Network_interface_controller,true
+NTFS,New Technology File System (Windows),https://en.wikipedia.org/wiki/NTFS,true
+NTLDR,"NT Loader (Windows, replaced by BOOTMGR)",https://en.wikipedia.org/wiki/NTLDR,false
+NTP,Network Time Protocol,https://en.wikipedia.org/wiki/Network_Time_Protocol,true
+NVMe,Non-Volatile Memory Express,https://en.wikipedia.org/wiki/NVM_Express,true
+OCR,Optical Character Recognition,https://en.wikipedia.org/wiki/Optical_character_recognition,true
+OEM,Original Equipment Manufacturer,https://en.wikipedia.org/wiki/Original_equipment_manufacturer,true
+OFDMA,Orthogonal frequency-division multiple access (e.g. 802.11ax),https://en.wikipedia.org/wiki/Orthogonal_frequency-division_multiple_access,false
+OLED,Organic Light-emitting Diode,https://en.wikipedia.org/wiki/OLED,true
+ONT,Optical Network Terminal,https://en.wikipedia.org/wiki/Network_interface_device#Optical_network_terminals,true
+OS,Operating System,https://en.wikipedia.org/wiki/Operating_system,true
+OU,"Organizational Unit (LDAP, Active Directory)",https://en.wikipedia.org/wiki/Organizational_unit,false
+P2P,Peer-To-Peer,https://en.wikipedia.org/wiki/Peer-to-peer,false
+PaaS,Platform as a Service,https://en.wikipedia.org/wiki/Platform_as_a_service,true
+PAN,Personal Area Network,https://en.wikipedia.org/wiki/Personal_area_network,true
+PATA,Parallel Advanced Technology Attachment (== ATA),https://en.wikipedia.org/wiki/Parallel_ATA,true
+PB,Petabyte (KB * 10*5),https://en.wikipedia.org/wiki/Byte,false
+PC,Personal Computer,https://en.wikipedia.org/wiki/Personal_computer,true
+PCI,Payment Card Industry,https://en.wikipedia.org/wiki/Payment_card_industry,true
+PCI,Peripheral Component Interconnect,https://en.wikipedia.org/wiki/Peripheral_Component_Interconnect,false
+PCIe,Peripheral Component Interconnect Express,https://en.wikipedia.org/wiki/PCI_Express,true
+PCI DSS,Payment Card Industry Data Security Standard,https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard,false
+PCL,Printer Command Language,https://en.wikipedia.org/wiki/Printer_Command_Language,true
+PDF,Portable Document Format,https://en.wikipedia.org/wiki/PDF,true
+PDU,Power Distribution Unit,https://en.wikipedia.org/wiki/Power_distribution_unit,true
+PE,Preinstallation Environment,https://en.wikipedia.org/wiki/Windows_Preinstallation_Environment,true
+PEAP,Protected Extensible Authentication Protocol,https://en.wikipedia.org/wiki/Protected_Extensible_Authentication_Protocol,true
+PHI,Protected Health Information,https://en.wikipedia.org/wiki/Protected_health_information,false
+PII,Personally Identifiable Information,https://en.wikipedia.org/wiki/Personal_data,true
+PIN,Personal Identification Number,https://en.wikipedia.org/wiki/Personal_identification_number,true
+PKI,Public Key Infrastructure,https://en.wikipedia.org/wiki/Public_key_infrastructure,true
+PLC,Programmable Logic Controller,https://en.wikipedia.org/wiki/Programmable_logic_controller,false
+PoE,Power over Ethernet,https://en.wikipedia.org/wiki/Power_over_Ethernet,true
+POP,Post Office Protocol,https://en.wikipedia.org/wiki/Post_Office_Protocol,false
+POP3,Post Office Protocol 3,https://en.wikipedia.org/wiki/Post_Office_Protocol,true
+POST,Power-On Self-Test,https://en.wikipedia.org/wiki/Power-on_self-test,true
+PPP,Point-to-Point Protocol,https://en.wikipedia.org/wiki/Point-to-Point_Protocol,true
+PPTP,Point-to-point Tunneling Protocol (Obsolete VPN),https://en.wikipedia.org/wiki/Point-to-Point_Tunneling_Protocol,true
+PRL,Preferred Roaming List,https://en.wikipedia.org/wiki/Preferred_Roaming_List,true
+PSK,Pre-Shared Key,https://en.wikipedia.org/wiki/Pre-shared_key,true
+PSU,Power Supply Unit,https://en.wikipedia.org/wiki/Power_supply_unit_(computer),true
+PXE,Preboot eXecution Environment (Pixie Boot),https://en.wikipedia.org/wiki/Preboot_Execution_Environment,true
+RADIUS,Remote Authentication Dial-In User Service,https://en.wikipedia.org/wiki/RADIUS,true
+RAID,Redundant Array of Independent [or Inexpensive] Disks,https://en.wikipedia.org/wiki/RAID,true
+RAM,Random-Access Memory,https://en.wikipedia.org/wiki/Random-access_memory,true
+RDP,Remote Desktop Protocol (Windows),https://en.wikipedia.org/wiki/Remote_Desktop_Protocol,true
+ReFS,Resilient File System (Windows),https://en.wikipedia.org/wiki/ReFS,false
+RF,Radio Frequency,https://en.wikipedia.org/wiki/Radio_frequency,true
+RFB,Remote Frame Buffer,https://en.wikipedia.org/wiki/RFB_(protocol),false
+RFI,Radio-Frequency Interference,https://en.wikipedia.org/wiki/Electromagnetic_interference,true
+RFID,Radio-Frequency Identification,https://en.wikipedia.org/wiki/Radio-frequency_identification,true
+RJ11,Registered Jack Function 11 (POTS),https://en.wikipedia.org/wiki/Registered_jack#RJ11,true
+RJ45,Registered Jack Function 45 (Ethernet),https://en.wikipedia.org/wiki/Modular_connector#8P8C,true
+RMM,Remote Monitoring and Management (for MSPs),https://en.wikipedia.org/wiki/Remote_monitoring_and_management,true
+ROM,Read-only Memory,https://en.wikipedia.org/wiki/Read-only_memory,true
+RTO,Recovery Time Objective,https://en.wikipedia.org/wiki/IT_disaster_recovery#Recovery_Time_Objective,true
+S/MIME,Secure/Multipurpose Internet Mail Extensions,https://en.wikipedia.org/wiki/S/MIME,true
+SaaS,Software as a Service,https://en.wikipedia.org/wiki/Software_as_a_service,true
+SAE,Simultaneous Authentication of Equals,https://en.wikipedia.org/wiki/Simultaneous_Authentication_of_Equals,false
+SAM,"Security Account Manager (Windows, similar to macOS Keychain)",https://en.wikipedia.org/wiki/Security_Account_Manager,false
+SAN,Storage Area Network,https://en.wikipedia.org/wiki/Storage_area_network,true
+SAS,Serial Attached SCSI,https://en.wikipedia.org/wiki/Serial_Attached_SCSI,true
+SATA,Serial Advanced Technology Attachment,https://en.wikipedia.org/wiki/SATA,true
+SC,Subscriber Connector (Fiber Optic),https://en.wikipedia.org/wiki/Optical_fiber_connector,true
+SCADA,Supervisory Control And Data Acquisition,https://en.wikipedia.org/wiki/SCADA,true
+SCP,Secure Copy Protocol (Protection?),https://en.wikipedia.org/wiki/Secure_copy_protocol,true
+SCSI,Small Computer System Interface,https://en.wikipedia.org/wiki/SCSI,true
+SD Card,Secure Digital Card,https://en.wikipedia.org/wiki/SD_card,true
+SDD,"Super Density Disk (proprietary, superseded by DVD)",https://en.wikipedia.org/wiki/DVD,true
+SDN,Software-Defined Networking,https://en.wikipedia.org/wiki/Software-defined_networking,true
+SFC,System File Checker (Windows),https://en.wikipedia.org/wiki/System_File_Checker,false
+SFTP,SSH File Transfer Protocol,https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol,true
+SHA,Secure Hashing Algorithm,https://en.wikipedia.org/wiki/Secure_Hash_Algorithms,false
+SID,Security Identifier (Windows),https://en.wikipedia.org/wiki/Security_Identifier,false
+SIEM,Security Information and Event Management,https://en.wikipedia.org/wiki/Security_information_and_event_management,false
+SIM,Subscriber Identity Module,https://en.wikipedia.org/wiki/SIM_card,true
+SIMM,Single Inline Memory Module,https://en.wikipedia.org/wiki/SIMM,true
+S.M.A.R.T.,Self-Monitoring Analysis and Reporting Technology,"https://en.wikipedia.org/wiki/Self-Monitoring,_Analysis_and_Reporting_Technology",true
+SMB,Server Message Block,https://en.wikipedia.org/wiki/Server_Message_Block,true
+SMS,Short Message Service,https://en.wikipedia.org/wiki/SMS,true
+SMTP,Simple Mail Transfer Protocol,https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol,true
+SNMP,Simple Network Management Protocol,https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol,true
+SNTP,Simple Network Time Protocol,https://en.wikipedia.org/wiki/Network_Time_Protocol#SNTP,true
+SOA,Start of Authority (DNS),https://en.wikipedia.org/wiki/SOA_record,true
+SODIMM,Small Outline Dual Inline Memory Module (Laptops),https://en.wikipedia.org/wiki/DIMM#SO-DIMM,true
+SOE,Standard Operating Environment,https://en.wikipedia.org/wiki/Standard_Operating_Environment,false
+SOHO,Small Office/Home Office,https://en.wikipedia.org/wiki/Small_office/home_office,true
+SOP,Standard Operating Procedure,https://en.wikipedia.org/wiki/Standard_operating_procedure,true
+SPF,Sender Policy Framework (email authentication),https://en.wikipedia.org/wiki/Sender_Policy_Framework,true
+SQL,Structured Query Language,https://en.wikipedia.org/wiki/SQL,true
+SRAM,Static Random-Access Memory,https://en.wikipedia.org/wiki/Static_random-access_memory,true
+SRV,Service record (DNS),https://en.wikipedia.org/wiki/SRV_record,true
+SSD,Solid-State Drive,https://en.wikipedia.org/wiki/Solid-state_drive,true
+SSH,Secure Shell,https://en.wikipedia.org/wiki/Secure_Shell,true
+SSID,Service Set Identifier,https://en.wikipedia.org/wiki/Service_set_(802.11_network)#Service_set_identifier,true
+SSL,Secure Sockets Layer,"https://en.wikipedia.org/wiki/Transport_Layer_Security#SSL_1.0,_2.0,_and_3.0",true
+SSO,Single Sign-On,https://en.wikipedia.org/wiki/Single_sign-on,true
+SSTP,"Secure Socket Tunneling Protocol (Windows, Linux, BSD)",https://en.wikipedia.org/wiki/Secure_Socket_Tunneling_Protocol,true
+ST,Straight Tip (Fiber Optic),https://en.wikipedia.org/wiki/Optical_fiber_connector,true
+STL,STereoLithography (3D-printing),https://en.wikipedia.org/wiki/Stereolithography,false
+STP,Shielded Twisted Pair,https://en.wikipedia.org/wiki/Twisted_pair,true
+TACACS,Terminal Access Controller Access-Control System,https://en.wikipedia.org/wiki/TACACS,true
+TAR,Tape ARchive,https://en.wikipedia.org/wiki/Tar_(computing),true
+Tb,Terabit,https://en.wikipedia.org/wiki/Terabit_Ethernet,true
+TB,Terabyte,https://en.wikipedia.org/wiki/Byte,false
+Tbps,Terabits per second,https://en.wikipedia.org/wiki/Data-rate_units#Terabit_per_second,false
+TCP,Transmission Control Protocol,https://en.wikipedia.org/wiki/Transmission_Control_Protocol,true
+TCP/IP,Transmission Control Protocol/Internet Protocol,https://en.wikipedia.org/wiki/Internet_protocol_suite,true
+TFTP,Trivial File Transfer Protocol,https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol,true
+TKIP,Temporal Key Integrity Protocol (WPA),https://en.wikipedia.org/wiki/Temporal_Key_Integrity_Protocol,false
+TLS,Transport Layer Security,https://en.wikipedia.org/wiki/Transport_Layer_Security,true
+TN,Twisted Nematic (LCD),https://en.wikipedia.org/wiki/Twisted_nematic_field_effect,true
+TPM,Trusted Platform Module (see HSM),https://en.wikipedia.org/wiki/Trusted_Platform_Module,true
+TRRS,Tip Ring Ring Sleeve (headphone jack),https://en.wikipedia.org/wiki/Phone_connector_(audio)#TRRS_standards,false
+UAC,User Account Control (Windows MAC enforcement feature),https://en.wikipedia.org/wiki/User_Account_Control,true
+UDP,User Datagram Protocol,https://en.wikipedia.org/wiki/User_Datagram_Protocol,true
+UEFI,Unified Extensible Firmware Interface,https://en.wikipedia.org/wiki/UEFI,true
+UHD,Ultra High Definition,https://en.wikipedia.org/wiki/Ultra-high-definition_television,true
+UNC,Universal Naming Convention (Windows network path),https://en.wikipedia.org/wiki/Path_(computing)#Universal_Naming_Convention,true
+UPnP,Universal Plug and Play,https://en.wikipedia.org/wiki/Universal_Plug_and_Play,true
+UPS,Uninterruptible Power Supply,https://en.wikipedia.org/wiki/Uninterruptible_power_supply,true
+URL,Uniform Resource Locator,https://en.wikipedia.org/wiki/URL,false
+USB,Universal Serial Bus,https://en.wikipedia.org/wiki/USB,true
+USB-C,Universal Serial Bus Type C,https://en.wikipedia.org/wiki/USB-C,true
+USB OTG,Universal Serial Bus On-The-Go,https://en.wikipedia.org/wiki/USB_On-The-Go,false
+UTM,Unified Threat Management,https://en.wikipedia.org/wiki/Unified_threat_management,true
+UTP,Unshielded Twisted Pair,https://en.wikipedia.org/wiki/Twisted_pair#Unshielded_twisted_pair,true
+UWP,Universal Windows Platform (apps),https://en.wikipedia.org/wiki/Universal_Windows_Platform_apps,false
+UX,User Experience,https://en.wikipedia.org/wiki/User_experience,false
+VA,Vertical Alignment (LCD),https://en.wikipedia.org/wiki/Liquid-crystal_display#Vertical_alignment_(VA),true
+VDI,Virtual Desktop Infrastructure,https://en.wikipedia.org/wiki/Desktop_virtualization,true
+VGA,Video Graphics Array,https://en.wikipedia.org/wiki/Video_Graphics_Array,true
+VLAN,Virtual LAN,https://en.wikipedia.org/wiki/VLAN,true
+VM,Virtual Machine,https://en.wikipedia.org/wiki/Virtual_machine,true
+VM,Virtual Memory,https://en.wikipedia.org/wiki/Virtual_memory,false
+VNC,Virtual Network Computing,https://en.wikipedia.org/wiki/Virtual_Network_Computing,true
+VoIP,Voice over Internet Protocol,https://en.wikipedia.org/wiki/Voice_over_IP,true
+VoLTE,Voice over Long Term Evolution,https://en.wikipedia.org/wiki/Voice_over_LTE,false
+VPN,Virtual Private Network,https://en.wikipedia.org/wiki/Virtual_private_network,true
+VRAM,Video Random-Access Memory,https://en.wikipedia.org/wiki/Video_random-access_memory,true
+WAF,Web Application Firewall,https://en.wikipedia.org/wiki/Web_application_firewall,true
+WAN,Wide Area Network,https://en.wikipedia.org/wiki/Wide_area_network,true
+WAP,Wireless Access Point,https://en.wikipedia.org/wiki/Wireless_access_point,true
+WDDM,Windows Display Driver Model,https://en.wikipedia.org/wiki/Windows_Display_Driver_Model,false
+WEP,"Wired Equivalent Privacy (flawed, do not use)",https://en.wikipedia.org/wiki/Wired_Equivalent_Privacy,true
+WiFi,Wireless Fidelity (802.11),https://en.wikipedia.org/wiki/Wi-Fi,false
+WinPE,Windows Preinstallation Environment,https://en.wikipedia.org/wiki/Windows_Preinstallation_Environment,false
+WISP,Wireless Internet Service Provider,https://en.wikipedia.org/wiki/Wireless_Internet_service_provider,true
+WLAN,Wireless LAN,https://en.wikipedia.org/wiki/Wireless_LAN,true
+WMN,Wireless Mesh Network,https://en.wikipedia.org/wiki/Wireless_mesh_network,true
+WPA,Wi-Fi Protected Access (TKIP),https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access#WPA,true
+WPA2,Wi-Fi Protected Access 2,https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access#WPA2,false
+WPA3,Wi-Fi Protected Access 3,https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access#WPA3,false
+WPS,Wi-Fi Protected Setup,https://en.wikipedia.org/wiki/Wi-Fi_Protected_Setup,true
+WWAN,Wireless Wide Area Network,https://en.wikipedia.org/wiki/Wireless_WAN,true
+XML,Extensible Markup Language,https://en.wikipedia.org/wiki/XML,false
+XMP,Extreme Memory Profile (Intel),https://en.wikipedia.org/wiki/Serial_presence_detect#Intel_Extreme_Memory_Profile_(XMP),true
+XSS,Cross-Site Scripting,https://en.wikipedia.org/wiki/Cross-site_scripting,true
+YUM,"Yellowdog Updater, Modified (Linux)",https://en.wikipedia.org/wiki/Yum_(software),false

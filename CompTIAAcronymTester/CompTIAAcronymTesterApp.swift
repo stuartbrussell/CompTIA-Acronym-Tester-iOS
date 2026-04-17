@@ -1,17 +1,13 @@
-//
-//  CompTIAAcronymTesterApp.swift
-//  CompTIAAcronymTester
-//
-//  Created by sbr on 4/16/26.
-//
-
 import SwiftUI
 
 @main
 struct CompTIAAcronymTesterApp: App {
+    @StateObject private var store = QuizStore()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            QuizView()
+                .environmentObject(store)
         }
     }
 }

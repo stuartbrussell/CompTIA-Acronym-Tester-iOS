@@ -1,0 +1,122 @@
+import SwiftUI
+
+/// Mirrors the Python app's debug window and the length-filter dropdown.
+struct SettingsView: View {
+    @EnvironmentObject private var store: QuizStore
+    @Environment(\.dismiss) private var dismiss
+
+    var body: some View {
+        NavigationStack {
+            Form {
+                listsSection
+                filtersSection
+                reviewSection
+                resetSection
+                aboutSection
+            }
+            .navigationTitle("Settings")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("Done") { dismiss() }
+                }
+            }
+        }
+    }
+
+    // MARK: - Lists
+
+    private var listsSection: some View {
+        Section {
+            ForEach(AcronymList.all) { list in
+                Toggle(list.displayName,
+                       isOn: binding(for: list))
+            }
+        } header: {
+            Text("Lists")
+        } footer: {
+            Text("Enabled lists are combined into a single shuffled deck. Duplicate acronyms with different meanings are shown stacked.")
+        }
+    }
+
+    private func binding(for list: AcronymList) -> Binding<Bool> {
+        Binding(
+            get: { store.enabledListIDs.contains(list.id) },
+            set: { newValue in
+                var updated = store.enabledListIDs
+                if newValue { updated.insert(list.id) } else { updated.remove(list.id) }
+                store.enabledListIDs = updated
+            }
+        )
+    }
+
+    // MARK: - Filters
+
+    private var filtersSection: some View {
+        Section {
+            Toggle("Strict (CompTIA objectives only)", isOn: $store.strictMode)
+
+            Picker("Acronym length", selection: $store.lengthFilter) {
+                ForEach(store.availableLengths, id: \.self) { length in
+                    Text(lengthLabel(length)).tag(length)
+                }
+            }
+        } header: {
+            Text("Filters")
+        } footer: {
+            Text("Strict mode hides extra acronyms that aren't part of the official exam objectives. Use the length picker to drill on longer acronyms.")
+        }
+    }
+
+    private func lengthLabel(_ n: Int) -> String {
+        n == 0 ? "All lengths" : "\(n) characters"
+    }
+
+    // MARK: - Review mode
+
+    private var reviewSection: some View {
+        Section {
+            Toggle("Review incorrect only", isOn: $store.reviewMode)
+                .disabled(!store.hasAnyIncorrect)
+        } footer: {
+            if store.hasAnyIncorrect {
+                Text("Navigation skips correct/untested items. Turns off automatically once everything is marked correct.")
+            } else {
+                Text("Available after you mark at least one acronym incorrect.")
+            }
+        }
+    }
+
+    // MARK: - Reset
+
+    private var resetSection: some View {
+        Section {
+            Button {
+                store.reload()
+            } label: {
+                Label("Reshuffle & Reset Score", systemImage: "shuffle")
+            }
+            Button(role: .destructive) {
+                store.resetScore()
+            } label: {
+                Label("Reset Score Only", systemImage: "arrow.counterclockwise")
+            }
+        }
+    }
+
+    // MARK: - About
+
+    private var aboutSection: some View {
+        Section {
+            LabeledContent("Active items", value: "\(store.activeItems.count)")
+            LabeledContent("Total acronyms", value: "\(store.allItems.count)")
+        } header: {
+            Text("Current session")
+        }
+    }
+}
+
+#Preview {
+    SettingsView()
+        .environmentObject(QuizStore())
+}

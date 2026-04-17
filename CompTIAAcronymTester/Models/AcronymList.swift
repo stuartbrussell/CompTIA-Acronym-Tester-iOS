@@ -1,0 +1,23 @@
+import Foundation
+
+/// One source CSV file bundled with the app.
+///
+/// The CSVs are the canonical data. Drop a new one into `Resources`, add an
+/// entry here, and it appears as a toggle in Settings.
+struct AcronymList: Identifiable, Hashable {
+    let id: String            // stable id used in UserDefaults
+    let displayName: String   // shown in Settings
+    let resourceName: String  // filename in the app bundle, without .csv
+
+    static let all: [AcronymList] = [
+        .init(id: "aplus",
+              displayName: "CompTIA A+ (220-1101/1102)",
+              resourceName: "APlus"),
+        .init(id: "netplus",
+              displayName: "CompTIA Network+ (N10-009)",
+              resourceName: "NetworkPlus"),
+//        .init(id: "ports",
+//              displayName: "Network Ports",
+//              resourceName: "NetworkPorts"),
+    ]
+}

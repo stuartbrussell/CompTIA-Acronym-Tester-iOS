@@ -1,0 +1,174 @@
+itemkey,itemvalue,itemlink,strict
+A,Address,https://en.wikipedia.org/wiki/List_of_DNS_record_types#Resource_records,true
+ACL,Access Control List,https://en.wikipedia.org/wiki/Access-control_list,true
+AH,Authentication Header,https://en.wikipedia.org/wiki/IPsec#Authentication_Header,true
+AP,(Wireless) Access Point,https://en.wikipedia.org/wiki/Wireless_access_point,true
+API,Application Programming Interface,https://en.wikipedia.org/wiki/API,true
+APIPA,Automatic Private Internet Protocol Addressing (IPv4),https://en.wikipedia.org/wiki/Link-local_address,true
+ARP,Address Resolution Protocol,https://en.wikipedia.org/wiki/Address_Resolution_Protocol,true
+AUP,Acceptable Use Policy,https://en.wikipedia.org/wiki/Acceptable_use_policy,true
+BGP,Border Gateway Protocol,https://en.wikipedia.org/wiki/Border_Gateway_Protocol,true
+BNC,Bayonet Neill–Concelman,https://en.wikipedia.org/wiki/BNC_connector,true
+BPDU,Bridge Protocol Data Unit,https://en.wikipedia.org/wiki/Spanning_Tree_Protocol#Bridge_protocol_data_units,false
+BSSID,Basic Service Set Identifier,https://en.wikipedia.org/wiki/Service_set_(802.11_network),true
+BYOD,Bring Your Own Device,https://en.wikipedia.org/wiki/Bring_your_own_device,true
+CAM,Content-Addressable Memory,https://en.wikipedia.org/wiki/Content-addressable_memory,true
+CDN,Content Delivery Network,https://en.wikipedia.org/wiki/Content_delivery_network,true
+CDP,Cisco Discovery Protocol,https://en.wikipedia.org/wiki/Cisco_Discovery_Protocol,true
+CIA,"Confidentiality, Integrity, and Availability",https://en.wikipedia.org/wiki/Information_security#CIA_triad,true
+CIDR,Classless Inter-domain Routing,https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing,true
+CLI,Command-line Interface,https://en.wikipedia.org/wiki/Command-line_interface,true
+CNAME,Canonical Name (DNS),https://en.wikipedia.org/wiki/CNAME_record,true
+CPU,Central Processing Unit,https://en.wikipedia.org/wiki/Central_processing_unit,true
+CRC,Cyclic Redundancy Check,https://en.wikipedia.org/wiki/Cyclic_redundancy_check,true
+DAC,Direct Attach Copper,https://en.wikipedia.org/wiki/Twinaxial_cabling#Networking_(Direct-Attach_Copper),true
+DAS,Direct-attached Storage,https://en.wikipedia.org/wiki/Direct-attached_storage,true
+DCI,Data Center Interconnect,https://en.wikipedia.org/wiki/Data_center_interconnect,true
+DDoS,Distributed Denial-of-Service,https://en.wikipedia.org/wiki/Denial-of-service_attack#Distributed_DoS,true
+DHCP,Dynamic Host Configuration Protocol,https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol,true
+DLP,Data Loss Prevention,https://en.wikipedia.org/wiki/Data_loss_prevention_software,true
+DNS,Domain Name System,https://en.wikipedia.org/wiki/Domain_Name_System,true
+DNSSEC,Domain Name System Security Extensions,https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions,true
+DoH,DNS over Hypertext Transfer Protocol Secure,https://en.wikipedia.org/wiki/DNS_over_HTTPS,true
+DoS,Denial-of-Service,https://en.wikipedia.org/wiki/Denial-of-service_attack,true
+DoT,DNS over Transport Layer Security,https://en.wikipedia.org/wiki/DNS_over_TLS,true
+DR,Disaster Recovery,https://en.wikipedia.org/wiki/IT_disaster_recovery,true
+EAPoL,Extensible Authentication Protocol over LAN,https://en.wikipedia.org/wiki/Extensible_Authentication_Protocol#IEEE_802.1X,true
+EIGRP,Enhanced Interior Gateway Routing Protocol,https://en.wikipedia.org/wiki/Enhanced_Interior_Gateway_Routing_Protocol,true
+EOL,End-of-life,https://en.wikipedia.org/wiki/End-of-life_product,true
+EOS,End-of-support,https://en.wikipedia.org/wiki/End-of-life_product,true
+ESP,Encapsulating Security Payload,https://en.wikipedia.org/wiki/IPsec#Encapsulating_Security_Payload,true
+ESSID,Extended Service Set Identifier,https://en.wikipedia.org/wiki/Service_set_(802.11_network)#Extended_service_set,true
+EULA,End-User License Agreement,https://en.wikipedia.org/wiki/End-user_license_agreement,true
+FC,Fibre Channel,https://en.wikipedia.org/wiki/Fibre_Channel,true
+FEP,Flourinated Ethylene Polymer,https://en.wikipedia.org/wiki/Plenum_cable,false
+FHRP,First Hop Redundancy Protocol,https://en.wikipedia.org/wiki/First-hop_redundancy_protocol,true
+FTP,File Transfer Protocol,https://en.wikipedia.org/wiki/File_Transfer_Protocol,true
+GDPR,General Data Protection Regulation (EU privacy),https://en.wikipedia.org/wiki/General_Data_Protection_Regulation,true
+GRE,Generic Routing Encapsulation,https://en.wikipedia.org/wiki/Generic_routing_encapsulation,true
+GUI,Graphical User Interface,https://en.wikipedia.org/wiki/Graphical_user_interface,true
+HTTP,Hypertext Transfer Protocol,https://en.wikipedia.org/wiki/HTTP,true
+HTTPS,Hypertext Transfer Protocol Secure,https://en.wikipedia.org/wiki/HTTPS,true
+IaaS,Infrastructure as a Service,https://en.wikipedia.org/wiki/Infrastructure_as_a_service,true
+IaC,Infrastructure as Code,https://en.wikipedia.org/wiki/Infrastructure_as_code,true
+IAM,Identity and Access Management,https://en.wikipedia.org/wiki/Identity_and_access_management,true
+IBSS,Independent Basic Service Set,https://en.wikipedia.org/wiki/Service_set_(802.11_network)#Independent,false
+ICMP,Internet Control Message Protocol,https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol,true
+ICS,Industrial Control System,https://en.wikipedia.org/wiki/Industrial_control_system,true
+IDF,Intermediate Distribution Frame,https://en.wikipedia.org/wiki/Intermediate_distribution_frame,true
+IDS,Intrusion Detection System,https://en.wikipedia.org/wiki/Intrusion_detection_system,true
+IoT,Internet of Things,https://en.wikipedia.org/wiki/Internet_of_things,true
+IIoT,Industrial Internet of Things,https://en.wikipedia.org/wiki/Industrial_internet_of_things,true
+IKE,Internet Key Exchange,https://en.wikipedia.org/wiki/Internet_Key_Exchange,true
+IP,Internet Protocol,https://en.wikipedia.org/wiki/Internet_Protocol,true
+IPAM,Internet Protocol Address Management,https://en.wikipedia.org/wiki/IP_address_management,true
+IPS,Intrusion Prevention System,https://en.wikipedia.org/wiki/Intrusion_detection_system#Intrusion_prevention,true
+IPSec,Internet Protocol Security,https://en.wikipedia.org/wiki/IPsec,true
+IS-IS,Intermediate System to Intermediate System,https://en.wikipedia.org/wiki/IS-IS,true
+LACP,Link Aggregation Control Protocol,https://en.wikipedia.org/wiki/Link_aggregation#Link_Aggregation_Control_Protocol,true
+LAN,Local Area Network,https://en.wikipedia.org/wiki/Local_area_network,true
+LC,Lucent/Little/Local Connector (Fiber Optic),https://en.wikipedia.org/wiki/Optical_fiber_connector,true
+LDAP,Lightweight Directory Access Protocol,https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol,true
+LDAPS,Lightweight Directory Access Protocol over SSL,https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol#StartTLS,true
+LLDP,Link Layer Discovery Protocol,https://en.wikipedia.org/wiki/Link_Layer_Discovery_Protocol,true
+MAC,Media Access Control,https://en.wikipedia.org/wiki/Medium_access_control,true
+MAC,Message Authentication Code,https://en.wikipedia.org/wiki/Message_authentication_code,false
+MDF,Main Distribution Frame,https://en.wikipedia.org/wiki/Main_distribution_frame,true
+MDIX,Medium Dependent Interface Crossover,https://en.wikipedia.org/wiki/Medium-dependent_interface,true
+MFA,Multifactor Authentication,https://en.wikipedia.org/wiki/Multi-factor_authentication,true
+MIB,Management Information Base,https://en.wikipedia.org/wiki/Management_information_base,true
+MIC,Message Integrity Code (prefer Message Authentication Code),https://en.wikipedia.org/wiki/Message_authentication_code,false
+MPO,Multifiber Push On (Fiber Optic),https://en.wikipedia.org/wiki/Optical_fiber_connector,true
+MTBF,Mean Time Between Failure,https://en.wikipedia.org/wiki/Mean_time_between_failures,true
+MTTR,Mean Time To Recovery,https://en.wikipedia.org/wiki/Mean_time_to_recovery,false
+MTTR,Mean Time To Repair,https://en.wikipedia.org/wiki/Mean_time_to_repair,true
+MTU,Maximum Transmission Unit,https://en.wikipedia.org/wiki/Maximum_transmission_unit,true
+MX,Mail Exchange,https://en.wikipedia.org/wiki/MX_record,true
+NAC,Network Access Control,https://en.wikipedia.org/wiki/Network_Access_Control,true
+NAS,Network-attached Storage,https://en.wikipedia.org/wiki/Network-attached_storage,true
+NAT,Network Address Translation,https://en.wikipedia.org/wiki/Network_address_translation,true
+NFV,Network Functions Virtualization,https://en.wikipedia.org/wiki/Network_function_virtualization,true
+NIC,Network Interface Card,https://en.wikipedia.org/wiki/Network_interface_controller,true
+NS,Name Server,https://en.wikipedia.org/wiki/Name_server,true
+NTP,Network Time Protocol,https://en.wikipedia.org/wiki/Network_Time_Protocol,true
+NTS,Network Time Security,https://en.wikipedia.org/wiki/Network_Time_Protocol#Secure_extensions,true
+OID,Object Identifier,,false
+OS,Operating System,https://en.wikipedia.org/wiki/Operating_system,true
+OSPF,Open Shortest Path First,https://en.wikipedia.org/wiki/Open_Shortest_Path_First,true
+OSI,Open Systems Interconnection,https://en.wikipedia.org/wiki/OSI_model,true
+OT,Operational Technology,https://en.wikipedia.org/wiki/Operational_technology,true
+PaaS,Platform as a Service,https://en.wikipedia.org/wiki/Platform_as_a_service,true
+PAT,Port Address Translation,https://en.wikipedia.org/wiki/Network_address_translation#One-to-many_NAT,true
+PCI DSS,Payment Card Industry Data Security Standard,https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard,true
+PDU,Power Distribution Unit,https://en.wikipedia.org/wiki/Power_distribution_unit,true
+PKI,Public Key Infrastructure,https://en.wikipedia.org/wiki/Public_key_infrastructure,true
+PoE,Power over Ethernet,https://en.wikipedia.org/wiki/Power_over_Ethernet,true
+PSK,Pre-Shared Key,https://en.wikipedia.org/wiki/Pre-shared_key,true
+PTP,Precision Time Protocol,https://en.wikipedia.org/wiki/Precision_Time_Protocol,true
+PTR,Pointer,https://en.wikipedia.org/wiki/List_of_DNS_record_types#Resource_records,true
+QoS,Quality of Service,https://en.wikipedia.org/wiki/Quality_of_service,true
+QSFP,Quad Small Form-factor Pluggable,https://en.wikipedia.org/wiki/Small_Form-factor_Pluggable#QSFP,true
+RADIUS,Remote Authentication Dial-In User Service,https://en.wikipedia.org/wiki/RADIUS,true
+RDP,Remote Desktop Protocol (Windows),https://en.wikipedia.org/wiki/Remote_Desktop_Protocol,true
+RFB,Remote Frame Buffer (VNC),https://en.wikipedia.org/wiki/RFB_(protocol),false
+RFID,Radio-Frequency Identification,https://en.wikipedia.org/wiki/Radio-frequency_identification,true
+RIP,Routing Information Protocol,https://en.wikipedia.org/wiki/Routing_Information_Protocol,true
+RJ,Registered Jack,https://en.wikipedia.org/wiki/Registered_jack,true
+RPO,Recovery Point Objective,https://en.wikipedia.org/wiki/IT_disaster_recovery#Recovery_Point_Objective,true
+RSTP,Rapid Spanning Tree Protocol,https://en.wikipedia.org/wiki/Spanning_Tree_Protocol#Rapid_Spanning_Tree_Protocol,true
+RTO,Recovery Time Objective,https://en.wikipedia.org/wiki/IT_disaster_recovery#Recovery_Time_Objective,true
+RX,Receiver,https://en.wikipedia.org/wiki/Telecommunications#Basic_elements,true
+SaaS,Software as a Service,https://en.wikipedia.org/wiki/Software_as_a_service,true
+SAML,Security Assertion Markup Language,https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language,true
+SAN,Storage Area Network,https://en.wikipedia.org/wiki/Storage_area_network,true
+SASE,Secure Access Server Edge,https://en.wikipedia.org/wiki/Secure_access_service_edge,true
+SC,Subscriber Connector (Fiber Optic),https://en.wikipedia.org/wiki/Optical_fiber_connector,true
+SCADA,Supervisory Control And Data Acquisition,https://en.wikipedia.org/wiki/SCADA,true
+SDN,Software-Defined Networking,https://en.wikipedia.org/wiki/Software-defined_networking,true
+SD-WAN,Software-Defined Wide Area Network,https://en.wikipedia.org/wiki/SD-WAN,true
+SFP,Small Form-factor Pluggable,https://en.wikipedia.org/wiki/Small_Form-factor_Pluggable,true
+SFTP,SSH File Transfer Protocol,https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol,true
+SIP,Session Initiation Protocol,https://en.wikipedia.org/wiki/Session_Initiation_Protocol,true
+SIEM,Security Information and Event Management,https://en.wikipedia.org/wiki/Security_information_and_event_management,true
+SLA,Service-level Agreement,https://en.wikipedia.org/wiki/Service-level_agreement,true
+SLAAC,Stateless Address Autoconfiguration,https://en.wikipedia.org/wiki/IPv6_address#Stateless_address_autoconfiguration_(SLAAC),true
+SMB,Server Message Block,https://en.wikipedia.org/wiki/Server_Message_Block,true
+SMTP,Simple Mail Transfer Protocol,https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol,true
+SMTPS,Simple Mail Transfer Protocol Secure,https://en.wikipedia.org/wiki/SMTPS,true
+SNMP,Simple Network Management Protocol,https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol,true
+SOA,Start of Authority (DNS),https://en.wikipedia.org/wiki/SOA_record,true
+SQL,Structured Query Language,https://en.wikipedia.org/wiki/SQL,true
+SSE,Security Service Edge,https://en.wikipedia.org/wiki/Secure_access_service_edge,true
+SSH,Secure Shell,https://en.wikipedia.org/wiki/Secure_Shell,true
+SSID,Service Set Identifier,https://en.wikipedia.org/wiki/Service_set_(802.11_network)#Service_set_identifier,true
+SSL,Secure Sockets Layer,"https://en.wikipedia.org/wiki/Transport_Layer_Security#SSL_1.0,_2.0,_and_3.0",true
+SSO,Single Sign-On,https://en.wikipedia.org/wiki/Single_sign-on,true
+ST,Straight Tip (Fiber Optic),https://en.wikipedia.org/wiki/Optical_fiber_connector,true
+STP,Shielded Twisted Pair,https://en.wikipedia.org/wiki/Twisted_pair,true
+STP,Spanning Tree Protocol,https://en.wikipedia.org/wiki/Spanning_Tree_Protocol,false
+SVI,Switch Virtual Interface,https://en.wikipedia.org/wiki/Switch_virtual_interface,true
+TACACS+,Terminal Access Controller Access Control System Plus,https://en.wikipedia.org/wiki/TACACS,true
+TCP,Transmission Control Protocol,https://en.wikipedia.org/wiki/Transmission_Control_Protocol,true
+TFTP,Trivial File Transfer Protocol,https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol,true
+TLS,Transport Layer Security,https://en.wikipedia.org/wiki/Transport_Layer_Security,false
+TTL,Time to Live,https://en.wikipedia.org/wiki/Time_to_live,true
+TX,Transmitter,https://en.wikipedia.org/wiki/Telecommunications#Basic_elements,true
+TXT,Text,https://en.wikipedia.org/wiki/TXT_record,true
+UDP,User Datagram Protocol,https://en.wikipedia.org/wiki/User_Datagram_Protocol,true
+UPS,Uninterruptible Power Supply,https://en.wikipedia.org/wiki/Uninterruptible_power_supply,true
+URL,Uniform Resource Locator,https://en.wikipedia.org/wiki/URL,true
+USB,Universal Serial Bus,https://en.wikipedia.org/wiki/USB,true
+UTM,Unified Threat Management,https://en.wikipedia.org/wiki/Unified_threat_management,true
+UTP,Unshielded Twisted Pair,https://en.wikipedia.org/wiki/Twisted_pair#Unshielded_twisted_pair,true
+VIP,Virtual IP,https://en.wikipedia.org/wiki/Virtual_IP_address,true
+VLAN,Virtual LAN,https://en.wikipedia.org/wiki/VLAN,true
+VLSM,Variable Length Subnet Mask,https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#VLSM,true
+VNC,Virtual Network Computing,https://en.wikipedia.org/wiki/VNC,false
+VoIP,Voice over Internet Protocol,https://en.wikipedia.org/wiki/Voice_over_IP,true
+VPC,Virtual Private Cloud,https://en.wikipedia.org/wiki/Virtual_private_cloud,true
+VPN,Virtual Private Network,https://en.wikipedia.org/wiki/Virtual_private_network,true
+WAN,Wide Area Network,https://en.wikipedia.org/wiki/Wide_area_network,true
+WPA,Wi-Fi Protected Access (TKIP),https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access#WPA,true
+WPS,Wi-Fi Protected Setup,https://en.wikipedia.org/wiki/Wi-Fi_Protected_Setup,true
+VXLAN,Virtual Extensible LAN,https://en.wikipedia.org/wiki/Virtual_Extensible_LAN,true
+ZTA,Zero Trust Architecture,https://en.wikipedia.org/wiki/Zero_trust_architecture,true
