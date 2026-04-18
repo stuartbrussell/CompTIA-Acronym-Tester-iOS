@@ -1,13 +1,14 @@
 import Foundation
 
-/// One source CSV file bundled with the app.
+/// One source JSON file bundled with the app.
 ///
-/// The CSVs are the canonical data. Drop a new one into `Resources`, add an
-/// entry here, and it appears as a toggle in Settings.
+/// The CSVs on the Python side are the canonical data source; the JSON files
+/// are generated from them and bundled here. Drop a new JSON into `Resources`,
+/// add an entry here, and it appears as a toggle in Settings.
 struct AcronymList: Identifiable, Hashable {
     let id: String            // stable id used in UserDefaults
     let displayName: String   // shown in Settings
-    let resourceName: String  // filename in the app bundle, without .csv
+    let resourceName: String  // filename in the app bundle, without .json
 
     static let all: [AcronymList] = [
         .init(id: "aplus",
@@ -16,8 +17,8 @@ struct AcronymList: Identifiable, Hashable {
         .init(id: "netplus",
               displayName: "CompTIA Network+ (N10-009)",
               resourceName: "NetworkPlus"),
-//        .init(id: "ports",
-//              displayName: "Network Ports",
-//              resourceName: "NetworkPorts"),
+        .init(id: "ports",
+              displayName: "Network Ports",
+              resourceName: "NetworkPorts"),
     ]
 }

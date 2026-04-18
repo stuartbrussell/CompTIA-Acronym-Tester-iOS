@@ -1,0 +1,2198 @@
+[
+  {
+    "itemkey": "AAA",
+    "itemvalue": "Authentication, Authorization, and Accounting",
+    "itemlink": "https://en.wikipedia.org/wiki/Authentication,_authorization,_and_accounting",
+    "strict": true
+  },
+  {
+    "itemkey": "AC",
+    "itemvalue": "Alternating Current",
+    "itemlink": "https://en.wikipedia.org/wiki/Alternating_current",
+    "strict": true
+  },
+  {
+    "itemkey": "ACL",
+    "itemvalue": "Access Control List",
+    "itemlink": "https://en.wikipedia.org/wiki/Access-control_list",
+    "strict": true
+  },
+  {
+    "itemkey": "ACPI",
+    "itemvalue": "Advanced Configuration and Power Interface",
+    "itemlink": "https://en.wikipedia.org/wiki/ACPI",
+    "strict": true
+  },
+  {
+    "itemkey": "ADF",
+    "itemvalue": "Automatic Document Feeder",
+    "itemlink": "https://en.wikipedia.org/wiki/Automatic_document_feeder",
+    "strict": true
+  },
+  {
+    "itemkey": "ADK",
+    "itemvalue": "Assessment and Deployment Kit (Windows)",
+    "itemlink": "https://en.wikipedia.org/wiki/Windows_Assessment_and_Deployment_Kit",
+    "strict": false
+  },
+  {
+    "itemkey": "AES",
+    "itemvalue": "Advanced Encryption Standard",
+    "itemlink": "https://en.wikipedia.org/wiki/Advanced_Encryption_Standard",
+    "strict": true
+  },
+  {
+    "itemkey": "AFP",
+    "itemvalue": "Apple Filing Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Apple_Filing_Protocol",
+    "strict": false
+  },
+  {
+    "itemkey": "AGP",
+    "itemvalue": "Accelerated Graphics Port",
+    "itemlink": "https://en.wikipedia.org/wiki/Accelerated_Graphics_Port",
+    "strict": true
+  },
+  {
+    "itemkey": "AIO",
+    "itemvalue": "All In One (a.k.a. MFP, MFD, e.g. printer-scanner-fax)",
+    "itemlink": "https://en.wikipedia.org/wiki/Multi-function_printer",
+    "strict": false
+  },
+  {
+    "itemkey": "AP",
+    "itemvalue": "(Wireless) Access Point",
+    "itemlink": "https://en.wikipedia.org/wiki/Wireless_access_point",
+    "strict": true
+  },
+  {
+    "itemkey": "API",
+    "itemvalue": "Application Programming Interface",
+    "itemlink": "https://en.wikipedia.org/wiki/API",
+    "strict": true
+  },
+  {
+    "itemkey": "APFS",
+    "itemvalue": "Apple File System",
+    "itemlink": "https://en.wikipedia.org/wiki/Apple_File_System",
+    "strict": true
+  },
+  {
+    "itemkey": "APIPA",
+    "itemvalue": "Automatic Private Internet Protocol Addressing (IPv4)",
+    "itemlink": "https://en.wikipedia.org/wiki/Link-local_address",
+    "strict": true
+  },
+  {
+    "itemkey": "APK",
+    "itemvalue": "Android Package Kit",
+    "itemlink": "https://en.wikipedia.org/wiki/Apk_(file_format)",
+    "strict": true
+  },
+  {
+    "itemkey": "APN",
+    "itemvalue": "Access Point Name (Android phone setting)",
+    "itemlink": "https://en.wikipedia.org/wiki/Access_Point_Name",
+    "strict": false
+  },
+  {
+    "itemkey": "ARM",
+    "itemvalue": "Advanced RISC Machine",
+    "itemlink": "https://en.wikipedia.org/wiki/ARM_architecture_family",
+    "strict": true
+  },
+  {
+    "itemkey": "ARP",
+    "itemvalue": "Address Resolution Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Address_Resolution_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "ASCII",
+    "itemvalue": "American Standard Code for Information Interchange",
+    "itemlink": "https://en.wikipedia.org/wiki/ASCII",
+    "strict": false
+  },
+  {
+    "itemkey": "ATA",
+    "itemvalue": "Advanced Technology Attachment",
+    "itemlink": "https://en.wikipedia.org/wiki/Parallel_ATA",
+    "strict": true
+  },
+  {
+    "itemkey": "ATM",
+    "itemvalue": "Asynchronous Transfer Mode",
+    "itemlink": "https://en.wikipedia.org/wiki/Asynchronous_Transfer_Mode",
+    "strict": true
+  },
+  {
+    "itemkey": "ATX",
+    "itemvalue": "Advanced Technology EXtended",
+    "itemlink": "https://en.wikipedia.org/wiki/ATX",
+    "strict": true
+  },
+  {
+    "itemkey": "AUP",
+    "itemvalue": "Acceptable Use Policy",
+    "itemlink": "https://en.wikipedia.org/wiki/Acceptable_use_policy",
+    "strict": true
+  },
+  {
+    "itemkey": "AV",
+    "itemvalue": "Antivirus",
+    "itemlink": "https://en.wikipedia.org/wiki/Antivirus_software",
+    "strict": true
+  },
+  {
+    "itemkey": "BCD",
+    "itemvalue": "Boot Configuration Data (Windows)",
+    "itemlink": "https://en.wikipedia.org/wiki/Windows_Boot_Manager#Boot_Configuration_Data",
+    "strict": false
+  },
+  {
+    "itemkey": "BD-ROM",
+    "itemvalue": "Blu-ray Disc-Read-Only Memory",
+    "itemlink": "https://en.wikipedia.org/wiki/Blu-ray",
+    "strict": false
+  },
+  {
+    "itemkey": "BIOS",
+    "itemvalue": "Basic Input/Output System",
+    "itemlink": "https://en.wikipedia.org/wiki/BIOS",
+    "strict": true
+  },
+  {
+    "itemkey": "BSOD",
+    "itemvalue": "Blue Screen of Death",
+    "itemlink": "https://en.wikipedia.org/wiki/Blue_screen_of_death",
+    "strict": true
+  },
+  {
+    "itemkey": "BYOD",
+    "itemvalue": "Bring Your Own Device",
+    "itemlink": "https://en.wikipedia.org/wiki/Bring_your_own_device",
+    "strict": true
+  },
+  {
+    "itemkey": "CA",
+    "itemvalue": "Certificate Authority (DNS)",
+    "itemlink": "https://en.wikipedia.org/wiki/Certificate_authority",
+    "strict": true
+  },
+  {
+    "itemkey": "CaaS",
+    "itemvalue": "Containers as a Service",
+    "itemlink": "https://www.docker.com/blog/containers-as-a-service-caas/",
+    "strict": true
+  },
+  {
+    "itemkey": "CAD",
+    "itemvalue": "Computer-aided Design",
+    "itemlink": "https://en.wikipedia.org/wiki/Computer-aided_design",
+    "strict": true
+  },
+  {
+    "itemkey": "CAM",
+    "itemvalue": "Computer-Aided Manufacturing",
+    "itemlink": "https://en.wikipedia.org/wiki/Computer-aided_manufacturing",
+    "strict": false
+  },
+  {
+    "itemkey": "CAPTCHA",
+    "itemvalue": "Completely Automated Public Turing test to tell Computers and Humans Apart",
+    "itemlink": "https://en.wikipedia.org/wiki/CAPTCHA",
+    "strict": true
+  },
+  {
+    "itemkey": "CCMP",
+    "itemvalue": "Counter Mode CBC-MAC Protocol (WPA2)",
+    "itemlink": "https://en.wikipedia.org/wiki/CCMP_(cryptography)",
+    "strict": false
+  },
+  {
+    "itemkey": "CCTV",
+    "itemvalue": "Closed Circuit Television",
+    "itemlink": "https://en.wikipedia.org/wiki/Closed-circuit_television",
+    "strict": false
+  },
+  {
+    "itemkey": "CD",
+    "itemvalue": "Compact Disc",
+    "itemlink": "https://en.wikipedia.org/wiki/Compact_disc",
+    "strict": true
+  },
+  {
+    "itemkey": "CDFS",
+    "itemvalue": "Compact Disc File System",
+    "itemlink": "https://en.wikipedia.org/wiki/Compact_Disc_File_System",
+    "strict": true
+  },
+  {
+    "itemkey": "CD-ROM",
+    "itemvalue": "Compact Disc-Read-Only Memory",
+    "itemlink": "https://en.wikipedia.org/wiki/CD-ROM",
+    "strict": true
+  },
+  {
+    "itemkey": "CD-RW",
+    "itemvalue": "Compact Disc-Rewritable",
+    "itemlink": "https://en.wikipedia.org/wiki/CD-RW",
+    "strict": false
+  },
+  {
+    "itemkey": "CDMA",
+    "itemvalue": "Code-Division Multiple Access",
+    "itemlink": "https://en.wikipedia.org/wiki/Code-division_multiple_access",
+    "strict": true
+  },
+  {
+    "itemkey": "CERT",
+    "itemvalue": "Computer Emergency Response Team",
+    "itemlink": "https://en.wikipedia.org/wiki/Computer_emergency_response_team",
+    "strict": true
+  },
+  {
+    "itemkey": "CIA",
+    "itemvalue": "Confidentiality, Integrity, and Availability",
+    "itemlink": "https://en.wikipedia.org/wiki/Information_security#CIA_triad",
+    "strict": false
+  },
+  {
+    "itemkey": "CIFS",
+    "itemvalue": "Common Internet File System (Microsoft ≈ SMB 1.0)",
+    "itemlink": "https://en.wikipedia.org/wiki/Server_Message_Block",
+    "strict": true
+  },
+  {
+    "itemkey": "CMD",
+    "itemvalue": "Command Prompt (Windows)",
+    "itemlink": "https://en.wikipedia.org/wiki/Cmd.exe",
+    "strict": true
+  },
+  {
+    "itemkey": "CMOS",
+    "itemvalue": "Complementary Metal-Oxide Semiconductor",
+    "itemlink": "https://en.wikipedia.org/wiki/CMOS",
+    "strict": true
+  },
+  {
+    "itemkey": "CNAME",
+    "itemvalue": "Canonical Name (DNS)",
+    "itemlink": "https://en.wikipedia.org/wiki/CNAME_record",
+    "strict": true
+  },
+  {
+    "itemkey": "CNR",
+    "itemvalue": "Communications and Networking Riser (outdated)",
+    "itemlink": "https://en.wikipedia.org/wiki/Communications_and_networking_riser",
+    "strict": false
+  },
+  {
+    "itemkey": "CPU",
+    "itemvalue": "Central Processing Unit",
+    "itemlink": "https://en.wikipedia.org/wiki/Central_processing_unit",
+    "strict": true
+  },
+  {
+    "itemkey": "CRL",
+    "itemvalue": "Certificate Revocation List",
+    "itemlink": "https://en.wikipedia.org/wiki/Certificate_revocation_list",
+    "strict": true
+  },
+  {
+    "itemkey": "CRUD",
+    "itemvalue": "Create, Read, Update, Delete",
+    "itemlink": "https://en.wikipedia.org/wiki/Create,_read,_update_and_delete",
+    "strict": false
+  },
+  {
+    "itemkey": "CSS",
+    "itemvalue": "Cascading Style Sheets",
+    "itemlink": "https://en.wikipedia.org/wiki/CSS",
+    "strict": false
+  },
+  {
+    "itemkey": "CVE",
+    "itemvalue": "Common Vulnerabilities and Exposures",
+    "itemlink": "https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures",
+    "strict": false
+  },
+  {
+    "itemkey": "DaaS",
+    "itemvalue": "Data as a Service",
+    "itemlink": "https://en.wikipedia.org/wiki/Data_as_a_service",
+    "strict": true
+  },
+  {
+    "itemkey": "DBaaS",
+    "itemvalue": "Database as a Service",
+    "itemlink": "https://en.wikipedia.org/wiki/Cloud_database",
+    "strict": true
+  },
+  {
+    "itemkey": "DC",
+    "itemvalue": "Direct Current",
+    "itemlink": "https://en.wikipedia.org/wiki/Direct_current",
+    "strict": true
+  },
+  {
+    "itemkey": "DDoS",
+    "itemvalue": "Distributed Denial-of-Service",
+    "itemlink": "https://en.wikipedia.org/wiki/Denial-of-service_attack#Distributed_DoS",
+    "strict": true
+  },
+  {
+    "itemkey": "DDL",
+    "itemvalue": "Data Definition Language (e.g. SQL CREATE)",
+    "itemlink": "https://en.wikipedia.org/wiki/Data_definition_language",
+    "strict": true
+  },
+  {
+    "itemkey": "DDR",
+    "itemvalue": "Double Data Rate",
+    "itemlink": "https://en.wikipedia.org/wiki/DDR_SDRAM",
+    "strict": true
+  },
+  {
+    "itemkey": "DHCP",
+    "itemvalue": "Dynamic Host Configuration Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "DIG",
+    "itemvalue": "Domain Information Groper (dig)",
+    "itemlink": "https://en.wikipedia.org/wiki/Dig_(command)",
+    "strict": false
+  },
+  {
+    "itemkey": "DIMM",
+    "itemvalue": "Dual Inline Memory Module",
+    "itemlink": "https://en.wikipedia.org/wiki/DIMM",
+    "strict": true
+  },
+  {
+    "itemkey": "DKIM",
+    "itemvalue": "DomainKeys Identified Mail (email)",
+    "itemlink": "https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail",
+    "strict": true
+  },
+  {
+    "itemkey": "DLL",
+    "itemvalue": "Dynamic-Link Library",
+    "itemlink": "https://en.wikipedia.org/wiki/Dynamic-link_library",
+    "strict": false
+  },
+  {
+    "itemkey": "DLP",
+    "itemvalue": "Data Loss Prevention",
+    "itemlink": "https://en.wikipedia.org/wiki/Data_loss_prevention_software",
+    "strict": false
+  },
+  {
+    "itemkey": "DML",
+    "itemvalue": "Data Manipulation Language (e.g. SQL INSERT)",
+    "itemlink": "https://en.wikipedia.org/wiki/Data_manipulation_language",
+    "strict": false
+  },
+  {
+    "itemkey": "DMA",
+    "itemvalue": "Direct Memory Access",
+    "itemlink": "https://en.wikipedia.org/wiki/Direct_memory_access",
+    "strict": true
+  },
+  {
+    "itemkey": "DMARC",
+    "itemvalue": "Domain-based Message Authentication, Reporting, and Conformance",
+    "itemlink": "https://en.wikipedia.org/wiki/DMARC",
+    "strict": true
+  },
+  {
+    "itemkey": "DMZ",
+    "itemvalue": "Demilitarized Zone",
+    "itemlink": "https://en.wikipedia.org/wiki/DMZ_(computing)",
+    "strict": false
+  },
+  {
+    "itemkey": "DNS",
+    "itemvalue": "Domain Name System",
+    "itemlink": "https://en.wikipedia.org/wiki/Domain_Name_System",
+    "strict": true
+  },
+  {
+    "itemkey": "DOCSIS",
+    "itemvalue": "Data Over Cable Service Interface Specification",
+    "itemlink": "https://en.wikipedia.org/wiki/DOCSIS",
+    "strict": false
+  },
+  {
+    "itemkey": "DoS",
+    "itemvalue": "Denial-of-Service",
+    "itemlink": "https://en.wikipedia.org/wiki/Denial-of-service_attack",
+    "strict": true
+  },
+  {
+    "itemkey": "DOS",
+    "itemvalue": "Disk Operating System",
+    "itemlink": "https://en.wikipedia.org/wiki/DOS",
+    "strict": false
+  },
+  {
+    "itemkey": "DRaaS",
+    "itemvalue": "Disaster Recovery as a Service",
+    "itemlink": "https://en.wikipedia.org/wiki/Recovery_as_a_service",
+    "strict": true
+  },
+  {
+    "itemkey": "DRAM",
+    "itemvalue": "Dynamic Random-Access Memory",
+    "itemlink": "https://en.wikipedia.org/wiki/Dynamic_random-access_memory",
+    "strict": true
+  },
+  {
+    "itemkey": "DRM",
+    "itemvalue": "Digital Rights Management",
+    "itemlink": "https://en.wikipedia.org/wiki/Digital_rights_management",
+    "strict": true
+  },
+  {
+    "itemkey": "DSL",
+    "itemvalue": "Digital Subscriber Line",
+    "itemlink": "https://en.wikipedia.org/wiki/Digital_subscriber_line",
+    "strict": true
+  },
+  {
+    "itemkey": "DVI",
+    "itemvalue": "Digital Visual Interface",
+    "itemlink": "https://en.wikipedia.org/wiki/Digital_Visual_Interface",
+    "strict": true
+  },
+  {
+    "itemkey": "DVI-A",
+    "itemvalue": "Digital Visual Interface-Analog",
+    "itemlink": "https://en.wikipedia.org/wiki/Digital_Visual_Interface",
+    "strict": false
+  },
+  {
+    "itemkey": "DVI-D",
+    "itemvalue": "Digital Visual Interface-Digital",
+    "itemlink": "https://en.wikipedia.org/wiki/Digital_Visual_Interface",
+    "strict": true
+  },
+  {
+    "itemkey": "DVI-I",
+    "itemvalue": "Digital Visual Interface-Integrated",
+    "itemlink": "https://en.wikipedia.org/wiki/Digital_Visual_Interface",
+    "strict": false
+  },
+  {
+    "itemkey": "DVD",
+    "itemvalue": "Digital Versatile Disc",
+    "itemlink": "https://en.wikipedia.org/wiki/DVD",
+    "strict": false
+  },
+  {
+    "itemkey": "DVD-R",
+    "itemvalue": "Digital Versatile Disc-Recordable",
+    "itemlink": "https://en.wikipedia.org/wiki/DVD_recordable",
+    "strict": false
+  },
+  {
+    "itemkey": "DVD-RW",
+    "itemvalue": "Digital Versatile Disc-Rewritable",
+    "itemlink": "https://en.wikipedia.org/wiki/DVD_recordable",
+    "strict": false
+  },
+  {
+    "itemkey": "EAP",
+    "itemvalue": "Extensible Authentication Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Extensible_Authentication_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "ECC",
+    "itemvalue": "Error Correcting Code",
+    "itemlink": "https://en.wikipedia.org/wiki/ECC_memory",
+    "strict": true
+  },
+  {
+    "itemkey": "EFS",
+    "itemvalue": "Encrypting File System (Windows)",
+    "itemlink": "https://en.wikipedia.org/wiki/Encrypting_File_System",
+    "strict": true
+  },
+  {
+    "itemkey": "EMI",
+    "itemvalue": "Electromagnetic Interference",
+    "itemlink": "https://en.wikipedia.org/wiki/Electromagnetic_interference",
+    "strict": true
+  },
+  {
+    "itemkey": "eMMC",
+    "itemvalue": "Embedded Multimedia Card",
+    "itemlink": "https://en.wikipedia.org/wiki/MultiMediaCard#eMMC",
+    "strict": true
+  },
+  {
+    "itemkey": "EOL",
+    "itemvalue": "End-of-life",
+    "itemlink": "https://en.wikipedia.org/wiki/End-of-life_product",
+    "strict": true
+  },
+  {
+    "itemkey": "EOSL",
+    "itemvalue": "End of Service Life",
+    "itemlink": "https://en.wikipedia.org/wiki/End-of-life_product",
+    "strict": false
+  },
+  {
+    "itemkey": "eSATA",
+    "itemvalue": "External Serial Advanced Technology Attachment",
+    "itemlink": "https://en.wikipedia.org/wiki/SATA#eSATA",
+    "strict": true
+  },
+  {
+    "itemkey": "ESD",
+    "itemvalue": "Electrostatic Discharge",
+    "itemlink": "https://en.wikipedia.org/wiki/Electrostatic_discharge",
+    "strict": true
+  },
+  {
+    "itemkey": "EULA",
+    "itemvalue": "End-User License Agreement",
+    "itemlink": "https://en.wikipedia.org/wiki/End-user_license_agreement",
+    "strict": true
+  },
+  {
+    "itemkey": "exFAT",
+    "itemvalue": "Extensible File Allocation Table (Microsoft)",
+    "itemlink": "https://en.wikipedia.org/wiki/ExFAT",
+    "strict": true
+  },
+  {
+    "itemkey": "ext",
+    "itemvalue": "Extended File System (Linux)",
+    "itemlink": "https://en.wikipedia.org/wiki/Extended_file_system",
+    "strict": true
+  },
+  {
+    "itemkey": "FAT",
+    "itemvalue": "File Allocation Table (DOS and Windows 9x)",
+    "itemlink": "https://en.wikipedia.org/wiki/File_Allocation_Table",
+    "strict": true
+  },
+  {
+    "itemkey": "FAT12",
+    "itemvalue": "12-bit File Allocation Table",
+    "itemlink": "https://en.wikipedia.org/wiki/File_Allocation_Table#FAT12",
+    "strict": true
+  },
+  {
+    "itemkey": "FAT16",
+    "itemvalue": "16-bit File Allocation Table",
+    "itemlink": "https://en.wikipedia.org/wiki/File_Allocation_Table#FAT16",
+    "strict": true
+  },
+  {
+    "itemkey": "FAT32",
+    "itemvalue": "32-bit File Allocation Table",
+    "itemlink": "https://en.wikipedia.org/wiki/File_Allocation_Table#FAT32",
+    "strict": true
+  },
+  {
+    "itemkey": "FCoE",
+    "itemvalue": "Fibre Channel over Ethernet",
+    "itemlink": "https://en.wikipedia.org/wiki/Fibre_Channel_over_Ethernet",
+    "strict": false
+  },
+  {
+    "itemkey": "FDE",
+    "itemvalue": "Full Disk Encryption (BitLocker)",
+    "itemlink": "https://en.wikipedia.org/wiki/BitLocker",
+    "strict": false
+  },
+  {
+    "itemkey": "FDE",
+    "itemvalue": "Full Disk Encryption (FileVault)",
+    "itemlink": "https://en.wikipedia.org/wiki/FileVault",
+    "strict": false
+  },
+  {
+    "itemkey": "FOSS",
+    "itemvalue": "Free and Open Source Software",
+    "itemlink": "https://en.wikipedia.org/wiki/Free_and_open-source_software",
+    "strict": false
+  },
+  {
+    "itemkey": "FSB",
+    "itemvalue": "Front-Side Bus (Intel based boards)",
+    "itemlink": "https://en.wikipedia.org/wiki/Front-side_bus",
+    "strict": true
+  },
+  {
+    "itemkey": "FTP",
+    "itemvalue": "File Transfer Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/File_Transfer_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "FTPS",
+    "itemvalue": "File Transfer Protocol Secure (FTP with TLS)",
+    "itemlink": "https://en.wikipedia.org/wiki/FTPS",
+    "strict": true
+  },
+  {
+    "itemkey": "Gb",
+    "itemvalue": "Gigabit",
+    "itemlink": "https://en.wikipedia.org/wiki/Gigabit_Ethernet",
+    "strict": false
+  },
+  {
+    "itemkey": "GB",
+    "itemvalue": "Gigabyte",
+    "itemlink": "https://en.wikipedia.org/wiki/Gigabyte",
+    "strict": false
+  },
+  {
+    "itemkey": "Gbps",
+    "itemvalue": "Gigabits per second",
+    "itemlink": "https://en.wikipedia.org/wiki/Data-rate_units#Gigabit_per_second",
+    "strict": false
+  },
+  {
+    "itemkey": "GCMP",
+    "itemvalue": "Galois/Counter Mode Protocol (WPA3)",
+    "itemlink": "https://en.wikipedia.org/wiki/Galois/Counter_Mode",
+    "strict": false
+  },
+  {
+    "itemkey": "GDDR",
+    "itemvalue": "Graphics DDR [Double Data Rate]",
+    "itemlink": "https://en.wikipedia.org/wiki/GDDR_SDRAM",
+    "strict": true
+  },
+  {
+    "itemkey": "GDPR",
+    "itemvalue": "General Data Protection Regulation (EU privacy)",
+    "itemlink": "https://en.wikipedia.org/wiki/General_Data_Protection_Regulation",
+    "strict": false
+  },
+  {
+    "itemkey": "GFS",
+    "itemvalue": "Grandfather-Father-Son",
+    "itemlink": "https://en.wikipedia.org/wiki/Backup_rotation_scheme#Grandfather-father-son",
+    "strict": true
+  },
+  {
+    "itemkey": "GHz",
+    "itemvalue": "Gigahertz",
+    "itemlink": "https://en.wikipedia.org/wiki/Hertz",
+    "strict": false
+  },
+  {
+    "itemkey": "GPO",
+    "itemvalue": "Group Policy Object (Active Directory)",
+    "itemlink": "https://en.wikipedia.org/wiki/Group_Policy",
+    "strict": false
+  },
+  {
+    "itemkey": "GPS",
+    "itemvalue": "Global Positioning System",
+    "itemlink": "https://en.wikipedia.org/wiki/Global_Positioning_System",
+    "strict": true
+  },
+  {
+    "itemkey": "GPT",
+    "itemvalue": "GUID [Globally Unique Identifier] Partition Table",
+    "itemlink": "https://en.wikipedia.org/wiki/GUID_Partition_Table",
+    "strict": true
+  },
+  {
+    "itemkey": "GPU",
+    "itemvalue": "Graphics Processing Unit",
+    "itemlink": "https://en.wikipedia.org/wiki/Graphics_processing_unit",
+    "strict": true
+  },
+  {
+    "itemkey": "GSM",
+    "itemvalue": "Global System for Mobile Communications (2G)",
+    "itemlink": "https://en.wikipedia.org/wiki/GSM",
+    "strict": true
+  },
+  {
+    "itemkey": "GUI",
+    "itemvalue": "Graphical User Interface",
+    "itemlink": "https://en.wikipedia.org/wiki/Graphical_user_interface",
+    "strict": true
+  },
+  {
+    "itemkey": "GUID",
+    "itemvalue": "Globally Unique Identifier",
+    "itemlink": "https://en.wikipedia.org/wiki/Universally_unique_identifier",
+    "strict": true
+  },
+  {
+    "itemkey": "HAL",
+    "itemvalue": "Hardware Abstraction Layer",
+    "itemlink": "https://en.wikipedia.org/wiki/Hardware_abstraction",
+    "strict": true
+  },
+  {
+    "itemkey": "HAV",
+    "itemvalue": "Hardware-assisted Virtualization",
+    "itemlink": "https://en.wikipedia.org/wiki/Hardware-assisted_virtualization",
+    "strict": true
+  },
+  {
+    "itemkey": "HCL",
+    "itemvalue": "Hardware Compatibility List",
+    "itemlink": "https://en.wikipedia.org/wiki/Hardware_compatibility_list",
+    "strict": true
+  },
+  {
+    "itemkey": "HDCP",
+    "itemvalue": "High-bandwidth Digital Content Protection",
+    "itemlink": "https://en.wikipedia.org/wiki/High-bandwidth_Digital_Content_Protection",
+    "strict": true
+  },
+  {
+    "itemkey": "HDD",
+    "itemvalue": "Hard Disk Drive",
+    "itemlink": "https://en.wikipedia.org/wiki/Hard_disk_drive",
+    "strict": true
+  },
+  {
+    "itemkey": "HDMI",
+    "itemvalue": "High-Definition Multimedia Interface",
+    "itemlink": "https://en.wikipedia.org/wiki/HDMI",
+    "strict": true
+  },
+  {
+    "itemkey": "HFS",
+    "itemvalue": "Hierarchical File System (Macintosh)",
+    "itemlink": "https://en.wikipedia.org/wiki/Hierarchical_File_System_(Apple)",
+    "strict": false
+  },
+  {
+    "itemkey": "HHD",
+    "itemvalue": "Hybrid Hard Drive",
+    "itemlink": "https://en.wikipedia.org/wiki/Hybrid_drive",
+    "strict": true
+  },
+  {
+    "itemkey": "HSM",
+    "itemvalue": "Hardware Security Module (see TPM)",
+    "itemlink": "https://en.wikipedia.org/wiki/Hardware_security_module",
+    "strict": true
+  },
+  {
+    "itemkey": "HTML",
+    "itemvalue": "Hypertext Markup Language",
+    "itemlink": "https://en.wikipedia.org/wiki/HTML",
+    "strict": true
+  },
+  {
+    "itemkey": "HTTP",
+    "itemvalue": "Hypertext Transfer Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/HTTP",
+    "strict": true
+  },
+  {
+    "itemkey": "HTTPS",
+    "itemvalue": "Hypertext Transfer Protocol Secure",
+    "itemlink": "https://en.wikipedia.org/wiki/HTTPS",
+    "strict": true
+  },
+  {
+    "itemkey": "I/O",
+    "itemvalue": "Input/Output",
+    "itemlink": "https://en.wikipedia.org/wiki/Input/output",
+    "strict": true
+  },
+  {
+    "itemkey": "IaaS",
+    "itemvalue": "Infrastructure as a Service",
+    "itemlink": "https://en.wikipedia.org/wiki/Infrastructure_as_a_service",
+    "strict": true
+  },
+  {
+    "itemkey": "ICMP",
+    "itemvalue": "Internet Control Message Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "ICR",
+    "itemvalue": "Intelligent Character Recognition",
+    "itemlink": "https://en.wikipedia.org/wiki/Intelligent_character_recognition",
+    "strict": true
+  },
+  {
+    "itemkey": "IDE",
+    "itemvalue": "Integrated Drive Electronics",
+    "itemlink": "https://en.wikipedia.org/wiki/Parallel_ATA#IDE_and_ATA-1",
+    "strict": true
+  },
+  {
+    "itemkey": "IDS",
+    "itemvalue": "Intrusion Detection System",
+    "itemlink": "https://en.wikipedia.org/wiki/Intrusion_detection_system",
+    "strict": true
+  },
+  {
+    "itemkey": "IEEE",
+    "itemvalue": "Institute of Electrical and Electronics Engineers",
+    "itemlink": "https://en.wikipedia.org/wiki/Institute_of_Electrical_and_Electronics_Engineers",
+    "strict": true
+  },
+  {
+    "itemkey": "IMAP",
+    "itemvalue": "Internet Message Access Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "IOPS",
+    "itemvalue": "Input/Output Operations Per Second",
+    "itemlink": "https://en.wikipedia.org/wiki/IOPS",
+    "strict": true
+  },
+  {
+    "itemkey": "IoT",
+    "itemvalue": "Internet of Things",
+    "itemlink": "https://en.wikipedia.org/wiki/Internet_of_things",
+    "strict": true
+  },
+  {
+    "itemkey": "IP",
+    "itemvalue": "Internet Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Internet_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "IPSec",
+    "itemvalue": "Internet Protocol Security",
+    "itemlink": "https://en.wikipedia.org/wiki/IPsec",
+    "strict": true
+  },
+  {
+    "itemkey": "IPS",
+    "itemvalue": "Intrusion Prevention System",
+    "itemlink": "https://en.wikipedia.org/wiki/Intrusion_detection_system#Intrusion_prevention",
+    "strict": false
+  },
+  {
+    "itemkey": "IPS",
+    "itemvalue": "In-Plane Switching (LCD)",
+    "itemlink": "https://en.wikipedia.org/wiki/IPS_panel",
+    "strict": false
+  },
+  {
+    "itemkey": "IR",
+    "itemvalue": "Infrared",
+    "itemlink": "https://en.wikipedia.org/wiki/Infrared",
+    "strict": true
+  },
+  {
+    "itemkey": "IrDA",
+    "itemvalue": "Infrared Data Association",
+    "itemlink": "https://en.wikipedia.org/wiki/Infrared_Data_Association",
+    "strict": true
+  },
+  {
+    "itemkey": "IRP",
+    "itemvalue": "Incident Response Plan",
+    "itemlink": "https://en.wikipedia.org/wiki/Information_security#Incident_response_plans",
+    "strict": true
+  },
+  {
+    "itemkey": "ISO",
+    "itemvalue": "International Organization for Standardization",
+    "itemlink": "https://en.wikipedia.org/wiki/International_Organization_for_Standardization",
+    "strict": true
+  },
+  {
+    "itemkey": "iSCSI",
+    "itemvalue": "Internet SCSI",
+    "itemlink": "https://en.wikipedia.org/wiki/ISCSI",
+    "strict": false
+  },
+  {
+    "itemkey": "ISP",
+    "itemvalue": "Internet Service Provider",
+    "itemlink": "https://en.wikipedia.org/wiki/Internet_service_provider",
+    "strict": true
+  },
+  {
+    "itemkey": "IT",
+    "itemvalue": "Information Technology",
+    "itemlink": "https://en.wikipedia.org/wiki/Information_technology",
+    "strict": true
+  },
+  {
+    "itemkey": "ITX",
+    "itemvalue": "Information Technology eXtended (Mini-ITX, Nano-ITX, Pico-ITX, mobile-ITX)",
+    "itemlink": "https://en.wikipedia.org/wiki/Mini-ITX",
+    "strict": true
+  },
+  {
+    "itemkey": "JBOD",
+    "itemvalue": "Just A Bunch Of Disks (i.e. not RAID)",
+    "itemlink": "https://en.wikipedia.org/wiki/Non-RAID_drive_architectures#JBOD",
+    "strict": false
+  },
+  {
+    "itemkey": "Kb",
+    "itemvalue": "Kilobit",
+    "itemlink": "https://en.wikipedia.org/wiki/Kilobit",
+    "strict": false
+  },
+  {
+    "itemkey": "KB",
+    "itemvalue": "Kilobyte",
+    "itemlink": "https://en.wikipedia.org/wiki/Kilobyte",
+    "strict": false
+  },
+  {
+    "itemkey": "KB",
+    "itemvalue": "Knowledge Base",
+    "itemlink": "https://en.wikipedia.org/wiki/Knowledge_base",
+    "strict": true
+  },
+  {
+    "itemkey": "Kbps",
+    "itemvalue": "Kilobits per second",
+    "itemlink": "https://en.wikipedia.org/wiki/Data-rate_units#Kilobit_per_second",
+    "strict": false
+  },
+  {
+    "itemkey": "KVM",
+    "itemvalue": "Keyboard-Video-Mouse",
+    "itemlink": "https://en.wikipedia.org/wiki/KVM_switch",
+    "strict": true
+  },
+  {
+    "itemkey": "L2TP",
+    "itemvalue": "Layer 2 Tunneling Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Layer_2_Tunneling_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "LAN",
+    "itemvalue": "Local Area Network",
+    "itemlink": "https://en.wikipedia.org/wiki/Local_area_network",
+    "strict": true
+  },
+  {
+    "itemkey": "LC",
+    "itemvalue": "Lucent/Little/Local Connector (Fiber Optic)",
+    "itemlink": "https://en.wikipedia.org/wiki/Optical_fiber_connector",
+    "strict": true
+  },
+  {
+    "itemkey": "LCD",
+    "itemvalue": "Liquid Crystal Display",
+    "itemlink": "https://en.wikipedia.org/wiki/Liquid-crystal_display",
+    "strict": true
+  },
+  {
+    "itemkey": "LDAP",
+    "itemvalue": "Lightweight Directory Access Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "LEAP",
+    "itemvalue": "Lightweight Extensible Authentication Protocol (Cisco)",
+    "itemlink": "https://en.wikipedia.org/wiki/Lightweight_Extensible_Authentication_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "LED",
+    "itemvalue": "Light-Emitting Diode",
+    "itemlink": "https://en.wikipedia.org/wiki/Light-emitting_diode",
+    "strict": true
+  },
+  {
+    "itemkey": "LLDP",
+    "itemvalue": "Link Layer Discovery Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Link_Layer_Discovery_Protocol",
+    "strict": false
+  },
+  {
+    "itemkey": "LTE",
+    "itemvalue": "Long Term Evolution",
+    "itemlink": "https://en.wikipedia.org/wiki/LTE_(telecommunication)",
+    "strict": true
+  },
+  {
+    "itemkey": "MAC",
+    "itemvalue": "Media Access Control",
+    "itemlink": "https://en.wikipedia.org/wiki/Medium_access_control",
+    "strict": true
+  },
+  {
+    "itemkey": "MAC",
+    "itemvalue": "Mandatory Access Control",
+    "itemlink": "https://en.wikipedia.org/wiki/Mandatory_access_control",
+    "strict": true
+  },
+  {
+    "itemkey": "MAC",
+    "itemvalue": "Message Authentication Code",
+    "itemlink": "https://en.wikipedia.org/wiki/Message_authentication_code",
+    "strict": false
+  },
+  {
+    "itemkey": "MAM",
+    "itemvalue": "Mobile Application Management",
+    "itemlink": "https://en.wikipedia.org/wiki/Mobile_application_management",
+    "strict": true
+  },
+  {
+    "itemkey": "MAN",
+    "itemvalue": "Metropolitan Area Network",
+    "itemlink": "https://en.wikipedia.org/wiki/Metropolitan_area_network",
+    "strict": true
+  },
+  {
+    "itemkey": "Mb",
+    "itemvalue": "Megabit",
+    "itemlink": "https://en.wikipedia.org/wiki/Megabit",
+    "strict": false
+  },
+  {
+    "itemkey": "MB",
+    "itemvalue": "Megabyte",
+    "itemlink": "https://en.wikipedia.org/wiki/Megabyte",
+    "strict": false
+  },
+  {
+    "itemkey": "Mbps",
+    "itemvalue": "Megabits per second",
+    "itemlink": "https://en.wikipedia.org/wiki/Data-rate_units#Megabit_per_second",
+    "strict": false
+  },
+  {
+    "itemkey": "MBR",
+    "itemvalue": "Master Boot Record (IBM PC - superseded by GPT)",
+    "itemlink": "https://en.wikipedia.org/wiki/Master_boot_record",
+    "strict": true
+  },
+  {
+    "itemkey": "MDM",
+    "itemvalue": "Mobile Device Management",
+    "itemlink": "https://en.wikipedia.org/wiki/Mobile_device_management",
+    "strict": true
+  },
+  {
+    "itemkey": "MFA",
+    "itemvalue": "Multifactor Authentication",
+    "itemlink": "https://en.wikipedia.org/wiki/Multi-factor_authentication",
+    "strict": true
+  },
+  {
+    "itemkey": "MFD",
+    "itemvalue": "Multi-Function Device (a.k.a. AIO, MFP)",
+    "itemlink": "https://en.wikipedia.org/wiki/Multi-function_printer",
+    "strict": true
+  },
+  {
+    "itemkey": "MFP",
+    "itemvalue": "Multi-Function Printer (a.k.a. AIO, MFD)",
+    "itemlink": "https://en.wikipedia.org/wiki/Multi-function_printer",
+    "strict": true
+  },
+  {
+    "itemkey": "MHz",
+    "itemvalue": "Megahertz",
+    "itemlink": "https://en.wikipedia.org/wiki/Hertz",
+    "strict": false
+  },
+  {
+    "itemkey": "MIC",
+    "itemvalue": "Message Integrity Code (prefer Message Authentication Code)",
+    "itemlink": "https://en.wikipedia.org/wiki/Message_authentication_code",
+    "strict": false
+  },
+  {
+    "itemkey": "MITM",
+    "itemvalue": "Man in the Middle",
+    "itemlink": "https://en.wikipedia.org/wiki/Man-in-the-middle_attack",
+    "strict": false
+  },
+  {
+    "itemkey": "MMC",
+    "itemvalue": "Microsoft Management Console (Windows - snap-ins)",
+    "itemlink": "https://en.wikipedia.org/wiki/Microsoft_Management_Console",
+    "strict": true
+  },
+  {
+    "itemkey": "MMS",
+    "itemvalue": "Multimedia Messaging Service",
+    "itemlink": "https://en.wikipedia.org/wiki/Multimedia_Messaging_Service",
+    "strict": true
+  },
+  {
+    "itemkey": "MOU",
+    "itemvalue": "Memorandum of Understanding",
+    "itemlink": "https://en.wikipedia.org/wiki/Memorandum_of_understanding",
+    "strict": true
+  },
+  {
+    "itemkey": "MP3",
+    "itemvalue": "Moving Picture Experts Group Layer 3 Audio",
+    "itemlink": "https://en.wikipedia.org/wiki/MP3",
+    "strict": false
+  },
+  {
+    "itemkey": "MP4",
+    "itemvalue": "Moving Picture Experts Group Layer 4 Video",
+    "itemlink": "https://en.wikipedia.org/wiki/MP4_file_format",
+    "strict": false
+  },
+  {
+    "itemkey": "mSATA",
+    "itemvalue": "mini SATA [Serial Advanced Technology Attachment]",
+    "itemlink": "https://en.wikipedia.org/wiki/SATA#Mini-SATA_(mSATA)",
+    "strict": true
+  },
+  {
+    "itemkey": "MSDS",
+    "itemvalue": "Material Safety Data Sheet",
+    "itemlink": "https://en.wikipedia.org/wiki/Safety_data_sheet",
+    "strict": true
+  },
+  {
+    "itemkey": "MSP",
+    "itemvalue": "Managed Service Provider",
+    "itemlink": "https://en.wikipedia.org/wiki/Managed_services",
+    "strict": true
+  },
+  {
+    "itemkey": "MSRA",
+    "itemvalue": "Microsoft Remote Assistance (Quick Assist in Win 10 and later)",
+    "itemlink": "https://en.wikipedia.org/wiki/Quick_Assist",
+    "strict": true
+  },
+  {
+    "itemkey": "MTBF",
+    "itemvalue": "Mean Time Between Failure",
+    "itemlink": "https://en.wikipedia.org/wiki/Mean_time_between_failures",
+    "strict": true
+  },
+  {
+    "itemkey": "MX",
+    "itemvalue": "Mail Exchange",
+    "itemlink": "https://en.wikipedia.org/wiki/MX_record",
+    "strict": true
+  },
+  {
+    "itemkey": "NAC",
+    "itemvalue": "Network Access Control",
+    "itemlink": "https://en.wikipedia.org/wiki/Network_Access_Control",
+    "strict": true
+  },
+  {
+    "itemkey": "NAS",
+    "itemvalue": "Network Access Server",
+    "itemlink": "https://en.wikipedia.org/wiki/Network_Access_Server",
+    "strict": false
+  },
+  {
+    "itemkey": "NAS",
+    "itemvalue": "Network-attached Storage",
+    "itemlink": "https://en.wikipedia.org/wiki/Network-attached_storage",
+    "strict": true
+  },
+  {
+    "itemkey": "NAT",
+    "itemvalue": "Network Address Translation",
+    "itemlink": "https://en.wikipedia.org/wiki/Network_address_translation",
+    "strict": true
+  },
+  {
+    "itemkey": "NDA",
+    "itemvalue": "Non-Disclosure Agreement",
+    "itemlink": "https://en.wikipedia.org/wiki/Non-disclosure_agreement",
+    "strict": true
+  },
+  {
+    "itemkey": "NetBIOS",
+    "itemvalue": "Networked Basic Input/Output System",
+    "itemlink": "https://en.wikipedia.org/wiki/NetBIOS",
+    "strict": true
+  },
+  {
+    "itemkey": "NetBT",
+    "itemvalue": "NetBIOS over TCP/IP",
+    "itemlink": "https://en.wikipedia.org/wiki/NetBIOS_over_TCP/IP",
+    "strict": true
+  },
+  {
+    "itemkey": "NFC",
+    "itemvalue": "Near-Field Communication",
+    "itemlink": "https://en.wikipedia.org/wiki/Near-field_communication",
+    "strict": true
+  },
+  {
+    "itemkey": "NFS",
+    "itemvalue": "Network File System",
+    "itemlink": "https://en.wikipedia.org/wiki/Network_File_System",
+    "strict": true
+  },
+  {
+    "itemkey": "NIC",
+    "itemvalue": "Network Interface Card",
+    "itemlink": "https://en.wikipedia.org/wiki/Network_interface_controller",
+    "strict": true
+  },
+  {
+    "itemkey": "NTFS",
+    "itemvalue": "New Technology File System (Windows)",
+    "itemlink": "https://en.wikipedia.org/wiki/NTFS",
+    "strict": true
+  },
+  {
+    "itemkey": "NTLDR",
+    "itemvalue": "NT Loader (Windows, replaced by BOOTMGR)",
+    "itemlink": "https://en.wikipedia.org/wiki/NTLDR",
+    "strict": false
+  },
+  {
+    "itemkey": "NTP",
+    "itemvalue": "Network Time Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Network_Time_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "NVMe",
+    "itemvalue": "Non-Volatile Memory Express",
+    "itemlink": "https://en.wikipedia.org/wiki/NVM_Express",
+    "strict": true
+  },
+  {
+    "itemkey": "OCR",
+    "itemvalue": "Optical Character Recognition",
+    "itemlink": "https://en.wikipedia.org/wiki/Optical_character_recognition",
+    "strict": true
+  },
+  {
+    "itemkey": "OEM",
+    "itemvalue": "Original Equipment Manufacturer",
+    "itemlink": "https://en.wikipedia.org/wiki/Original_equipment_manufacturer",
+    "strict": true
+  },
+  {
+    "itemkey": "OFDMA",
+    "itemvalue": "Orthogonal frequency-division multiple access (e.g. 802.11ax)",
+    "itemlink": "https://en.wikipedia.org/wiki/Orthogonal_frequency-division_multiple_access",
+    "strict": false
+  },
+  {
+    "itemkey": "OLED",
+    "itemvalue": "Organic Light-emitting Diode",
+    "itemlink": "https://en.wikipedia.org/wiki/OLED",
+    "strict": true
+  },
+  {
+    "itemkey": "ONT",
+    "itemvalue": "Optical Network Terminal",
+    "itemlink": "https://en.wikipedia.org/wiki/Network_interface_device#Optical_network_terminals",
+    "strict": true
+  },
+  {
+    "itemkey": "OS",
+    "itemvalue": "Operating System",
+    "itemlink": "https://en.wikipedia.org/wiki/Operating_system",
+    "strict": true
+  },
+  {
+    "itemkey": "OU",
+    "itemvalue": "Organizational Unit (LDAP, Active Directory)",
+    "itemlink": "https://en.wikipedia.org/wiki/Organizational_unit",
+    "strict": false
+  },
+  {
+    "itemkey": "P2P",
+    "itemvalue": "Peer-To-Peer",
+    "itemlink": "https://en.wikipedia.org/wiki/Peer-to-peer",
+    "strict": false
+  },
+  {
+    "itemkey": "PaaS",
+    "itemvalue": "Platform as a Service",
+    "itemlink": "https://en.wikipedia.org/wiki/Platform_as_a_service",
+    "strict": true
+  },
+  {
+    "itemkey": "PAN",
+    "itemvalue": "Personal Area Network",
+    "itemlink": "https://en.wikipedia.org/wiki/Personal_area_network",
+    "strict": true
+  },
+  {
+    "itemkey": "PATA",
+    "itemvalue": "Parallel Advanced Technology Attachment (== ATA)",
+    "itemlink": "https://en.wikipedia.org/wiki/Parallel_ATA",
+    "strict": true
+  },
+  {
+    "itemkey": "PB",
+    "itemvalue": "Petabyte (KB * 10*5)",
+    "itemlink": "https://en.wikipedia.org/wiki/Byte",
+    "strict": false
+  },
+  {
+    "itemkey": "PC",
+    "itemvalue": "Personal Computer",
+    "itemlink": "https://en.wikipedia.org/wiki/Personal_computer",
+    "strict": true
+  },
+  {
+    "itemkey": "PCI",
+    "itemvalue": "Payment Card Industry",
+    "itemlink": "https://en.wikipedia.org/wiki/Payment_card_industry",
+    "strict": true
+  },
+  {
+    "itemkey": "PCI",
+    "itemvalue": "Peripheral Component Interconnect",
+    "itemlink": "https://en.wikipedia.org/wiki/Peripheral_Component_Interconnect",
+    "strict": false
+  },
+  {
+    "itemkey": "PCIe",
+    "itemvalue": "Peripheral Component Interconnect Express",
+    "itemlink": "https://en.wikipedia.org/wiki/PCI_Express",
+    "strict": true
+  },
+  {
+    "itemkey": "PCI DSS",
+    "itemvalue": "Payment Card Industry Data Security Standard",
+    "itemlink": "https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard",
+    "strict": false
+  },
+  {
+    "itemkey": "PCL",
+    "itemvalue": "Printer Command Language",
+    "itemlink": "https://en.wikipedia.org/wiki/Printer_Command_Language",
+    "strict": true
+  },
+  {
+    "itemkey": "PDF",
+    "itemvalue": "Portable Document Format",
+    "itemlink": "https://en.wikipedia.org/wiki/PDF",
+    "strict": true
+  },
+  {
+    "itemkey": "PDU",
+    "itemvalue": "Power Distribution Unit",
+    "itemlink": "https://en.wikipedia.org/wiki/Power_distribution_unit",
+    "strict": true
+  },
+  {
+    "itemkey": "PE",
+    "itemvalue": "Preinstallation Environment",
+    "itemlink": "https://en.wikipedia.org/wiki/Windows_Preinstallation_Environment",
+    "strict": true
+  },
+  {
+    "itemkey": "PEAP",
+    "itemvalue": "Protected Extensible Authentication Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Protected_Extensible_Authentication_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "PHI",
+    "itemvalue": "Protected Health Information",
+    "itemlink": "https://en.wikipedia.org/wiki/Protected_health_information",
+    "strict": false
+  },
+  {
+    "itemkey": "PII",
+    "itemvalue": "Personally Identifiable Information",
+    "itemlink": "https://en.wikipedia.org/wiki/Personal_data",
+    "strict": true
+  },
+  {
+    "itemkey": "PIN",
+    "itemvalue": "Personal Identification Number",
+    "itemlink": "https://en.wikipedia.org/wiki/Personal_identification_number",
+    "strict": true
+  },
+  {
+    "itemkey": "PKI",
+    "itemvalue": "Public Key Infrastructure",
+    "itemlink": "https://en.wikipedia.org/wiki/Public_key_infrastructure",
+    "strict": true
+  },
+  {
+    "itemkey": "PLC",
+    "itemvalue": "Programmable Logic Controller",
+    "itemlink": "https://en.wikipedia.org/wiki/Programmable_logic_controller",
+    "strict": false
+  },
+  {
+    "itemkey": "PoE",
+    "itemvalue": "Power over Ethernet",
+    "itemlink": "https://en.wikipedia.org/wiki/Power_over_Ethernet",
+    "strict": true
+  },
+  {
+    "itemkey": "POP",
+    "itemvalue": "Post Office Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Post_Office_Protocol",
+    "strict": false
+  },
+  {
+    "itemkey": "POP3",
+    "itemvalue": "Post Office Protocol 3",
+    "itemlink": "https://en.wikipedia.org/wiki/Post_Office_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "POST",
+    "itemvalue": "Power-On Self-Test",
+    "itemlink": "https://en.wikipedia.org/wiki/Power-on_self-test",
+    "strict": true
+  },
+  {
+    "itemkey": "PPP",
+    "itemvalue": "Point-to-Point Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Point-to-Point_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "PPTP",
+    "itemvalue": "Point-to-point Tunneling Protocol (Obsolete VPN)",
+    "itemlink": "https://en.wikipedia.org/wiki/Point-to-Point_Tunneling_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "PRL",
+    "itemvalue": "Preferred Roaming List",
+    "itemlink": "https://en.wikipedia.org/wiki/Preferred_Roaming_List",
+    "strict": true
+  },
+  {
+    "itemkey": "PSK",
+    "itemvalue": "Pre-Shared Key",
+    "itemlink": "https://en.wikipedia.org/wiki/Pre-shared_key",
+    "strict": true
+  },
+  {
+    "itemkey": "PSU",
+    "itemvalue": "Power Supply Unit",
+    "itemlink": "https://en.wikipedia.org/wiki/Power_supply_unit_(computer)",
+    "strict": true
+  },
+  {
+    "itemkey": "PXE",
+    "itemvalue": "Preboot eXecution Environment (Pixie Boot)",
+    "itemlink": "https://en.wikipedia.org/wiki/Preboot_Execution_Environment",
+    "strict": true
+  },
+  {
+    "itemkey": "RADIUS",
+    "itemvalue": "Remote Authentication Dial-In User Service",
+    "itemlink": "https://en.wikipedia.org/wiki/RADIUS",
+    "strict": true
+  },
+  {
+    "itemkey": "RAID",
+    "itemvalue": "Redundant Array of Independent [or Inexpensive] Disks",
+    "itemlink": "https://en.wikipedia.org/wiki/RAID",
+    "strict": true
+  },
+  {
+    "itemkey": "RAM",
+    "itemvalue": "Random-Access Memory",
+    "itemlink": "https://en.wikipedia.org/wiki/Random-access_memory",
+    "strict": true
+  },
+  {
+    "itemkey": "RDP",
+    "itemvalue": "Remote Desktop Protocol (Windows)",
+    "itemlink": "https://en.wikipedia.org/wiki/Remote_Desktop_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "ReFS",
+    "itemvalue": "Resilient File System (Windows)",
+    "itemlink": "https://en.wikipedia.org/wiki/ReFS",
+    "strict": false
+  },
+  {
+    "itemkey": "RF",
+    "itemvalue": "Radio Frequency",
+    "itemlink": "https://en.wikipedia.org/wiki/Radio_frequency",
+    "strict": true
+  },
+  {
+    "itemkey": "RFB",
+    "itemvalue": "Remote Frame Buffer",
+    "itemlink": "https://en.wikipedia.org/wiki/RFB_(protocol)",
+    "strict": false
+  },
+  {
+    "itemkey": "RFI",
+    "itemvalue": "Radio-Frequency Interference",
+    "itemlink": "https://en.wikipedia.org/wiki/Electromagnetic_interference",
+    "strict": true
+  },
+  {
+    "itemkey": "RFID",
+    "itemvalue": "Radio-Frequency Identification",
+    "itemlink": "https://en.wikipedia.org/wiki/Radio-frequency_identification",
+    "strict": true
+  },
+  {
+    "itemkey": "RJ11",
+    "itemvalue": "Registered Jack Function 11 (POTS)",
+    "itemlink": "https://en.wikipedia.org/wiki/Registered_jack#RJ11",
+    "strict": true
+  },
+  {
+    "itemkey": "RJ45",
+    "itemvalue": "Registered Jack Function 45 (Ethernet)",
+    "itemlink": "https://en.wikipedia.org/wiki/Modular_connector#8P8C",
+    "strict": true
+  },
+  {
+    "itemkey": "RMM",
+    "itemvalue": "Remote Monitoring and Management (for MSPs)",
+    "itemlink": "https://en.wikipedia.org/wiki/Remote_monitoring_and_management",
+    "strict": true
+  },
+  {
+    "itemkey": "ROM",
+    "itemvalue": "Read-only Memory",
+    "itemlink": "https://en.wikipedia.org/wiki/Read-only_memory",
+    "strict": true
+  },
+  {
+    "itemkey": "RTO",
+    "itemvalue": "Recovery Time Objective",
+    "itemlink": "https://en.wikipedia.org/wiki/IT_disaster_recovery#Recovery_Time_Objective",
+    "strict": true
+  },
+  {
+    "itemkey": "S/MIME",
+    "itemvalue": "Secure/Multipurpose Internet Mail Extensions",
+    "itemlink": "https://en.wikipedia.org/wiki/S/MIME",
+    "strict": true
+  },
+  {
+    "itemkey": "SaaS",
+    "itemvalue": "Software as a Service",
+    "itemlink": "https://en.wikipedia.org/wiki/Software_as_a_service",
+    "strict": true
+  },
+  {
+    "itemkey": "SAE",
+    "itemvalue": "Simultaneous Authentication of Equals",
+    "itemlink": "https://en.wikipedia.org/wiki/Simultaneous_Authentication_of_Equals",
+    "strict": false
+  },
+  {
+    "itemkey": "SAM",
+    "itemvalue": "Security Account Manager (Windows, similar to macOS Keychain)",
+    "itemlink": "https://en.wikipedia.org/wiki/Security_Account_Manager",
+    "strict": false
+  },
+  {
+    "itemkey": "SAN",
+    "itemvalue": "Storage Area Network",
+    "itemlink": "https://en.wikipedia.org/wiki/Storage_area_network",
+    "strict": true
+  },
+  {
+    "itemkey": "SAS",
+    "itemvalue": "Serial Attached SCSI",
+    "itemlink": "https://en.wikipedia.org/wiki/Serial_Attached_SCSI",
+    "strict": true
+  },
+  {
+    "itemkey": "SATA",
+    "itemvalue": "Serial Advanced Technology Attachment",
+    "itemlink": "https://en.wikipedia.org/wiki/SATA",
+    "strict": true
+  },
+  {
+    "itemkey": "SC",
+    "itemvalue": "Subscriber Connector (Fiber Optic)",
+    "itemlink": "https://en.wikipedia.org/wiki/Optical_fiber_connector",
+    "strict": true
+  },
+  {
+    "itemkey": "SCADA",
+    "itemvalue": "Supervisory Control And Data Acquisition",
+    "itemlink": "https://en.wikipedia.org/wiki/SCADA",
+    "strict": true
+  },
+  {
+    "itemkey": "SCP",
+    "itemvalue": "Secure Copy Protocol (Protection?)",
+    "itemlink": "https://en.wikipedia.org/wiki/Secure_copy_protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "SCSI",
+    "itemvalue": "Small Computer System Interface",
+    "itemlink": "https://en.wikipedia.org/wiki/SCSI",
+    "strict": true
+  },
+  {
+    "itemkey": "SD Card",
+    "itemvalue": "Secure Digital Card",
+    "itemlink": "https://en.wikipedia.org/wiki/SD_card",
+    "strict": true
+  },
+  {
+    "itemkey": "SDD",
+    "itemvalue": "Super Density Disk (proprietary, superseded by DVD)",
+    "itemlink": "https://en.wikipedia.org/wiki/DVD",
+    "strict": true
+  },
+  {
+    "itemkey": "SDN",
+    "itemvalue": "Software-Defined Networking",
+    "itemlink": "https://en.wikipedia.org/wiki/Software-defined_networking",
+    "strict": true
+  },
+  {
+    "itemkey": "SFC",
+    "itemvalue": "System File Checker (Windows)",
+    "itemlink": "https://en.wikipedia.org/wiki/System_File_Checker",
+    "strict": false
+  },
+  {
+    "itemkey": "SFTP",
+    "itemvalue": "SSH File Transfer Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "SHA",
+    "itemvalue": "Secure Hashing Algorithm",
+    "itemlink": "https://en.wikipedia.org/wiki/Secure_Hash_Algorithms",
+    "strict": false
+  },
+  {
+    "itemkey": "SID",
+    "itemvalue": "Security Identifier (Windows)",
+    "itemlink": "https://en.wikipedia.org/wiki/Security_Identifier",
+    "strict": false
+  },
+  {
+    "itemkey": "SIEM",
+    "itemvalue": "Security Information and Event Management",
+    "itemlink": "https://en.wikipedia.org/wiki/Security_information_and_event_management",
+    "strict": false
+  },
+  {
+    "itemkey": "SIM",
+    "itemvalue": "Subscriber Identity Module",
+    "itemlink": "https://en.wikipedia.org/wiki/SIM_card",
+    "strict": true
+  },
+  {
+    "itemkey": "SIMM",
+    "itemvalue": "Single Inline Memory Module",
+    "itemlink": "https://en.wikipedia.org/wiki/SIMM",
+    "strict": true
+  },
+  {
+    "itemkey": "S.M.A.R.T.",
+    "itemvalue": "Self-Monitoring Analysis and Reporting Technology",
+    "itemlink": "https://en.wikipedia.org/wiki/Self-Monitoring,_Analysis_and_Reporting_Technology",
+    "strict": true
+  },
+  {
+    "itemkey": "SMB",
+    "itemvalue": "Server Message Block",
+    "itemlink": "https://en.wikipedia.org/wiki/Server_Message_Block",
+    "strict": true
+  },
+  {
+    "itemkey": "SMS",
+    "itemvalue": "Short Message Service",
+    "itemlink": "https://en.wikipedia.org/wiki/SMS",
+    "strict": true
+  },
+  {
+    "itemkey": "SMTP",
+    "itemvalue": "Simple Mail Transfer Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "SNMP",
+    "itemvalue": "Simple Network Management Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "SNTP",
+    "itemvalue": "Simple Network Time Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Network_Time_Protocol#SNTP",
+    "strict": true
+  },
+  {
+    "itemkey": "SOA",
+    "itemvalue": "Start of Authority (DNS)",
+    "itemlink": "https://en.wikipedia.org/wiki/SOA_record",
+    "strict": true
+  },
+  {
+    "itemkey": "SODIMM",
+    "itemvalue": "Small Outline Dual Inline Memory Module (Laptops)",
+    "itemlink": "https://en.wikipedia.org/wiki/DIMM#SO-DIMM",
+    "strict": true
+  },
+  {
+    "itemkey": "SOE",
+    "itemvalue": "Standard Operating Environment",
+    "itemlink": "https://en.wikipedia.org/wiki/Standard_Operating_Environment",
+    "strict": false
+  },
+  {
+    "itemkey": "SOHO",
+    "itemvalue": "Small Office/Home Office",
+    "itemlink": "https://en.wikipedia.org/wiki/Small_office/home_office",
+    "strict": true
+  },
+  {
+    "itemkey": "SOP",
+    "itemvalue": "Standard Operating Procedure",
+    "itemlink": "https://en.wikipedia.org/wiki/Standard_operating_procedure",
+    "strict": true
+  },
+  {
+    "itemkey": "SPF",
+    "itemvalue": "Sender Policy Framework (email authentication)",
+    "itemlink": "https://en.wikipedia.org/wiki/Sender_Policy_Framework",
+    "strict": true
+  },
+  {
+    "itemkey": "SQL",
+    "itemvalue": "Structured Query Language",
+    "itemlink": "https://en.wikipedia.org/wiki/SQL",
+    "strict": true
+  },
+  {
+    "itemkey": "SRAM",
+    "itemvalue": "Static Random-Access Memory",
+    "itemlink": "https://en.wikipedia.org/wiki/Static_random-access_memory",
+    "strict": true
+  },
+  {
+    "itemkey": "SRV",
+    "itemvalue": "Service record (DNS)",
+    "itemlink": "https://en.wikipedia.org/wiki/SRV_record",
+    "strict": true
+  },
+  {
+    "itemkey": "SSD",
+    "itemvalue": "Solid-State Drive",
+    "itemlink": "https://en.wikipedia.org/wiki/Solid-state_drive",
+    "strict": true
+  },
+  {
+    "itemkey": "SSH",
+    "itemvalue": "Secure Shell",
+    "itemlink": "https://en.wikipedia.org/wiki/Secure_Shell",
+    "strict": true
+  },
+  {
+    "itemkey": "SSID",
+    "itemvalue": "Service Set Identifier",
+    "itemlink": "https://en.wikipedia.org/wiki/Service_set_(802.11_network)#Service_set_identifier",
+    "strict": true
+  },
+  {
+    "itemkey": "SSL",
+    "itemvalue": "Secure Sockets Layer",
+    "itemlink": "https://en.wikipedia.org/wiki/Transport_Layer_Security#SSL_1.0,_2.0,_and_3.0",
+    "strict": true
+  },
+  {
+    "itemkey": "SSO",
+    "itemvalue": "Single Sign-On",
+    "itemlink": "https://en.wikipedia.org/wiki/Single_sign-on",
+    "strict": true
+  },
+  {
+    "itemkey": "SSTP",
+    "itemvalue": "Secure Socket Tunneling Protocol (Windows, Linux, BSD)",
+    "itemlink": "https://en.wikipedia.org/wiki/Secure_Socket_Tunneling_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "ST",
+    "itemvalue": "Straight Tip (Fiber Optic)",
+    "itemlink": "https://en.wikipedia.org/wiki/Optical_fiber_connector",
+    "strict": true
+  },
+  {
+    "itemkey": "STL",
+    "itemvalue": "STereoLithography (3D-printing)",
+    "itemlink": "https://en.wikipedia.org/wiki/Stereolithography",
+    "strict": false
+  },
+  {
+    "itemkey": "STP",
+    "itemvalue": "Shielded Twisted Pair",
+    "itemlink": "https://en.wikipedia.org/wiki/Twisted_pair",
+    "strict": true
+  },
+  {
+    "itemkey": "TACACS",
+    "itemvalue": "Terminal Access Controller Access-Control System",
+    "itemlink": "https://en.wikipedia.org/wiki/TACACS",
+    "strict": true
+  },
+  {
+    "itemkey": "TAR",
+    "itemvalue": "Tape ARchive",
+    "itemlink": "https://en.wikipedia.org/wiki/Tar_(computing)",
+    "strict": true
+  },
+  {
+    "itemkey": "Tb",
+    "itemvalue": "Terabit",
+    "itemlink": "https://en.wikipedia.org/wiki/Terabit_Ethernet",
+    "strict": true
+  },
+  {
+    "itemkey": "TB",
+    "itemvalue": "Terabyte",
+    "itemlink": "https://en.wikipedia.org/wiki/Byte",
+    "strict": false
+  },
+  {
+    "itemkey": "Tbps",
+    "itemvalue": "Terabits per second",
+    "itemlink": "https://en.wikipedia.org/wiki/Data-rate_units#Terabit_per_second",
+    "strict": false
+  },
+  {
+    "itemkey": "TCP",
+    "itemvalue": "Transmission Control Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Transmission_Control_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "TCP/IP",
+    "itemvalue": "Transmission Control Protocol/Internet Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Internet_protocol_suite",
+    "strict": true
+  },
+  {
+    "itemkey": "TFTP",
+    "itemvalue": "Trivial File Transfer Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "TKIP",
+    "itemvalue": "Temporal Key Integrity Protocol (WPA)",
+    "itemlink": "https://en.wikipedia.org/wiki/Temporal_Key_Integrity_Protocol",
+    "strict": false
+  },
+  {
+    "itemkey": "TLS",
+    "itemvalue": "Transport Layer Security",
+    "itemlink": "https://en.wikipedia.org/wiki/Transport_Layer_Security",
+    "strict": true
+  },
+  {
+    "itemkey": "TN",
+    "itemvalue": "Twisted Nematic (LCD)",
+    "itemlink": "https://en.wikipedia.org/wiki/Twisted_nematic_field_effect",
+    "strict": true
+  },
+  {
+    "itemkey": "TPM",
+    "itemvalue": "Trusted Platform Module (see HSM)",
+    "itemlink": "https://en.wikipedia.org/wiki/Trusted_Platform_Module",
+    "strict": true
+  },
+  {
+    "itemkey": "TRRS",
+    "itemvalue": "Tip Ring Ring Sleeve (headphone jack)",
+    "itemlink": "https://en.wikipedia.org/wiki/Phone_connector_(audio)#TRRS_standards",
+    "strict": false
+  },
+  {
+    "itemkey": "UAC",
+    "itemvalue": "User Account Control (Windows MAC enforcement feature)",
+    "itemlink": "https://en.wikipedia.org/wiki/User_Account_Control",
+    "strict": true
+  },
+  {
+    "itemkey": "UDP",
+    "itemvalue": "User Datagram Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/User_Datagram_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "UEFI",
+    "itemvalue": "Unified Extensible Firmware Interface",
+    "itemlink": "https://en.wikipedia.org/wiki/UEFI",
+    "strict": true
+  },
+  {
+    "itemkey": "UHD",
+    "itemvalue": "Ultra High Definition",
+    "itemlink": "https://en.wikipedia.org/wiki/Ultra-high-definition_television",
+    "strict": true
+  },
+  {
+    "itemkey": "UNC",
+    "itemvalue": "Universal Naming Convention (Windows network path)",
+    "itemlink": "https://en.wikipedia.org/wiki/Path_(computing)#Universal_Naming_Convention",
+    "strict": true
+  },
+  {
+    "itemkey": "UPnP",
+    "itemvalue": "Universal Plug and Play",
+    "itemlink": "https://en.wikipedia.org/wiki/Universal_Plug_and_Play",
+    "strict": true
+  },
+  {
+    "itemkey": "UPS",
+    "itemvalue": "Uninterruptible Power Supply",
+    "itemlink": "https://en.wikipedia.org/wiki/Uninterruptible_power_supply",
+    "strict": true
+  },
+  {
+    "itemkey": "URL",
+    "itemvalue": "Uniform Resource Locator",
+    "itemlink": "https://en.wikipedia.org/wiki/URL",
+    "strict": false
+  },
+  {
+    "itemkey": "USB",
+    "itemvalue": "Universal Serial Bus",
+    "itemlink": "https://en.wikipedia.org/wiki/USB",
+    "strict": true
+  },
+  {
+    "itemkey": "USB-C",
+    "itemvalue": "Universal Serial Bus Type C",
+    "itemlink": "https://en.wikipedia.org/wiki/USB-C",
+    "strict": true
+  },
+  {
+    "itemkey": "USB OTG",
+    "itemvalue": "Universal Serial Bus On-The-Go",
+    "itemlink": "https://en.wikipedia.org/wiki/USB_On-The-Go",
+    "strict": false
+  },
+  {
+    "itemkey": "UTM",
+    "itemvalue": "Unified Threat Management",
+    "itemlink": "https://en.wikipedia.org/wiki/Unified_threat_management",
+    "strict": true
+  },
+  {
+    "itemkey": "UTP",
+    "itemvalue": "Unshielded Twisted Pair",
+    "itemlink": "https://en.wikipedia.org/wiki/Twisted_pair#Unshielded_twisted_pair",
+    "strict": true
+  },
+  {
+    "itemkey": "UWP",
+    "itemvalue": "Universal Windows Platform (apps)",
+    "itemlink": "https://en.wikipedia.org/wiki/Universal_Windows_Platform_apps",
+    "strict": false
+  },
+  {
+    "itemkey": "UX",
+    "itemvalue": "User Experience",
+    "itemlink": "https://en.wikipedia.org/wiki/User_experience",
+    "strict": false
+  },
+  {
+    "itemkey": "VA",
+    "itemvalue": "Vertical Alignment (LCD)",
+    "itemlink": "https://en.wikipedia.org/wiki/Liquid-crystal_display#Vertical_alignment_(VA)",
+    "strict": true
+  },
+  {
+    "itemkey": "VDI",
+    "itemvalue": "Virtual Desktop Infrastructure",
+    "itemlink": "https://en.wikipedia.org/wiki/Desktop_virtualization",
+    "strict": true
+  },
+  {
+    "itemkey": "VGA",
+    "itemvalue": "Video Graphics Array",
+    "itemlink": "https://en.wikipedia.org/wiki/Video_Graphics_Array",
+    "strict": true
+  },
+  {
+    "itemkey": "VLAN",
+    "itemvalue": "Virtual LAN",
+    "itemlink": "https://en.wikipedia.org/wiki/VLAN",
+    "strict": true
+  },
+  {
+    "itemkey": "VM",
+    "itemvalue": "Virtual Machine",
+    "itemlink": "https://en.wikipedia.org/wiki/Virtual_machine",
+    "strict": true
+  },
+  {
+    "itemkey": "VM",
+    "itemvalue": "Virtual Memory",
+    "itemlink": "https://en.wikipedia.org/wiki/Virtual_memory",
+    "strict": false
+  },
+  {
+    "itemkey": "VNC",
+    "itemvalue": "Virtual Network Computing",
+    "itemlink": "https://en.wikipedia.org/wiki/Virtual_Network_Computing",
+    "strict": true
+  },
+  {
+    "itemkey": "VoIP",
+    "itemvalue": "Voice over Internet Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Voice_over_IP",
+    "strict": true
+  },
+  {
+    "itemkey": "VoLTE",
+    "itemvalue": "Voice over Long Term Evolution",
+    "itemlink": "https://en.wikipedia.org/wiki/Voice_over_LTE",
+    "strict": false
+  },
+  {
+    "itemkey": "VPN",
+    "itemvalue": "Virtual Private Network",
+    "itemlink": "https://en.wikipedia.org/wiki/Virtual_private_network",
+    "strict": true
+  },
+  {
+    "itemkey": "VRAM",
+    "itemvalue": "Video Random-Access Memory",
+    "itemlink": "https://en.wikipedia.org/wiki/Video_random-access_memory",
+    "strict": true
+  },
+  {
+    "itemkey": "WAF",
+    "itemvalue": "Web Application Firewall",
+    "itemlink": "https://en.wikipedia.org/wiki/Web_application_firewall",
+    "strict": true
+  },
+  {
+    "itemkey": "WAN",
+    "itemvalue": "Wide Area Network",
+    "itemlink": "https://en.wikipedia.org/wiki/Wide_area_network",
+    "strict": true
+  },
+  {
+    "itemkey": "WAP",
+    "itemvalue": "Wireless Access Point",
+    "itemlink": "https://en.wikipedia.org/wiki/Wireless_access_point",
+    "strict": true
+  },
+  {
+    "itemkey": "WDDM",
+    "itemvalue": "Windows Display Driver Model",
+    "itemlink": "https://en.wikipedia.org/wiki/Windows_Display_Driver_Model",
+    "strict": false
+  },
+  {
+    "itemkey": "WEP",
+    "itemvalue": "Wired Equivalent Privacy (flawed, do not use)",
+    "itemlink": "https://en.wikipedia.org/wiki/Wired_Equivalent_Privacy",
+    "strict": true
+  },
+  {
+    "itemkey": "WiFi",
+    "itemvalue": "Wireless Fidelity (802.11)",
+    "itemlink": "https://en.wikipedia.org/wiki/Wi-Fi",
+    "strict": false
+  },
+  {
+    "itemkey": "WinPE",
+    "itemvalue": "Windows Preinstallation Environment",
+    "itemlink": "https://en.wikipedia.org/wiki/Windows_Preinstallation_Environment",
+    "strict": false
+  },
+  {
+    "itemkey": "WISP",
+    "itemvalue": "Wireless Internet Service Provider",
+    "itemlink": "https://en.wikipedia.org/wiki/Wireless_Internet_service_provider",
+    "strict": true
+  },
+  {
+    "itemkey": "WLAN",
+    "itemvalue": "Wireless LAN",
+    "itemlink": "https://en.wikipedia.org/wiki/Wireless_LAN",
+    "strict": true
+  },
+  {
+    "itemkey": "WMN",
+    "itemvalue": "Wireless Mesh Network",
+    "itemlink": "https://en.wikipedia.org/wiki/Wireless_mesh_network",
+    "strict": true
+  },
+  {
+    "itemkey": "WPA",
+    "itemvalue": "Wi-Fi Protected Access (TKIP)",
+    "itemlink": "https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access#WPA",
+    "strict": true
+  },
+  {
+    "itemkey": "WPA2",
+    "itemvalue": "Wi-Fi Protected Access 2",
+    "itemlink": "https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access#WPA2",
+    "strict": false
+  },
+  {
+    "itemkey": "WPA3",
+    "itemvalue": "Wi-Fi Protected Access 3",
+    "itemlink": "https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access#WPA3",
+    "strict": false
+  },
+  {
+    "itemkey": "WPS",
+    "itemvalue": "Wi-Fi Protected Setup",
+    "itemlink": "https://en.wikipedia.org/wiki/Wi-Fi_Protected_Setup",
+    "strict": true
+  },
+  {
+    "itemkey": "WWAN",
+    "itemvalue": "Wireless Wide Area Network",
+    "itemlink": "https://en.wikipedia.org/wiki/Wireless_WAN",
+    "strict": true
+  },
+  {
+    "itemkey": "XML",
+    "itemvalue": "Extensible Markup Language",
+    "itemlink": "https://en.wikipedia.org/wiki/XML",
+    "strict": false
+  },
+  {
+    "itemkey": "XMP",
+    "itemvalue": "Extreme Memory Profile (Intel)",
+    "itemlink": "https://en.wikipedia.org/wiki/Serial_presence_detect#Intel_Extreme_Memory_Profile_(XMP)",
+    "strict": true
+  },
+  {
+    "itemkey": "XSS",
+    "itemvalue": "Cross-Site Scripting",
+    "itemlink": "https://en.wikipedia.org/wiki/Cross-site_scripting",
+    "strict": true
+  },
+  {
+    "itemkey": "YUM",
+    "itemvalue": "Yellowdog Updater, Modified (Linux)",
+    "itemlink": "https://en.wikipedia.org/wiki/Yum_(software)",
+    "strict": false
+  }
+]

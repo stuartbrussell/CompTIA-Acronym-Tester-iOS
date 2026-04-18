@@ -4,7 +4,7 @@ import Combine
 
 /// The single source of truth for the quiz state.
 ///
-/// Mirrors the Python app's `AcronymTester` class: loads one or more CSV
+/// Mirrors the Python app's `AcronymTester` class: loads one or more JSON
 /// files, merges duplicate acronyms, supports strict-mode filtering, length
 /// filtering, shuffling, prev/next navigation, per-item correctness tracking,
 /// review mode (cycle only through incorrect items), and score display.
@@ -107,7 +107,7 @@ final class QuizStore: ObservableObject {
 
         var rawRows: [RawAcronymRow] = []
         for list in lists {
-            rawRows += CSVLoader.loadRows(resourceName: list.resourceName)
+            rawRows += JSONLoader.loadRows(resourceName: list.resourceName)
         }
 
         if strictMode {

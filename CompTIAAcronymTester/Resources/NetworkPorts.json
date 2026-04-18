@@ -1,0 +1,332 @@
+[
+  {
+    "itemkey": "tcp/20",
+    "itemvalue": "FTP data",
+    "itemlink": "https://en.wikipedia.org/wiki/File_Transfer_Protocol"
+  },
+  {
+    "itemkey": "tcp/21",
+    "itemvalue": "FTP control",
+    "itemlink": "https://en.wikipedia.org/wiki/File_Transfer_Protocol"
+  },
+  {
+    "itemkey": "tcp/22",
+    "itemvalue": "SSH",
+    "itemlink": "https://en.wikipedia.org/wiki/Secure_Shell"
+  },
+  {
+    "itemkey": "tcp/23",
+    "itemvalue": "Telnet",
+    "itemlink": "https://en.wikipedia.org/wiki/Telnet"
+  },
+  {
+    "itemkey": "tcp/25",
+    "itemvalue": "SMTP",
+    "itemlink": "https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol"
+  },
+  {
+    "itemkey": "tcp/49",
+    "itemvalue": "TACACS",
+    "itemlink": "https://en.wikipedia.org/wiki/TACACS"
+  },
+  {
+    "itemkey": "udp/53",
+    "itemvalue": "DNS",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "udp/67",
+    "itemvalue": "DHCP Discover and Request (broadcast)",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "udp/68",
+    "itemvalue": "DHCP Offer and Acknowledge (broadcast)",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "udp/69",
+    "itemvalue": "Trivial FTP",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "tcp/80",
+    "itemvalue": "HTTP",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "tcp/110",
+    "itemvalue": "POP3",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "udp/123",
+    "itemvalue": "NTP",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "tcp/137",
+    "itemvalue": "NetBIOS name services",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "udp/138",
+    "itemvalue": "NetBIOS datagram services",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "tcp/139",
+    "itemvalue": "NetBIOS session services",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "tcp/143",
+    "itemvalue": "IMAP",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "udp/161",
+    "itemvalue": "SNMP queries",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "udp/162",
+    "itemvalue": "SNMP traps",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "tcp/179",
+    "itemvalue": "BGP",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "tcp/389",
+    "itemvalue": "LDAP",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "tcp/443",
+    "itemvalue": "HTTPS",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "tcp/445",
+    "itemvalue": "SMB",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "udp/514",
+    "itemvalue": "Syslog",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "tcp/587",
+    "itemvalue": "SMTPS (SMTP over TLS)",
+    "itemlink": "https://en.wikipedia.org/wiki/SMTPS"
+  },
+  {
+    "itemkey": "tcp/636",
+    "itemvalue": "LDAPS",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "tcp/1433",
+    "itemvalue": "MS-SQL",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "tcp/3389",
+    "itemvalue": "RDP (Windows)",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "udp/4789",
+    "itemvalue": "VXLAN",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "udp/5004",
+    "itemvalue": "VoIP",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "tcp/5060",
+    "itemvalue": "SIP",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "tcp/5061",
+    "itemvalue": "SIP overTLS",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "tcp/5900",
+    "itemvalue": "RFB (VNC)",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "BGP",
+    "itemvalue": "tcp/179",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "DHCP Discover and Request (broadcast)",
+    "itemvalue": "udp/67",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "DHCP Offer and Acknowledge (broadcast)",
+    "itemvalue": "udp/68",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "DNS",
+    "itemvalue": "udp/53",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "FTP control",
+    "itemvalue": "tcp/21",
+    "itemlink": "https://en.wikipedia.org/wiki/File_Transfer_Protocol"
+  },
+  {
+    "itemkey": "FTP data",
+    "itemvalue": "tcp/20",
+    "itemlink": "https://en.wikipedia.org/wiki/File_Transfer_Protocol"
+  },
+  {
+    "itemkey": "HTTP",
+    "itemvalue": "tcp/80",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "HTTPS",
+    "itemvalue": "tcp/443",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "IMAP",
+    "itemvalue": "tcp/143",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "LDAP",
+    "itemvalue": "tcp/389",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "LDAPS",
+    "itemvalue": "tcp/636",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "MS-SQL",
+    "itemvalue": "tcp/1443",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "NetBIOS datagram services",
+    "itemvalue": "tcp/138",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "NetBIOS name services",
+    "itemvalue": "tcp/137",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "NetBIOS session services",
+    "itemvalue": "tcp/139",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "NTP",
+    "itemvalue": "udp/123",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "POP3",
+    "itemvalue": "tcp/110",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "RDP (Windows)",
+    "itemvalue": "tcp/3389",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "RFB (VNC)",
+    "itemvalue": "tcp/5900",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "SIP",
+    "itemvalue": "tcp/5060",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "SIP over TLS",
+    "itemvalue": "tcp/5061",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "SMB",
+    "itemvalue": "tcp/445",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "SMTP",
+    "itemvalue": "tcp/25",
+    "itemlink": "https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol"
+  },
+  {
+    "itemkey": "SMTPS (SMTP over TLS)",
+    "itemvalue": "tcp/587",
+    "itemlink": "https://en.wikipedia.org/wiki/SMTPS"
+  },
+  {
+    "itemkey": "SNMP queries",
+    "itemvalue": "udp/161",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "SNMP traps",
+    "itemvalue": "udp/162",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "SSH",
+    "itemvalue": "tcp/22",
+    "itemlink": "https://en.wikipedia.org/wiki/Secure_Shell"
+  },
+  {
+    "itemkey": "Syslog",
+    "itemvalue": "udp/514",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "TACACS",
+    "itemvalue": "tcp/49",
+    "itemlink": "https://en.wikipedia.org/wiki/TACACS"
+  },
+  {
+    "itemkey": "Telnet",
+    "itemvalue": "tcp/23",
+    "itemlink": "https://en.wikipedia.org/wiki/Telnet"
+  },
+  {
+    "itemkey": "Trivial FTP",
+    "itemvalue": "udp/69",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "VoIP",
+    "itemvalue": "udp/5004",
+    "itemlink": ""
+  },
+  {
+    "itemkey": "VXLAN",
+    "itemvalue": "udp/4789",
+    "itemlink": ""
+  }
+]

@@ -1,0 +1,1040 @@
+[
+  {
+    "itemkey": "A",
+    "itemvalue": "Address",
+    "itemlink": "https://en.wikipedia.org/wiki/List_of_DNS_record_types#Resource_records",
+    "strict": true
+  },
+  {
+    "itemkey": "ACL",
+    "itemvalue": "Access Control List",
+    "itemlink": "https://en.wikipedia.org/wiki/Access-control_list",
+    "strict": true
+  },
+  {
+    "itemkey": "AH",
+    "itemvalue": "Authentication Header",
+    "itemlink": "https://en.wikipedia.org/wiki/IPsec#Authentication_Header",
+    "strict": true
+  },
+  {
+    "itemkey": "AP",
+    "itemvalue": "(Wireless) Access Point",
+    "itemlink": "https://en.wikipedia.org/wiki/Wireless_access_point",
+    "strict": true
+  },
+  {
+    "itemkey": "API",
+    "itemvalue": "Application Programming Interface",
+    "itemlink": "https://en.wikipedia.org/wiki/API",
+    "strict": true
+  },
+  {
+    "itemkey": "APIPA",
+    "itemvalue": "Automatic Private Internet Protocol Addressing (IPv4)",
+    "itemlink": "https://en.wikipedia.org/wiki/Link-local_address",
+    "strict": true
+  },
+  {
+    "itemkey": "ARP",
+    "itemvalue": "Address Resolution Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Address_Resolution_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "AUP",
+    "itemvalue": "Acceptable Use Policy",
+    "itemlink": "https://en.wikipedia.org/wiki/Acceptable_use_policy",
+    "strict": true
+  },
+  {
+    "itemkey": "BGP",
+    "itemvalue": "Border Gateway Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Border_Gateway_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "BNC",
+    "itemvalue": "Bayonet Neill–Concelman",
+    "itemlink": "https://en.wikipedia.org/wiki/BNC_connector",
+    "strict": true
+  },
+  {
+    "itemkey": "BPDU",
+    "itemvalue": "Bridge Protocol Data Unit",
+    "itemlink": "https://en.wikipedia.org/wiki/Spanning_Tree_Protocol#Bridge_protocol_data_units",
+    "strict": false
+  },
+  {
+    "itemkey": "BSSID",
+    "itemvalue": "Basic Service Set Identifier",
+    "itemlink": "https://en.wikipedia.org/wiki/Service_set_(802.11_network)",
+    "strict": true
+  },
+  {
+    "itemkey": "BYOD",
+    "itemvalue": "Bring Your Own Device",
+    "itemlink": "https://en.wikipedia.org/wiki/Bring_your_own_device",
+    "strict": true
+  },
+  {
+    "itemkey": "CAM",
+    "itemvalue": "Content-Addressable Memory",
+    "itemlink": "https://en.wikipedia.org/wiki/Content-addressable_memory",
+    "strict": true
+  },
+  {
+    "itemkey": "CDN",
+    "itemvalue": "Content Delivery Network",
+    "itemlink": "https://en.wikipedia.org/wiki/Content_delivery_network",
+    "strict": true
+  },
+  {
+    "itemkey": "CDP",
+    "itemvalue": "Cisco Discovery Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Cisco_Discovery_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "CIA",
+    "itemvalue": "Confidentiality, Integrity, and Availability",
+    "itemlink": "https://en.wikipedia.org/wiki/Information_security#CIA_triad",
+    "strict": true
+  },
+  {
+    "itemkey": "CIDR",
+    "itemvalue": "Classless Inter-domain Routing",
+    "itemlink": "https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing",
+    "strict": true
+  },
+  {
+    "itemkey": "CLI",
+    "itemvalue": "Command-line Interface",
+    "itemlink": "https://en.wikipedia.org/wiki/Command-line_interface",
+    "strict": true
+  },
+  {
+    "itemkey": "CNAME",
+    "itemvalue": "Canonical Name (DNS)",
+    "itemlink": "https://en.wikipedia.org/wiki/CNAME_record",
+    "strict": true
+  },
+  {
+    "itemkey": "CPU",
+    "itemvalue": "Central Processing Unit",
+    "itemlink": "https://en.wikipedia.org/wiki/Central_processing_unit",
+    "strict": true
+  },
+  {
+    "itemkey": "CRC",
+    "itemvalue": "Cyclic Redundancy Check",
+    "itemlink": "https://en.wikipedia.org/wiki/Cyclic_redundancy_check",
+    "strict": true
+  },
+  {
+    "itemkey": "DAC",
+    "itemvalue": "Direct Attach Copper",
+    "itemlink": "https://en.wikipedia.org/wiki/Twinaxial_cabling#Networking_(Direct-Attach_Copper)",
+    "strict": true
+  },
+  {
+    "itemkey": "DAS",
+    "itemvalue": "Direct-attached Storage",
+    "itemlink": "https://en.wikipedia.org/wiki/Direct-attached_storage",
+    "strict": true
+  },
+  {
+    "itemkey": "DCI",
+    "itemvalue": "Data Center Interconnect",
+    "itemlink": "https://en.wikipedia.org/wiki/Data_center_interconnect",
+    "strict": true
+  },
+  {
+    "itemkey": "DDoS",
+    "itemvalue": "Distributed Denial-of-Service",
+    "itemlink": "https://en.wikipedia.org/wiki/Denial-of-service_attack#Distributed_DoS",
+    "strict": true
+  },
+  {
+    "itemkey": "DHCP",
+    "itemvalue": "Dynamic Host Configuration Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "DLP",
+    "itemvalue": "Data Loss Prevention",
+    "itemlink": "https://en.wikipedia.org/wiki/Data_loss_prevention_software",
+    "strict": true
+  },
+  {
+    "itemkey": "DNS",
+    "itemvalue": "Domain Name System",
+    "itemlink": "https://en.wikipedia.org/wiki/Domain_Name_System",
+    "strict": true
+  },
+  {
+    "itemkey": "DNSSEC",
+    "itemvalue": "Domain Name System Security Extensions",
+    "itemlink": "https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions",
+    "strict": true
+  },
+  {
+    "itemkey": "DoH",
+    "itemvalue": "DNS over Hypertext Transfer Protocol Secure",
+    "itemlink": "https://en.wikipedia.org/wiki/DNS_over_HTTPS",
+    "strict": true
+  },
+  {
+    "itemkey": "DoS",
+    "itemvalue": "Denial-of-Service",
+    "itemlink": "https://en.wikipedia.org/wiki/Denial-of-service_attack",
+    "strict": true
+  },
+  {
+    "itemkey": "DoT",
+    "itemvalue": "DNS over Transport Layer Security",
+    "itemlink": "https://en.wikipedia.org/wiki/DNS_over_TLS",
+    "strict": true
+  },
+  {
+    "itemkey": "DR",
+    "itemvalue": "Disaster Recovery",
+    "itemlink": "https://en.wikipedia.org/wiki/IT_disaster_recovery",
+    "strict": true
+  },
+  {
+    "itemkey": "EAPoL",
+    "itemvalue": "Extensible Authentication Protocol over LAN",
+    "itemlink": "https://en.wikipedia.org/wiki/Extensible_Authentication_Protocol#IEEE_802.1X",
+    "strict": true
+  },
+  {
+    "itemkey": "EIGRP",
+    "itemvalue": "Enhanced Interior Gateway Routing Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Enhanced_Interior_Gateway_Routing_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "EOL",
+    "itemvalue": "End-of-life",
+    "itemlink": "https://en.wikipedia.org/wiki/End-of-life_product",
+    "strict": true
+  },
+  {
+    "itemkey": "EOS",
+    "itemvalue": "End-of-support",
+    "itemlink": "https://en.wikipedia.org/wiki/End-of-life_product",
+    "strict": true
+  },
+  {
+    "itemkey": "ESP",
+    "itemvalue": "Encapsulating Security Payload",
+    "itemlink": "https://en.wikipedia.org/wiki/IPsec#Encapsulating_Security_Payload",
+    "strict": true
+  },
+  {
+    "itemkey": "ESSID",
+    "itemvalue": "Extended Service Set Identifier",
+    "itemlink": "https://en.wikipedia.org/wiki/Service_set_(802.11_network)#Extended_service_set",
+    "strict": true
+  },
+  {
+    "itemkey": "EULA",
+    "itemvalue": "End-User License Agreement",
+    "itemlink": "https://en.wikipedia.org/wiki/End-user_license_agreement",
+    "strict": true
+  },
+  {
+    "itemkey": "FC",
+    "itemvalue": "Fibre Channel",
+    "itemlink": "https://en.wikipedia.org/wiki/Fibre_Channel",
+    "strict": true
+  },
+  {
+    "itemkey": "FEP",
+    "itemvalue": "Flourinated Ethylene Polymer",
+    "itemlink": "https://en.wikipedia.org/wiki/Plenum_cable",
+    "strict": false
+  },
+  {
+    "itemkey": "FHRP",
+    "itemvalue": "First Hop Redundancy Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/First-hop_redundancy_protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "FTP",
+    "itemvalue": "File Transfer Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/File_Transfer_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "GDPR",
+    "itemvalue": "General Data Protection Regulation (EU privacy)",
+    "itemlink": "https://en.wikipedia.org/wiki/General_Data_Protection_Regulation",
+    "strict": true
+  },
+  {
+    "itemkey": "GRE",
+    "itemvalue": "Generic Routing Encapsulation",
+    "itemlink": "https://en.wikipedia.org/wiki/Generic_routing_encapsulation",
+    "strict": true
+  },
+  {
+    "itemkey": "GUI",
+    "itemvalue": "Graphical User Interface",
+    "itemlink": "https://en.wikipedia.org/wiki/Graphical_user_interface",
+    "strict": true
+  },
+  {
+    "itemkey": "HTTP",
+    "itemvalue": "Hypertext Transfer Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/HTTP",
+    "strict": true
+  },
+  {
+    "itemkey": "HTTPS",
+    "itemvalue": "Hypertext Transfer Protocol Secure",
+    "itemlink": "https://en.wikipedia.org/wiki/HTTPS",
+    "strict": true
+  },
+  {
+    "itemkey": "IaaS",
+    "itemvalue": "Infrastructure as a Service",
+    "itemlink": "https://en.wikipedia.org/wiki/Infrastructure_as_a_service",
+    "strict": true
+  },
+  {
+    "itemkey": "IaC",
+    "itemvalue": "Infrastructure as Code",
+    "itemlink": "https://en.wikipedia.org/wiki/Infrastructure_as_code",
+    "strict": true
+  },
+  {
+    "itemkey": "IAM",
+    "itemvalue": "Identity and Access Management",
+    "itemlink": "https://en.wikipedia.org/wiki/Identity_and_access_management",
+    "strict": true
+  },
+  {
+    "itemkey": "IBSS",
+    "itemvalue": "Independent Basic Service Set",
+    "itemlink": "https://en.wikipedia.org/wiki/Service_set_(802.11_network)#Independent",
+    "strict": false
+  },
+  {
+    "itemkey": "ICMP",
+    "itemvalue": "Internet Control Message Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "ICS",
+    "itemvalue": "Industrial Control System",
+    "itemlink": "https://en.wikipedia.org/wiki/Industrial_control_system",
+    "strict": true
+  },
+  {
+    "itemkey": "IDF",
+    "itemvalue": "Intermediate Distribution Frame",
+    "itemlink": "https://en.wikipedia.org/wiki/Intermediate_distribution_frame",
+    "strict": true
+  },
+  {
+    "itemkey": "IDS",
+    "itemvalue": "Intrusion Detection System",
+    "itemlink": "https://en.wikipedia.org/wiki/Intrusion_detection_system",
+    "strict": true
+  },
+  {
+    "itemkey": "IoT",
+    "itemvalue": "Internet of Things",
+    "itemlink": "https://en.wikipedia.org/wiki/Internet_of_things",
+    "strict": true
+  },
+  {
+    "itemkey": "IIoT",
+    "itemvalue": "Industrial Internet of Things",
+    "itemlink": "https://en.wikipedia.org/wiki/Industrial_internet_of_things",
+    "strict": true
+  },
+  {
+    "itemkey": "IKE",
+    "itemvalue": "Internet Key Exchange",
+    "itemlink": "https://en.wikipedia.org/wiki/Internet_Key_Exchange",
+    "strict": true
+  },
+  {
+    "itemkey": "IP",
+    "itemvalue": "Internet Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Internet_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "IPAM",
+    "itemvalue": "Internet Protocol Address Management",
+    "itemlink": "https://en.wikipedia.org/wiki/IP_address_management",
+    "strict": true
+  },
+  {
+    "itemkey": "IPS",
+    "itemvalue": "Intrusion Prevention System",
+    "itemlink": "https://en.wikipedia.org/wiki/Intrusion_detection_system#Intrusion_prevention",
+    "strict": true
+  },
+  {
+    "itemkey": "IPSec",
+    "itemvalue": "Internet Protocol Security",
+    "itemlink": "https://en.wikipedia.org/wiki/IPsec",
+    "strict": true
+  },
+  {
+    "itemkey": "IS-IS",
+    "itemvalue": "Intermediate System to Intermediate System",
+    "itemlink": "https://en.wikipedia.org/wiki/IS-IS",
+    "strict": true
+  },
+  {
+    "itemkey": "LACP",
+    "itemvalue": "Link Aggregation Control Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Link_aggregation#Link_Aggregation_Control_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "LAN",
+    "itemvalue": "Local Area Network",
+    "itemlink": "https://en.wikipedia.org/wiki/Local_area_network",
+    "strict": true
+  },
+  {
+    "itemkey": "LC",
+    "itemvalue": "Lucent/Little/Local Connector (Fiber Optic)",
+    "itemlink": "https://en.wikipedia.org/wiki/Optical_fiber_connector",
+    "strict": true
+  },
+  {
+    "itemkey": "LDAP",
+    "itemvalue": "Lightweight Directory Access Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "LDAPS",
+    "itemvalue": "Lightweight Directory Access Protocol over SSL",
+    "itemlink": "https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol#StartTLS",
+    "strict": true
+  },
+  {
+    "itemkey": "LLDP",
+    "itemvalue": "Link Layer Discovery Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Link_Layer_Discovery_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "MAC",
+    "itemvalue": "Media Access Control",
+    "itemlink": "https://en.wikipedia.org/wiki/Medium_access_control",
+    "strict": true
+  },
+  {
+    "itemkey": "MAC",
+    "itemvalue": "Message Authentication Code",
+    "itemlink": "https://en.wikipedia.org/wiki/Message_authentication_code",
+    "strict": false
+  },
+  {
+    "itemkey": "MDF",
+    "itemvalue": "Main Distribution Frame",
+    "itemlink": "https://en.wikipedia.org/wiki/Main_distribution_frame",
+    "strict": true
+  },
+  {
+    "itemkey": "MDIX",
+    "itemvalue": "Medium Dependent Interface Crossover",
+    "itemlink": "https://en.wikipedia.org/wiki/Medium-dependent_interface",
+    "strict": true
+  },
+  {
+    "itemkey": "MFA",
+    "itemvalue": "Multifactor Authentication",
+    "itemlink": "https://en.wikipedia.org/wiki/Multi-factor_authentication",
+    "strict": true
+  },
+  {
+    "itemkey": "MIB",
+    "itemvalue": "Management Information Base",
+    "itemlink": "https://en.wikipedia.org/wiki/Management_information_base",
+    "strict": true
+  },
+  {
+    "itemkey": "MIC",
+    "itemvalue": "Message Integrity Code (prefer Message Authentication Code)",
+    "itemlink": "https://en.wikipedia.org/wiki/Message_authentication_code",
+    "strict": false
+  },
+  {
+    "itemkey": "MPO",
+    "itemvalue": "Multifiber Push On (Fiber Optic)",
+    "itemlink": "https://en.wikipedia.org/wiki/Optical_fiber_connector",
+    "strict": true
+  },
+  {
+    "itemkey": "MTBF",
+    "itemvalue": "Mean Time Between Failure",
+    "itemlink": "https://en.wikipedia.org/wiki/Mean_time_between_failures",
+    "strict": true
+  },
+  {
+    "itemkey": "MTTR",
+    "itemvalue": "Mean Time To Recovery",
+    "itemlink": "https://en.wikipedia.org/wiki/Mean_time_to_recovery",
+    "strict": false
+  },
+  {
+    "itemkey": "MTTR",
+    "itemvalue": "Mean Time To Repair",
+    "itemlink": "https://en.wikipedia.org/wiki/Mean_time_to_repair",
+    "strict": true
+  },
+  {
+    "itemkey": "MTU",
+    "itemvalue": "Maximum Transmission Unit",
+    "itemlink": "https://en.wikipedia.org/wiki/Maximum_transmission_unit",
+    "strict": true
+  },
+  {
+    "itemkey": "MX",
+    "itemvalue": "Mail Exchange",
+    "itemlink": "https://en.wikipedia.org/wiki/MX_record",
+    "strict": true
+  },
+  {
+    "itemkey": "NAC",
+    "itemvalue": "Network Access Control",
+    "itemlink": "https://en.wikipedia.org/wiki/Network_Access_Control",
+    "strict": true
+  },
+  {
+    "itemkey": "NAS",
+    "itemvalue": "Network-attached Storage",
+    "itemlink": "https://en.wikipedia.org/wiki/Network-attached_storage",
+    "strict": true
+  },
+  {
+    "itemkey": "NAT",
+    "itemvalue": "Network Address Translation",
+    "itemlink": "https://en.wikipedia.org/wiki/Network_address_translation",
+    "strict": true
+  },
+  {
+    "itemkey": "NFV",
+    "itemvalue": "Network Functions Virtualization",
+    "itemlink": "https://en.wikipedia.org/wiki/Network_function_virtualization",
+    "strict": true
+  },
+  {
+    "itemkey": "NIC",
+    "itemvalue": "Network Interface Card",
+    "itemlink": "https://en.wikipedia.org/wiki/Network_interface_controller",
+    "strict": true
+  },
+  {
+    "itemkey": "NS",
+    "itemvalue": "Name Server",
+    "itemlink": "https://en.wikipedia.org/wiki/Name_server",
+    "strict": true
+  },
+  {
+    "itemkey": "NTP",
+    "itemvalue": "Network Time Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Network_Time_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "NTS",
+    "itemvalue": "Network Time Security",
+    "itemlink": "https://en.wikipedia.org/wiki/Network_Time_Protocol#Secure_extensions",
+    "strict": true
+  },
+  {
+    "itemkey": "OID",
+    "itemvalue": "Object Identifier",
+    "itemlink": "",
+    "strict": false
+  },
+  {
+    "itemkey": "OS",
+    "itemvalue": "Operating System",
+    "itemlink": "https://en.wikipedia.org/wiki/Operating_system",
+    "strict": true
+  },
+  {
+    "itemkey": "OSPF",
+    "itemvalue": "Open Shortest Path First",
+    "itemlink": "https://en.wikipedia.org/wiki/Open_Shortest_Path_First",
+    "strict": true
+  },
+  {
+    "itemkey": "OSI",
+    "itemvalue": "Open Systems Interconnection",
+    "itemlink": "https://en.wikipedia.org/wiki/OSI_model",
+    "strict": true
+  },
+  {
+    "itemkey": "OT",
+    "itemvalue": "Operational Technology",
+    "itemlink": "https://en.wikipedia.org/wiki/Operational_technology",
+    "strict": true
+  },
+  {
+    "itemkey": "PaaS",
+    "itemvalue": "Platform as a Service",
+    "itemlink": "https://en.wikipedia.org/wiki/Platform_as_a_service",
+    "strict": true
+  },
+  {
+    "itemkey": "PAT",
+    "itemvalue": "Port Address Translation",
+    "itemlink": "https://en.wikipedia.org/wiki/Network_address_translation#One-to-many_NAT",
+    "strict": true
+  },
+  {
+    "itemkey": "PCI DSS",
+    "itemvalue": "Payment Card Industry Data Security Standard",
+    "itemlink": "https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard",
+    "strict": true
+  },
+  {
+    "itemkey": "PDU",
+    "itemvalue": "Power Distribution Unit",
+    "itemlink": "https://en.wikipedia.org/wiki/Power_distribution_unit",
+    "strict": true
+  },
+  {
+    "itemkey": "PKI",
+    "itemvalue": "Public Key Infrastructure",
+    "itemlink": "https://en.wikipedia.org/wiki/Public_key_infrastructure",
+    "strict": true
+  },
+  {
+    "itemkey": "PoE",
+    "itemvalue": "Power over Ethernet",
+    "itemlink": "https://en.wikipedia.org/wiki/Power_over_Ethernet",
+    "strict": true
+  },
+  {
+    "itemkey": "PSK",
+    "itemvalue": "Pre-Shared Key",
+    "itemlink": "https://en.wikipedia.org/wiki/Pre-shared_key",
+    "strict": true
+  },
+  {
+    "itemkey": "PTP",
+    "itemvalue": "Precision Time Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Precision_Time_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "PTR",
+    "itemvalue": "Pointer",
+    "itemlink": "https://en.wikipedia.org/wiki/List_of_DNS_record_types#Resource_records",
+    "strict": true
+  },
+  {
+    "itemkey": "QoS",
+    "itemvalue": "Quality of Service",
+    "itemlink": "https://en.wikipedia.org/wiki/Quality_of_service",
+    "strict": true
+  },
+  {
+    "itemkey": "QSFP",
+    "itemvalue": "Quad Small Form-factor Pluggable",
+    "itemlink": "https://en.wikipedia.org/wiki/Small_Form-factor_Pluggable#QSFP",
+    "strict": true
+  },
+  {
+    "itemkey": "RADIUS",
+    "itemvalue": "Remote Authentication Dial-In User Service",
+    "itemlink": "https://en.wikipedia.org/wiki/RADIUS",
+    "strict": true
+  },
+  {
+    "itemkey": "RDP",
+    "itemvalue": "Remote Desktop Protocol (Windows)",
+    "itemlink": "https://en.wikipedia.org/wiki/Remote_Desktop_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "RFB",
+    "itemvalue": "Remote Frame Buffer (VNC)",
+    "itemlink": "https://en.wikipedia.org/wiki/RFB_(protocol)",
+    "strict": false
+  },
+  {
+    "itemkey": "RFID",
+    "itemvalue": "Radio-Frequency Identification",
+    "itemlink": "https://en.wikipedia.org/wiki/Radio-frequency_identification",
+    "strict": true
+  },
+  {
+    "itemkey": "RIP",
+    "itemvalue": "Routing Information Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Routing_Information_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "RJ",
+    "itemvalue": "Registered Jack",
+    "itemlink": "https://en.wikipedia.org/wiki/Registered_jack",
+    "strict": true
+  },
+  {
+    "itemkey": "RPO",
+    "itemvalue": "Recovery Point Objective",
+    "itemlink": "https://en.wikipedia.org/wiki/IT_disaster_recovery#Recovery_Point_Objective",
+    "strict": true
+  },
+  {
+    "itemkey": "RSTP",
+    "itemvalue": "Rapid Spanning Tree Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Spanning_Tree_Protocol#Rapid_Spanning_Tree_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "RTO",
+    "itemvalue": "Recovery Time Objective",
+    "itemlink": "https://en.wikipedia.org/wiki/IT_disaster_recovery#Recovery_Time_Objective",
+    "strict": true
+  },
+  {
+    "itemkey": "RX",
+    "itemvalue": "Receiver",
+    "itemlink": "https://en.wikipedia.org/wiki/Telecommunications#Basic_elements",
+    "strict": true
+  },
+  {
+    "itemkey": "SaaS",
+    "itemvalue": "Software as a Service",
+    "itemlink": "https://en.wikipedia.org/wiki/Software_as_a_service",
+    "strict": true
+  },
+  {
+    "itemkey": "SAML",
+    "itemvalue": "Security Assertion Markup Language",
+    "itemlink": "https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language",
+    "strict": true
+  },
+  {
+    "itemkey": "SAN",
+    "itemvalue": "Storage Area Network",
+    "itemlink": "https://en.wikipedia.org/wiki/Storage_area_network",
+    "strict": true
+  },
+  {
+    "itemkey": "SASE",
+    "itemvalue": "Secure Access Server Edge",
+    "itemlink": "https://en.wikipedia.org/wiki/Secure_access_service_edge",
+    "strict": true
+  },
+  {
+    "itemkey": "SC",
+    "itemvalue": "Subscriber Connector (Fiber Optic)",
+    "itemlink": "https://en.wikipedia.org/wiki/Optical_fiber_connector",
+    "strict": true
+  },
+  {
+    "itemkey": "SCADA",
+    "itemvalue": "Supervisory Control And Data Acquisition",
+    "itemlink": "https://en.wikipedia.org/wiki/SCADA",
+    "strict": true
+  },
+  {
+    "itemkey": "SDN",
+    "itemvalue": "Software-Defined Networking",
+    "itemlink": "https://en.wikipedia.org/wiki/Software-defined_networking",
+    "strict": true
+  },
+  {
+    "itemkey": "SD-WAN",
+    "itemvalue": "Software-Defined Wide Area Network",
+    "itemlink": "https://en.wikipedia.org/wiki/SD-WAN",
+    "strict": true
+  },
+  {
+    "itemkey": "SFP",
+    "itemvalue": "Small Form-factor Pluggable",
+    "itemlink": "https://en.wikipedia.org/wiki/Small_Form-factor_Pluggable",
+    "strict": true
+  },
+  {
+    "itemkey": "SFTP",
+    "itemvalue": "SSH File Transfer Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "SIP",
+    "itemvalue": "Session Initiation Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Session_Initiation_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "SIEM",
+    "itemvalue": "Security Information and Event Management",
+    "itemlink": "https://en.wikipedia.org/wiki/Security_information_and_event_management",
+    "strict": true
+  },
+  {
+    "itemkey": "SLA",
+    "itemvalue": "Service-level Agreement",
+    "itemlink": "https://en.wikipedia.org/wiki/Service-level_agreement",
+    "strict": true
+  },
+  {
+    "itemkey": "SLAAC",
+    "itemvalue": "Stateless Address Autoconfiguration",
+    "itemlink": "https://en.wikipedia.org/wiki/IPv6_address#Stateless_address_autoconfiguration_(SLAAC)",
+    "strict": true
+  },
+  {
+    "itemkey": "SMB",
+    "itemvalue": "Server Message Block",
+    "itemlink": "https://en.wikipedia.org/wiki/Server_Message_Block",
+    "strict": true
+  },
+  {
+    "itemkey": "SMTP",
+    "itemvalue": "Simple Mail Transfer Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "SMTPS",
+    "itemvalue": "Simple Mail Transfer Protocol Secure",
+    "itemlink": "https://en.wikipedia.org/wiki/SMTPS",
+    "strict": true
+  },
+  {
+    "itemkey": "SNMP",
+    "itemvalue": "Simple Network Management Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "SOA",
+    "itemvalue": "Start of Authority (DNS)",
+    "itemlink": "https://en.wikipedia.org/wiki/SOA_record",
+    "strict": true
+  },
+  {
+    "itemkey": "SQL",
+    "itemvalue": "Structured Query Language",
+    "itemlink": "https://en.wikipedia.org/wiki/SQL",
+    "strict": true
+  },
+  {
+    "itemkey": "SSE",
+    "itemvalue": "Security Service Edge",
+    "itemlink": "https://en.wikipedia.org/wiki/Secure_access_service_edge",
+    "strict": true
+  },
+  {
+    "itemkey": "SSH",
+    "itemvalue": "Secure Shell",
+    "itemlink": "https://en.wikipedia.org/wiki/Secure_Shell",
+    "strict": true
+  },
+  {
+    "itemkey": "SSID",
+    "itemvalue": "Service Set Identifier",
+    "itemlink": "https://en.wikipedia.org/wiki/Service_set_(802.11_network)#Service_set_identifier",
+    "strict": true
+  },
+  {
+    "itemkey": "SSL",
+    "itemvalue": "Secure Sockets Layer",
+    "itemlink": "https://en.wikipedia.org/wiki/Transport_Layer_Security#SSL_1.0,_2.0,_and_3.0",
+    "strict": true
+  },
+  {
+    "itemkey": "SSO",
+    "itemvalue": "Single Sign-On",
+    "itemlink": "https://en.wikipedia.org/wiki/Single_sign-on",
+    "strict": true
+  },
+  {
+    "itemkey": "ST",
+    "itemvalue": "Straight Tip (Fiber Optic)",
+    "itemlink": "https://en.wikipedia.org/wiki/Optical_fiber_connector",
+    "strict": true
+  },
+  {
+    "itemkey": "STP",
+    "itemvalue": "Shielded Twisted Pair",
+    "itemlink": "https://en.wikipedia.org/wiki/Twisted_pair",
+    "strict": true
+  },
+  {
+    "itemkey": "STP",
+    "itemvalue": "Spanning Tree Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Spanning_Tree_Protocol",
+    "strict": false
+  },
+  {
+    "itemkey": "SVI",
+    "itemvalue": "Switch Virtual Interface",
+    "itemlink": "https://en.wikipedia.org/wiki/Switch_virtual_interface",
+    "strict": true
+  },
+  {
+    "itemkey": "TACACS+",
+    "itemvalue": "Terminal Access Controller Access Control System Plus",
+    "itemlink": "https://en.wikipedia.org/wiki/TACACS",
+    "strict": true
+  },
+  {
+    "itemkey": "TCP",
+    "itemvalue": "Transmission Control Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Transmission_Control_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "TFTP",
+    "itemvalue": "Trivial File Transfer Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "TLS",
+    "itemvalue": "Transport Layer Security",
+    "itemlink": "https://en.wikipedia.org/wiki/Transport_Layer_Security",
+    "strict": false
+  },
+  {
+    "itemkey": "TTL",
+    "itemvalue": "Time to Live",
+    "itemlink": "https://en.wikipedia.org/wiki/Time_to_live",
+    "strict": true
+  },
+  {
+    "itemkey": "TX",
+    "itemvalue": "Transmitter",
+    "itemlink": "https://en.wikipedia.org/wiki/Telecommunications#Basic_elements",
+    "strict": true
+  },
+  {
+    "itemkey": "TXT",
+    "itemvalue": "Text",
+    "itemlink": "https://en.wikipedia.org/wiki/TXT_record",
+    "strict": true
+  },
+  {
+    "itemkey": "UDP",
+    "itemvalue": "User Datagram Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/User_Datagram_Protocol",
+    "strict": true
+  },
+  {
+    "itemkey": "UPS",
+    "itemvalue": "Uninterruptible Power Supply",
+    "itemlink": "https://en.wikipedia.org/wiki/Uninterruptible_power_supply",
+    "strict": true
+  },
+  {
+    "itemkey": "URL",
+    "itemvalue": "Uniform Resource Locator",
+    "itemlink": "https://en.wikipedia.org/wiki/URL",
+    "strict": true
+  },
+  {
+    "itemkey": "USB",
+    "itemvalue": "Universal Serial Bus",
+    "itemlink": "https://en.wikipedia.org/wiki/USB",
+    "strict": true
+  },
+  {
+    "itemkey": "UTM",
+    "itemvalue": "Unified Threat Management",
+    "itemlink": "https://en.wikipedia.org/wiki/Unified_threat_management",
+    "strict": true
+  },
+  {
+    "itemkey": "UTP",
+    "itemvalue": "Unshielded Twisted Pair",
+    "itemlink": "https://en.wikipedia.org/wiki/Twisted_pair#Unshielded_twisted_pair",
+    "strict": true
+  },
+  {
+    "itemkey": "VIP",
+    "itemvalue": "Virtual IP",
+    "itemlink": "https://en.wikipedia.org/wiki/Virtual_IP_address",
+    "strict": true
+  },
+  {
+    "itemkey": "VLAN",
+    "itemvalue": "Virtual LAN",
+    "itemlink": "https://en.wikipedia.org/wiki/VLAN",
+    "strict": true
+  },
+  {
+    "itemkey": "VLSM",
+    "itemvalue": "Variable Length Subnet Mask",
+    "itemlink": "https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#VLSM",
+    "strict": true
+  },
+  {
+    "itemkey": "VNC",
+    "itemvalue": "Virtual Network Computing",
+    "itemlink": "https://en.wikipedia.org/wiki/VNC",
+    "strict": false
+  },
+  {
+    "itemkey": "VoIP",
+    "itemvalue": "Voice over Internet Protocol",
+    "itemlink": "https://en.wikipedia.org/wiki/Voice_over_IP",
+    "strict": true
+  },
+  {
+    "itemkey": "VPC",
+    "itemvalue": "Virtual Private Cloud",
+    "itemlink": "https://en.wikipedia.org/wiki/Virtual_private_cloud",
+    "strict": true
+  },
+  {
+    "itemkey": "VPN",
+    "itemvalue": "Virtual Private Network",
+    "itemlink": "https://en.wikipedia.org/wiki/Virtual_private_network",
+    "strict": true
+  },
+  {
+    "itemkey": "WAN",
+    "itemvalue": "Wide Area Network",
+    "itemlink": "https://en.wikipedia.org/wiki/Wide_area_network",
+    "strict": true
+  },
+  {
+    "itemkey": "WPA",
+    "itemvalue": "Wi-Fi Protected Access (TKIP)",
+    "itemlink": "https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access#WPA",
+    "strict": true
+  },
+  {
+    "itemkey": "WPS",
+    "itemvalue": "Wi-Fi Protected Setup",
+    "itemlink": "https://en.wikipedia.org/wiki/Wi-Fi_Protected_Setup",
+    "strict": true
+  },
+  {
+    "itemkey": "VXLAN",
+    "itemvalue": "Virtual Extensible LAN",
+    "itemlink": "https://en.wikipedia.org/wiki/Virtual_Extensible_LAN",
+    "strict": true
+  },
+  {
+    "itemkey": "ZTA",
+    "itemvalue": "Zero Trust Architecture",
+    "itemlink": "https://en.wikipedia.org/wiki/Zero_trust_architecture",
+    "strict": true
+  }
+]
