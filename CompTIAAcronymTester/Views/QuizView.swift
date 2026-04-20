@@ -12,6 +12,7 @@ import SwiftUI
 struct QuizView: View {
     @EnvironmentObject private var store: QuizStore
     @State private var showingSettings = false
+    @State private var showingJumpTo = false
     @State private var safariURL: IdentifiedURL?
 
     var body: some View {
@@ -21,17 +22,31 @@ struct QuizView: View {
                 .navigationBarTitleDisplayMode(.inline)
                 .toolbar {
                     ToolbarItem(placement: .topBarTrailing) {
-                        Button {
-                            showingSettings = true
-                        } label: {
-                            Image(systemName: "gearshape")
-                                .accessibilityLabel("Settings")
+                        HStack(spacing: 4) {
+                            Button {
+                                showingJumpTo = true
+                            } label: {
+                                Image(systemName: "magnifyingglass")
+                                    .accessibilityLabel("Jump to acronym")
+                            }
+                            .disabled(store.activeItems.isEmpty)
+
+                            Button {
+                                showingSettings = true
+                            } label: {
+                                Image(systemName: "gearshape")
+                                    .accessibilityLabel("Settings")
+                            }
                         }
                     }
                 }
         }
         .sheet(isPresented: $showingSettings) {
             SettingsView()
+                .environmentObject(store)
+        }
+        .sheet(isPresented: $showingJumpTo) {
+            JumpToView()
                 .environmentObject(store)
         }
         .sheet(item: $safariURL) { identified in

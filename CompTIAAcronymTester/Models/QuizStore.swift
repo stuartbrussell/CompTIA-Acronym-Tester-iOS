@@ -217,6 +217,16 @@ final class QuizStore: ObservableObject {
         results.indices.contains(currentIndex) ? results[currentIndex] : .untested
     }
 
+    /// Jump directly to a specific card by its index in `activeItems`.
+    /// Resets the revealed state; preserves existing correctness marks.
+    func jumpTo(index: Int) {
+        guard activeItems.indices.contains(index) else { return }
+        currentIndex = index
+        revealed = false
+        // Turn off review mode so the user can freely navigate from this card.
+        if reviewMode { reviewMode = false }
+    }
+
     func resetScore() {
         results = Array(repeating: .untested, count: activeItems.count)
         currentIndex = 0
