@@ -92,7 +92,7 @@ NIC,Network Interface Card,https://en.wikipedia.org/wiki/Network_interface_contr
 NS,Name Server,https://en.wikipedia.org/wiki/Name_server,true
 NTP,Network Time Protocol,https://en.wikipedia.org/wiki/Network_Time_Protocol,true
 NTS,Network Time Security,https://en.wikipedia.org/wiki/Network_Time_Protocol#Secure_extensions,true
-OID,Object Identifier,,false
+OID,Object Identifier,https://en.wikipedia.org/wiki/Object_identifier,false
 OS,Operating System,https://en.wikipedia.org/wiki/Operating_system,true
 OSPF,Open Shortest Path First,https://en.wikipedia.org/wiki/Open_Shortest_Path_First,true
 OSI,Open Systems Interconnection,https://en.wikipedia.org/wiki/OSI_model,true
