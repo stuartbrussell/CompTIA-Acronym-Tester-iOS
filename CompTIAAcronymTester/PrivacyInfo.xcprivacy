@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <!--
+        NSPrivacyTracking
+        This app does NOT track users across apps or websites owned by
+        other companies for advertising or analytics purposes.
+    -->
+    <key>NSPrivacyTracking</key>
+    <false/>
+
+    <!--
+        NSPrivacyTrackingDomains
+        No tracking domains because tracking is false.
+    -->
+    <key>NSPrivacyTrackingDomains</key>
+    <array/>
+
+    <!--
+        NSPrivacyCollectedDataTypes
+        This app collects no data from the user.
+    -->
+    <key>NSPrivacyCollectedDataTypes</key>
+    <array/>
+
+    <!--
+        NSPrivacyAccessedAPITypes — Required Reasons
+        This app uses NSUserDefaults (UserDefaults) to persist quiz
+        settings and per-list progress entirely on the user's own device.
+        No data is shared with the developer or any third party.
+
+        Reason CA92.1: Access user defaults to read and write information
+        that is only accessible to this app itself.
+    -->
+    <key>NSPrivacyAccessedAPITypes</key>
+    <array>
+        <dict>
+            <key>NSPrivacyAccessedAPIType</key>
+            <string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key>
+            <array>
+                <string>CA92.1</string>
+            </array>
+        </dict>
+    </array>
+
+</dict>
+</plist>
