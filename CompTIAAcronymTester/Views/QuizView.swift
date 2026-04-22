@@ -49,7 +49,7 @@ struct QuizView: View {
             JumpToView()
                 .environmentObject(store)
         }
-        .sheet(item: $safariURL) { identified in
+        .fullScreenCover(item: $safariURL) { identified in
             SafariView(url: identified.url)
                 .ignoresSafeArea()
         }
