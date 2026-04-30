@@ -20,5 +20,8 @@ struct AcronymList: Identifiable, Hashable {
         .init(id: "ports",
               displayName: "Network Ports",
               resourceName: "NetworkPorts"),
+        .init(id: "test",
+              displayName: "Test",
+              resourceName: "test"),
     ]
 }

@@ -1,0 +1,38 @@
+[
+  {
+    "itemkey": "JBOD",
+    "itemvalue": "Just A Bunch Of Disks (i.e. not RAID)",
+    "itemlink": "https://en.wikipedia.org/wiki/Non-RAID_drive_architectures#JBOD",
+    "strict": false
+  },
+  {
+    "itemkey": "Kb",
+    "itemvalue": "Kilobit",
+    "itemlink": "https://en.wikipedia.org/wiki/Kilobit",
+    "strict": false
+  },
+  {
+    "itemkey": "KB",
+    "itemvalue": "Kilobyte",
+    "itemlink": "https://en.wikipedia.org/wiki/Kilobyte",
+    "strict": false
+  },
+  {
+    "itemkey": "KB",
+    "itemvalue": "Knowledge Base",
+    "itemlink": "https://en.wikipedia.org/wiki/Knowledge_base",
+    "strict": true
+  },
+  {
+    "itemkey": "Kbps",
+    "itemvalue": "Kilobits per second",
+    "itemlink": "https://en.wikipedia.org/wiki/Data-rate_units#Kilobit_per_second",
+    "strict": false
+  },
+  {
+    "itemkey": "Kb",
+    "itemvalue": "Kilobit",
+    "itemlink": "https://en.wikipedia.org/wiki/Kilobit",
+    "strict": false
+  }
+]
