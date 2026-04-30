@@ -332,6 +332,75 @@ final class QuizStore: ObservableObject {
         URL.documentsDirectory.appendingPathComponent("session.json")
     }
 
+    // MARK: - Debug helpers
+
+#if DEBUG
+    /// Loads all rows from the currently selected lists (no strict or length
+    /// filtering) and prints three duplicate reports to the Xcode console:
+    ///   1. Rows sharing the same itemKey (case-insensitive)
+    ///   2. Rows sharing the same itemValue (case-insensitive)
+    ///   3. Rows sharing the same itemLink (case-insensitive)
+    /// Each printed entry includes the source JSON filename.
+    func printDuplicates() {
+        // Pair every row with its source filename.
+        struct Tagged {
+            let row: RawAcronymRow
+            let source: String      // e.g. "APlus.json"
+        }
+
+        let lists = AcronymList.all.filter { enabledListIDs.contains($0.id) }
+        var tagged: [Tagged] = []
+        for list in lists {
+            for row in JSONLoader.loadRows(resourceName: list.resourceName) {
+                tagged.append(Tagged(row: row, source: "\(list.resourceName).json"))
+            }
+        }
+
+        // Generic helper: group by a string key, print groups with > 1 entry.
+        func report(title: String,
+                    groupKey: (Tagged) -> String,
+                    describe: (Tagged) -> String) {
+            var groups: [String: [Tagged]] = [:]
+            for item in tagged {
+                groups[groupKey(item).lowercased(), default: []].append(item)
+            }
+            let dupes = groups
+                .filter { $0.value.count > 1 }
+                .sorted { $0.key < $1.key }
+
+            print("\n=== Duplicate \(title) — \(dupes.isEmpty ? "none found" : "\(dupes.count) group(s)") ===")
+            for (_, items) in dupes {
+                let bySource = items.sorted { $0.source < $1.source }
+                for item in bySource {
+                    print("  \(describe(item))  [\(item.source)]")
+                }
+                print("")
+            }
+        }
+
+        // 1. Duplicate itemKey
+        report(
+            title: "itemKey",
+            groupKey: { $0.row.key },
+            describe: { "\($0.row.key): \($0.row.value)" }
+        )
+
+        // 2. Duplicate itemValue
+        report(
+            title: "itemValue",
+            groupKey: { $0.row.value },
+            describe: { "\($0.row.value)  (key: \($0.row.key))" }
+        )
+
+        // 3. Duplicate itemLink
+        report(
+            title: "itemLink",
+            groupKey: { $0.row.link },
+            describe: { "\($0.row.link)  (key: \($0.row.key))" }
+        )
+    }
+#endif
+
     // MARK: - Review mode helpers
 
     private func jumpToFirstReviewItemIfNeeded() {

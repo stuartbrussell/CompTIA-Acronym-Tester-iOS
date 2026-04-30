@@ -14,6 +14,9 @@ struct SettingsView: View {
                 reviewSection
                 resetSection
                 aboutSection
+                #if DEBUG
+                debugSection
+                #endif
             }
             .navigationTitle("Settings")
             .navigationBarTitleDisplayMode(.inline)
@@ -127,6 +130,24 @@ struct SettingsView: View {
             Text("Current session")
         }
     }
+
+    // MARK: - Debug
+
+#if DEBUG
+    private var debugSection: some View {
+        Section {
+            Button {
+                store.printDuplicates()
+            } label: {
+                Label("Print Duplicates to Console", systemImage: "doc.text.magnifyingglass")
+            }
+        } header: {
+            Text("Debug")
+        } footer: {
+            Text("Loads all rows from selected lists and prints entries that share a key (case-insensitive) to the Xcode console.")
+        }
+    }
+#endif
 }
 
 #Preview {
