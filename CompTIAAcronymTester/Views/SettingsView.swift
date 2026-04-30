@@ -10,6 +10,7 @@ struct SettingsView: View {
             Form {
                 listsSection
                 filtersSection
+                sessionSection
                 reviewSection
                 resetSection
                 aboutSection
@@ -72,6 +73,18 @@ struct SettingsView: View {
         n == 0 ? "All lengths" : "\(n) characters"
     }
 
+    // MARK: - Session restore
+
+    private var sessionSection: some View {
+        Section {
+            Toggle("Resume where I left off", isOn: $store.sessionRestoreEnabled)
+        } header: {
+            Text("Session")
+        } footer: {
+            Text("Saves your progress when you leave the app. On relaunch, acronyms you've already tested stay behind you and untested ones are ahead, freshly shuffled.")
+        }
+    }
+
     // MARK: - Review mode
 
     private var reviewSection: some View {
@@ -92,7 +105,7 @@ struct SettingsView: View {
     private var resetSection: some View {
         Section {
             Button {
-                store.reload()
+                store.reshuffleAndReset()
             } label: {
                 Label("Reshuffle & Reset Score", systemImage: "shuffle")
             }

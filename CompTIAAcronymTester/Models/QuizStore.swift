@@ -54,6 +54,18 @@ final class QuizStore: ObservableObject {
         }
     }
 
+    /// When enabled, tested acronyms and their marks are persisted across
+    /// launches. On relaunch the deck is reconstructed with tested items
+    /// behind the current position and untested items (freshly shuffled) ahead.
+    @Published var sessionRestoreEnabled: Bool {
+        didSet {
+            Defaults.sessionRestoreEnabled = sessionRestoreEnabled
+            if !sessionRestoreEnabled {
+                clearSavedSession()
+            }
+        }
+    }
+
     // MARK: - Published state
 
     /// All acronyms from the enabled lists, after strict filter and duplicate merge.
@@ -95,6 +107,7 @@ final class QuizStore: ObservableObject {
         self.strictMode = Defaults.strictMode
         self.lengthFilter = Defaults.lengthFilter
         self.reviewMode = Defaults.reviewMode
+        self.sessionRestoreEnabled = Defaults.sessionRestoreEnabled
         reload()
     }
 
@@ -128,6 +141,13 @@ final class QuizStore: ObservableObject {
         }
     }
 
+    /// Clear saved session and reload from scratch. Use this for an explicit
+    /// "start over" action so the restored state is not re-applied.
+    func reshuffleAndReset() {
+        clearSavedSession()
+        reload()
+    }
+
     /// Merge rows that share the same key (case-insensitive) into a single
     /// `Acronym` with all distinct values/links stacked.
     private static func mergeDuplicates(_ rows: [RawAcronymRow]) -> [Acronym] {
@@ -155,7 +175,8 @@ final class QuizStore: ObservableObject {
         return out
     }
 
-    /// Rebuild `activeItems` from `allItems` honoring the current length filter.
+    /// Rebuild `activeItems` from `allItems` honoring the current length filter,
+    /// then overlay any saved session progress on top.
     private func applyLengthFilter() {
         if lengthFilter == 0 {
             activeItems = allItems
@@ -165,6 +186,9 @@ final class QuizStore: ObservableObject {
         results = Array(repeating: .untested, count: activeItems.count)
         currentIndex = 0
         revealed = false
+
+        // Overlay saved session progress (no-op if disabled or nothing saved).
+        restoreSessionIfNeeded()
 
         // If review mode is on but no incorrect exists yet, turn it off so
         // the user can actually see items.
@@ -208,6 +232,7 @@ final class QuizStore: ObservableObject {
     func mark(_ result: Result) {
         guard results.indices.contains(currentIndex) else { return }
         results[currentIndex] = result
+        saveSession()
         if reviewMode && !hasAnyIncorrect {
             reviewMode = false
         }
@@ -228,10 +253,85 @@ final class QuizStore: ObservableObject {
     }
 
     func resetScore() {
+        clearSavedSession()
         results = Array(repeating: .untested, count: activeItems.count)
         currentIndex = 0
         revealed = false
         if reviewMode { reviewMode = false }
+    }
+
+    // MARK: - Session persistence
+
+    /// Persist the ordered list of tested acronyms and their results as JSON
+    /// in the app's Documents directory. Only tested items are saved; untested
+    /// items are shuffled fresh on restore.
+    private func saveSession() {
+        guard sessionRestoreEnabled else { return }
+        var entries: [SessionEntry] = []
+        for (i, item) in activeItems.enumerated() {
+            let r = results[i]
+            guard r != .untested else { continue }
+            entries.append(SessionEntry(k: item.key, r: r == .correct ? 1 : 2))
+        }
+        do {
+            if entries.isEmpty {
+                clearSavedSession()
+            } else {
+                let data = try JSONEncoder().encode(entries)
+                try data.write(to: Self.sessionFileURL, options: .atomic)
+            }
+        } catch {
+            // Non-fatal: session simply won't be restored next launch.
+            print("QuizStore: failed to save session — \(error)")
+        }
+    }
+
+    /// Reconstruct deck order from the saved session JSON file.
+    ///
+    /// Tested items (in the order the user worked through them) are placed
+    /// before `currentIndex`; untested items are shuffled and placed after.
+    /// Items in the saved session that no longer exist in `activeItems`
+    /// (e.g. because a list was disabled) are silently dropped.
+    private func restoreSessionIfNeeded() {
+        guard sessionRestoreEnabled else { return }
+        guard let data = try? Data(contentsOf: Self.sessionFileURL),
+              let entries = try? JSONDecoder().decode([SessionEntry].self, from: data),
+              !entries.isEmpty else { return }
+
+        // Look up acronyms by key for fast access.
+        let itemByKey = Dictionary(uniqueKeysWithValues: activeItems.map { ($0.key, $0) })
+
+        // Tested items — in saved order, skipping any no longer in the active set.
+        var testedItems:   [Acronym] = []
+        var testedResults: [Result]  = []
+        for entry in entries {
+            guard let item = itemByKey[entry.k] else { continue }
+            testedItems.append(item)
+            testedResults.append(entry.r == 1 ? .correct : .incorrect)
+        }
+
+        guard !testedItems.isEmpty else { return }
+
+        // Untested items — everything not in the saved set, shuffled fresh.
+        let testedKeys    = Set(entries.map(\.k))
+        let untestedItems = activeItems.filter { !testedKeys.contains($0.key) }.shuffled()
+
+        // Reconstruct deck: tested first, then untested.
+        activeItems = testedItems + untestedItems
+        results     = testedResults + Array(repeating: .untested, count: untestedItems.count)
+
+        // Land on the first untested item (or wrap to 0 if everything is tested).
+        currentIndex = testedItems.count < activeItems.count ? testedItems.count : 0
+        revealed = false
+    }
+
+    private func clearSavedSession() {
+        try? FileManager.default.removeItem(at: Self.sessionFileURL)
+    }
+
+    /// Location of the session file in the app's Documents directory.
+    private static var sessionFileURL: URL {
+        URL.documentsDirectory.appendingPathComponent("session.json")
     }
 
     // MARK: - Review mode helpers
@@ -271,16 +371,27 @@ final class QuizStore: ObservableObject {
     }
 }
 
+// MARK: - Session file entry
+
+/// One tested-acronym record written to `session.json`.
+private struct SessionEntry: Codable {
+    /// The acronym key, e.g. "TCP".
+    let k: String
+    /// Result: 1 = correct, 2 = incorrect.
+    let r: Int
+}
+
 // MARK: - UserDefaults-backed settings
 
 private enum Defaults {
     private static let defaults = UserDefaults.standard
 
     private enum Keys {
-        static let enabledListIDs = "enabledListIDs"
-        static let strictMode = "strictMode"
-        static let lengthFilter = "lengthFilter"
-        static let reviewMode = "reviewMode"
+        static let enabledListIDs        = "enabledListIDs"
+        static let strictMode            = "strictMode"
+        static let lengthFilter          = "lengthFilter"
+        static let reviewMode            = "reviewMode"
+        static let sessionRestoreEnabled = "sessionRestoreEnabled"
     }
 
     static var enabledListIDs: Set<String>? {
@@ -313,4 +424,11 @@ private enum Defaults {
         get { defaults.bool(forKey: Keys.reviewMode) }
         set { defaults.set(newValue, forKey: Keys.reviewMode) }
     }
+
+    /// Defaults to `true` for new installs (feature is on by default).
+    static var sessionRestoreEnabled: Bool {
+        get { defaults.object(forKey: Keys.sessionRestoreEnabled) as? Bool ?? true }
+        set { defaults.set(newValue, forKey: Keys.sessionRestoreEnabled) }
+    }
+
 }
