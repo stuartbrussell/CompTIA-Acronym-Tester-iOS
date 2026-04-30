@@ -336,18 +336,25 @@ final class QuizStore: ObservableObject {
 
 #if DEBUG
     /// Loads all rows from the currently selected lists (no strict or length
-    /// filtering) and prints three duplicate reports to the Xcode console:
-    ///   1. Rows sharing the same itemKey (case-insensitive)
-    ///   2. Rows sharing the same itemValue (case-insensitive)
-    ///   3. Rows sharing the same itemLink (case-insensitive)
-    /// Each printed entry includes the source JSON filename.
+    /// filtering) and prints three focused duplicate reports to the Xcode console.
+    ///
+    /// **Section 1 — duplicate itemKey:** prints every entry in the group plus
+    /// its source file. itemValue and itemLink are suppressed when all entries
+    /// in the group share the same value/link respectively.
+    ///
+    /// **Section 2 — duplicate itemValue:** only prints groups where itemKey
+    /// or itemLink differs across entries (skips purely redundant cross-file copies).
+    ///
+    /// **Section 3 — duplicate itemLink:** only prints groups where itemKey
+    /// or itemValue differs across entries.
     func printDuplicates() {
-        // Pair every row with its source filename.
+
         struct Tagged {
             let row: RawAcronymRow
             let source: String      // e.g. "APlus.json"
         }
 
+        // Load all rows from selected lists, tagged with their source filename.
         let lists = AcronymList.all.filter { enabledListIDs.contains($0.id) }
         var tagged: [Tagged] = []
         for list in lists {
@@ -356,48 +363,67 @@ final class QuizStore: ObservableObject {
             }
         }
 
-        // Generic helper: group by a string key, print groups with > 1 entry.
-        func report(title: String,
-                    groupKey: (Tagged) -> String,
-                    describe: (Tagged) -> String) {
-            var groups: [String: [Tagged]] = [:]
-            for item in tagged {
-                groups[groupKey(item).lowercased(), default: []].append(item)
-            }
-            let dupes = groups
-                .filter { $0.value.count > 1 }
-                .sorted { $0.key < $1.key }
-
-            print("\n=== Duplicate \(title) — \(dupes.isEmpty ? "none found" : "\(dupes.count) group(s)") ===")
-            for (_, items) in dupes {
-                let bySource = items.sorted { $0.source < $1.source }
-                for item in bySource {
-                    print("  \(describe(item))  [\(item.source)]")
-                }
-                print("")
-            }
+        // Returns groups of ≥2 entries sharing the same lowercased key,
+        // sorted by that key.
+        func groups(by key: (Tagged) -> String) -> [[Tagged]] {
+            var map: [String: [Tagged]] = [:]
+            for item in tagged { map[key(item).lowercased(), default: []].append(item) }
+            return map.filter { $0.value.count > 1 }.sorted { $0.key < $1.key }.map(\.value)
         }
 
-        // 1. Duplicate itemKey
-        report(
-            title: "itemKey",
-            groupKey: { $0.row.key },
-            describe: { "\($0.row.key): \($0.row.value)" }
-        )
+        // Convenience: number of distinct values for a field across a group.
+        func distinct(_ items: [Tagged], _ field: (Tagged) -> String) -> Int {
+            Set(items.map { field($0) }).count
+        }
 
-        // 2. Duplicate itemValue
-        report(
-            title: "itemValue",
-            groupKey: { $0.row.value },
-            describe: { "\($0.row.value)  (key: \($0.row.key))" }
-        )
+        // ── Section 1: duplicate itemKey ─────────────────────────────────────
+        let keyGroups = groups { $0.row.key }
+        print("\n=== Duplicate itemKey — \(keyGroups.isEmpty ? "none" : "\(keyGroups.count) group(s)") ===")
+        for items in keyGroups {
+            let showValue = distinct(items, { $0.row.value }) > 1
+            let showLink  = distinct(items, { $0.row.link  }) > 1
+            for item in items.sorted(by: { $0.source < $1.source }) {
+                var line = item.row.key
+                if showValue { line += ": \(item.row.value)" }
+                if showLink  { line += "  \(item.row.link)" }
+                print("  \(line)  [\(item.source)]")
+            }
+            print("")
+        }
 
-        // 3. Duplicate itemLink
-        report(
-            title: "itemLink",
-            groupKey: { $0.row.link },
-            describe: { "\($0.row.link)  (key: \($0.row.key))" }
-        )
+        // ── Section 2: duplicate itemValue, only when key or link differs ────
+        let valueGroups = groups { $0.row.value }
+            .filter { distinct($0, { $0.row.key  }) > 1
+                   || distinct($0, { $0.row.link }) > 1 }
+        print("\n=== Duplicate itemValue (key or link differs) — \(valueGroups.isEmpty ? "none" : "\(valueGroups.count) group(s)") ===")
+        for items in valueGroups {
+            let showKey  = distinct(items, { $0.row.key  }) > 1
+            let showLink = distinct(items, { $0.row.link }) > 1
+            for item in items.sorted(by: { $0.source < $1.source }) {
+                var line = item.row.value
+                if showKey  { line += "  (key: \(item.row.key))" }
+                if showLink { line += "  \(item.row.link)" }
+                print("  \(line)  [\(item.source)]")
+            }
+            print("")
+        }
+
+        // ── Section 3: duplicate itemLink, only when key or value differs ────
+        let linkGroups = groups { $0.row.link }
+            .filter { distinct($0, { $0.row.key   }) > 1
+                   || distinct($0, { $0.row.value }) > 1 }
+        print("\n=== Duplicate itemLink (key or value differs) — \(linkGroups.isEmpty ? "none" : "\(linkGroups.count) group(s)") ===")
+        for items in linkGroups {
+            let showKey   = distinct(items, { $0.row.key   }) > 1
+            let showValue = distinct(items, { $0.row.value }) > 1
+            for item in items.sorted(by: { $0.source < $1.source }) {
+                var line = item.row.link
+                if showKey   { line += "  (key: \(item.row.key))" }
+                if showValue { line += "  \(item.row.value)" }
+                print("  \(line)  [\(item.source)]")
+            }
+            print("")
+        }
     }
 #endif
 
