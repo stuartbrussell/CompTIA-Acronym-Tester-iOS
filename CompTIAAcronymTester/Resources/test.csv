@@ -1,7 +1,0 @@
-itemkey,itemvalue,itemlink,strict
-JBOD,Just A Bunch Of Disks (i.e. not RAID),https://en.wikipedia.org/wiki/Non-RAID_drive_architectures#JBOD,false
-Kb,Kilobit,https://en.wikipedia.org/wiki/Kilobit,false
-KB,Kilobyte,https://en.wikipedia.org/wiki/Kilobyte,false
-KB,Knowledge Base,https://en.wikipedia.org/wiki/Knowledge_base,true
-Kbps,Kilobits per second,https://en.wikipedia.org/wiki/Data-rate_units#Kilobit_per_second,false
-Kb,Kilobit,https://en.wikipedia.org/wiki/Kilobit,false
