@@ -151,18 +151,16 @@ final class QuizStore: ObservableObject {
     /// Merge rows that share the same key (case-insensitive) into a single
     /// `Acronym` with all distinct values/links stacked.
     private static func mergeDuplicates(_ rows: [RawAcronymRow]) -> [Acronym] {
-        // Sort by key (case-insensitive) so duplicates are adjacent.
+        // Sort by exact key so same-cased duplicates are adjacent.
+        // Case matters: "KB" (kilobyte) and "Kb" (kilobit) are distinct entries.
         let sorted = rows.sorted {
-            let a = $0.key.lowercased()
-            let b = $1.key.lowercased()
-            if a != b { return a < b }
+            if $0.key != $1.key { return $0.key < $1.key }
             return $0.value.lowercased() < $1.value.lowercased()
         }
 
         var out: [Acronym] = []
         for row in sorted {
-            if var last = out.last,
-               last.key.caseInsensitiveCompare(row.key) == .orderedSame {
+            if var last = out.last, last.key == row.key {
                 if !last.values.contains(row.value) {
                     last.values.append(row.value)
                     last.links.append(row.link)
