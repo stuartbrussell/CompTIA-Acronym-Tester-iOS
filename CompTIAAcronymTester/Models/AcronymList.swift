@@ -10,20 +10,23 @@ struct AcronymList: Identifiable, Hashable {
     let displayName: String   // shown in Settings
     let resourceName: String  // filename in the app bundle, without .json
 
-    static let all: [AcronymList] = [
-        .init(id: "aplus",
-              displayName: "CompTIA A+ (220-1101/1102)",
-              resourceName: "APlus"),
-        .init(id: "netplus",
-              displayName: "CompTIA Network+ (N10-009)",
-              resourceName: "NetworkPlus"),
-        .init(id: "ports",
-              displayName: "Network Ports",
-              resourceName: "NetworkPorts"),
+    static var all: [AcronymList] {
+        var lists: [AcronymList] = [
+            .init(id: "aplus",
+                  displayName: "CompTIA A+ (220-1101/1102)",
+                  resourceName: "APlus"),
+            .init(id: "netplus",
+                  displayName: "CompTIA Network+ (N10-009)",
+                  resourceName: "NetworkPlus"),
+            .init(id: "ports",
+                  displayName: "Network Ports",
+                  resourceName: "NetworkPorts"),
+        ]
         #if DEBUG
-        .init(id: "test",
-              displayName: "Test",
-              resourceName: "test"),
+        lists.append(.init(id: "test",
+                           displayName: "Test",
+                           resourceName: "test"))
         #endif
-    ]
+        return lists
+    }
 }
