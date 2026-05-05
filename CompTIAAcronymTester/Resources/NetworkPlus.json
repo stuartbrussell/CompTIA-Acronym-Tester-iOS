@@ -1,7 +1,7 @@
 [
   {
     "itemkey": "A",
-    "itemvalue": "Address",
+    "itemvalue": "Address (DNS)",
     "itemlink": "https://en.wikipedia.org/wiki/List_of_DNS_record_types#Resource_records",
     "strict": true
   },
@@ -505,7 +505,7 @@
   },
   {
     "itemkey": "MX",
-    "itemvalue": "Mail Exchange",
+    "itemvalue": "Mail Exchange (DNS)",
     "itemlink": "https://en.wikipedia.org/wiki/MX_record",
     "strict": true
   },
@@ -925,7 +925,7 @@
   },
   {
     "itemkey": "TXT",
-    "itemvalue": "Text",
+    "itemvalue": "Text (DNS)",
     "itemlink": "https://en.wikipedia.org/wiki/TXT_record",
     "strict": true
   },
