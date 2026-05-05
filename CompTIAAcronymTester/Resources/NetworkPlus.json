@@ -637,7 +637,7 @@
   },
   {
     "itemkey": "PTR",
-    "itemvalue": "Pointer",
+    "itemvalue": "Pointer (DNS)",
     "itemlink": "https://en.wikipedia.org/wiki/List_of_DNS_record_types#Resource_records",
     "strict": true
   },
