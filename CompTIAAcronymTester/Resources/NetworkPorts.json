@@ -1,332 +1,335 @@
-[
-  {
-    "itemkey": "tcp/20",
-    "itemvalue": "FTP data port",
-    "itemlink": "https://en.wikipedia.org/wiki/File_Transfer_Protocol#Communication_and_data_transfer"
-  },
-  {
-    "itemkey": "tcp/21",
-    "itemvalue": "FTP control port",
-    "itemlink": "https://en.wikipedia.org/wiki/File_Transfer_Protocol#Communication_and_data_transfer"
-  },
-  {
-    "itemkey": "tcp/22",
-    "itemvalue": "SSH port",
-    "itemlink": "https://en.wikipedia.org/wiki/Secure_Shell#Architecture"
-  },
-  {
-    "itemkey": "tcp/23",
-    "itemvalue": "Telnet port",
-    "itemlink": "https://en.wikipedia.org/wiki/Telnet#Description"
-  },
-  {
-    "itemkey": "tcp/25",
-    "itemvalue": "SMTP port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "tcp/udp/49",
-    "itemvalue": "TACACS port",
-    "itemlink": "https://en.wikipedia.org/wiki/TACACS#TACACS"
-  },
-  {
-    "itemkey": "udp/53",
-    "itemvalue": "DNS port",
-    "itemlink": "https://en.wikipedia.org/wiki/Domain_Name_System#Transport_protocols"
-  },
-  {
-    "itemkey": "udp/67",
-    "itemvalue": "DHCP Discover and Request (broadcast) port",
-    "itemlink": "https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol#Operation"
-  },
-  {
-    "itemkey": "udp/68",
-    "itemvalue": "DHCP Offer and Acknowledge (broadcast) port",
-    "itemlink": "https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol#Operation"
-  },
-  {
-    "itemkey": "udp/69",
-    "itemvalue": "TFTP port",
-    "itemlink": "https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol#Overview"
-  },
-  {
-    "itemkey": "tcp/80",
-    "itemvalue": "HTTP port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "tcp/110",
-    "itemvalue": "POP3 port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "udp/123",
-    "itemvalue": "NTP port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "tcp/137",
-    "itemvalue": "NetBIOS name services port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "udp/138",
-    "itemvalue": "NetBIOS datagram services port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "tcp/139",
-    "itemvalue": "NetBIOS session services port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "tcp/143",
-    "itemvalue": "IMAP port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "udp/161",
-    "itemvalue": "SNMP queries port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "udp/162",
-    "itemvalue": "SNMP traps port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "tcp/179",
-    "itemvalue": "BGP port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "tcp/389",
-    "itemvalue": "LDAP port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "tcp/443",
-    "itemvalue": "HTTPS port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "tcp/445",
-    "itemvalue": "SMB port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "udp/514",
-    "itemvalue": "Syslog port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "tcp/587",
-    "itemvalue": "SMTPS (SMTP over TLS) port (prefer 465)",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "tcp/636",
-    "itemvalue": "LDAPS port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "tcp/1433",
-    "itemvalue": "MS-SQL port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
-  },
-  {
-    "itemkey": "tcp/3389",
-    "itemvalue": "RDP (Windows) port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
-  },
-  {
-    "itemkey": "udp/4789",
-    "itemvalue": "VXLAN port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
-  },
-  {
-    "itemkey": "udp/5004",
-    "itemvalue": "VoIP (RTP) port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
-  },
-  {
-    "itemkey": "tcp/5060",
-    "itemvalue": "SIP port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
-  },
-  {
-    "itemkey": "tcp/5061",
-    "itemvalue": "SIP over TLS port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
-  },
-  {
-    "itemkey": "tcp/5900",
-    "itemvalue": "RFB (VNC) port",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
-  },
-  {
-    "itemkey": "BGP port",
-    "itemvalue": "tcp/179",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "DHCP Discover and Request (broadcast) port",
-    "itemvalue": "udp/67",
-    "itemlink": "https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol#Operation"
-  },
-  {
-    "itemkey": "DHCP Offer and Acknowledge (broadcast) port",
-    "itemvalue": "udp/68",
-    "itemlink": "https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol#Operation"
-  },
-  {
-    "itemkey": "DNS port",
-    "itemvalue": "udp/53",
-    "itemlink": "https://en.wikipedia.org/wiki/Domain_Name_System#Transport_protocols"
-  },
-  {
-    "itemkey": "FTP control port",
-    "itemvalue": "tcp/21",
-    "itemlink": "https://en.wikipedia.org/wiki/File_Transfer_Protocol#Communication_and_data_transfer"
-  },
-  {
-    "itemkey": "FTP data port",
-    "itemvalue": "tcp/20",
-    "itemlink": "https://en.wikipedia.org/wiki/File_Transfer_Protocol#Communication_and_data_transfer"
-  },
-  {
-    "itemkey": "HTTP port",
-    "itemvalue": "tcp/80",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "HTTPS port",
-    "itemvalue": "tcp/443",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "IMAP port",
-    "itemvalue": "tcp/143",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "LDAP port",
-    "itemvalue": "tcp/389",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "LDAPS port",
-    "itemvalue": "tcp/636",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "MS-SQL port",
-    "itemvalue": "tcp/1433",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
-  },
-  {
-    "itemkey": "NetBIOS datagram services port",
-    "itemvalue": "tcp/138",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "NetBIOS name services port",
-    "itemvalue": "tcp/137",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "NetBIOS session services port",
-    "itemvalue": "tcp/139",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "NTP port",
-    "itemvalue": "udp/123",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "POP3 port",
-    "itemvalue": "tcp/110",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "RDP (Windows) port",
-    "itemvalue": "tcp/3389",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
-  },
-  {
-    "itemkey": "RFB (VNC) port",
-    "itemvalue": "tcp/5900",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
-  },
-  {
-    "itemkey": "SIP port",
-    "itemvalue": "tcp/5060",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
-  },
-  {
-    "itemkey": "SIP over TLS port",
-    "itemvalue": "tcp/5061",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
-  },
-  {
-    "itemkey": "SMB port",
-    "itemvalue": "tcp/445",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "SMTP port",
-    "itemvalue": "tcp/25",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "SMTPS (SMTP over TLS) port",
-    "itemvalue": "tcp/587",
-    "itemlink": "https://en.wikipedia.org/wiki/SMTPS"
-  },
-  {
-    "itemkey": "SNMP queries port",
-    "itemvalue": "udp/161",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "SNMP traps port",
-    "itemvalue": "udp/162",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "SSH port",
-    "itemvalue": "tcp/22",
-    "itemlink": "https://en.wikipedia.org/wiki/Secure_Shell#Architecture"
-  },
-  {
-    "itemkey": "Syslog port",
-    "itemvalue": "udp/514",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
-  },
-  {
-    "itemkey": "TACACS port",
-    "itemvalue": "tcp/udp/49",
-    "itemlink": "https://en.wikipedia.org/wiki/TACACS#TACACS"
-  },
-  {
-    "itemkey": "Telnet port",
-    "itemvalue": "tcp/23",
-    "itemlink": "https://en.wikipedia.org/wiki/Telnet#Description"
-  },
-  {
-    "itemkey": "TFTP port",
-    "itemvalue": "udp/69",
-    "itemlink": "https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol#Overview"
-  },
-  {
-    "itemkey": "VoIP (RTP) port",
-    "itemvalue": "udp/5004",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
-  },
-  {
-    "itemkey": "VXLAN port",
-    "itemvalue": "udp/4789",
-    "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
-  }
-]
+{
+  "version": 1,
+  "acronyms": [
+    {
+      "itemkey": "tcp/20",
+      "itemvalue": "FTP data port",
+      "itemlink": "https://en.wikipedia.org/wiki/File_Transfer_Protocol#Communication_and_data_transfer"
+    },
+    {
+      "itemkey": "tcp/21",
+      "itemvalue": "FTP control port",
+      "itemlink": "https://en.wikipedia.org/wiki/File_Transfer_Protocol#Communication_and_data_transfer"
+    },
+    {
+      "itemkey": "tcp/22",
+      "itemvalue": "SSH port",
+      "itemlink": "https://en.wikipedia.org/wiki/Secure_Shell#Architecture"
+    },
+    {
+      "itemkey": "tcp/23",
+      "itemvalue": "Telnet port",
+      "itemlink": "https://en.wikipedia.org/wiki/Telnet#Description"
+    },
+    {
+      "itemkey": "tcp/25",
+      "itemvalue": "SMTP port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "tcp/udp/49",
+      "itemvalue": "TACACS port",
+      "itemlink": "https://en.wikipedia.org/wiki/TACACS#TACACS"
+    },
+    {
+      "itemkey": "udp/53",
+      "itemvalue": "DNS port",
+      "itemlink": "https://en.wikipedia.org/wiki/Domain_Name_System#Transport_protocols"
+    },
+    {
+      "itemkey": "udp/67",
+      "itemvalue": "DHCP Discover and Request (broadcast) port",
+      "itemlink": "https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol#Operation"
+    },
+    {
+      "itemkey": "udp/68",
+      "itemvalue": "DHCP Offer and Acknowledge (broadcast) port",
+      "itemlink": "https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol#Operation"
+    },
+    {
+      "itemkey": "udp/69",
+      "itemvalue": "TFTP port",
+      "itemlink": "https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol#Overview"
+    },
+    {
+      "itemkey": "tcp/80",
+      "itemvalue": "HTTP port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "tcp/110",
+      "itemvalue": "POP3 port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "udp/123",
+      "itemvalue": "NTP port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "tcp/137",
+      "itemvalue": "NetBIOS name services port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "udp/138",
+      "itemvalue": "NetBIOS datagram services port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "tcp/139",
+      "itemvalue": "NetBIOS session services port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "tcp/143",
+      "itemvalue": "IMAP port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "udp/161",
+      "itemvalue": "SNMP queries port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "udp/162",
+      "itemvalue": "SNMP traps port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "tcp/179",
+      "itemvalue": "BGP port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "tcp/389",
+      "itemvalue": "LDAP port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "tcp/443",
+      "itemvalue": "HTTPS port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "tcp/445",
+      "itemvalue": "SMB port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "udp/514",
+      "itemvalue": "Syslog port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "tcp/587",
+      "itemvalue": "SMTPS (SMTP over TLS) port (prefer 465)",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "tcp/636",
+      "itemvalue": "LDAPS port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "tcp/1433",
+      "itemvalue": "MS-SQL port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
+    },
+    {
+      "itemkey": "tcp/3389",
+      "itemvalue": "RDP (Windows) port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
+    },
+    {
+      "itemkey": "udp/4789",
+      "itemvalue": "VXLAN port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
+    },
+    {
+      "itemkey": "udp/5004",
+      "itemvalue": "VoIP (RTP) port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
+    },
+    {
+      "itemkey": "tcp/5060",
+      "itemvalue": "SIP port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
+    },
+    {
+      "itemkey": "tcp/5061",
+      "itemvalue": "SIP over TLS port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
+    },
+    {
+      "itemkey": "tcp/5900",
+      "itemvalue": "RFB (VNC) port",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
+    },
+    {
+      "itemkey": "BGP port",
+      "itemvalue": "tcp/179",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "DHCP Discover and Request (broadcast) port",
+      "itemvalue": "udp/67",
+      "itemlink": "https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol#Operation"
+    },
+    {
+      "itemkey": "DHCP Offer and Acknowledge (broadcast) port",
+      "itemvalue": "udp/68",
+      "itemlink": "https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol#Operation"
+    },
+    {
+      "itemkey": "DNS port",
+      "itemvalue": "udp/53",
+      "itemlink": "https://en.wikipedia.org/wiki/Domain_Name_System#Transport_protocols"
+    },
+    {
+      "itemkey": "FTP control port",
+      "itemvalue": "tcp/21",
+      "itemlink": "https://en.wikipedia.org/wiki/File_Transfer_Protocol#Communication_and_data_transfer"
+    },
+    {
+      "itemkey": "FTP data port",
+      "itemvalue": "tcp/20",
+      "itemlink": "https://en.wikipedia.org/wiki/File_Transfer_Protocol#Communication_and_data_transfer"
+    },
+    {
+      "itemkey": "HTTP port",
+      "itemvalue": "tcp/80",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "HTTPS port",
+      "itemvalue": "tcp/443",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "IMAP port",
+      "itemvalue": "tcp/143",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "LDAP port",
+      "itemvalue": "tcp/389",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "LDAPS port",
+      "itemvalue": "tcp/636",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "MS-SQL port",
+      "itemvalue": "tcp/1433",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
+    },
+    {
+      "itemkey": "NetBIOS datagram services port",
+      "itemvalue": "tcp/138",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "NetBIOS name services port",
+      "itemvalue": "tcp/137",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "NetBIOS session services port",
+      "itemvalue": "tcp/139",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "NTP port",
+      "itemvalue": "udp/123",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "POP3 port",
+      "itemvalue": "tcp/110",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "RDP (Windows) port",
+      "itemvalue": "tcp/3389",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
+    },
+    {
+      "itemkey": "RFB (VNC) port",
+      "itemvalue": "tcp/5900",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
+    },
+    {
+      "itemkey": "SIP port",
+      "itemvalue": "tcp/5060",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
+    },
+    {
+      "itemkey": "SIP over TLS port",
+      "itemvalue": "tcp/5061",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
+    },
+    {
+      "itemkey": "SMB port",
+      "itemvalue": "tcp/445",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "SMTP port",
+      "itemvalue": "tcp/25",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "SMTPS (SMTP over TLS) port",
+      "itemvalue": "tcp/587",
+      "itemlink": "https://en.wikipedia.org/wiki/SMTPS"
+    },
+    {
+      "itemkey": "SNMP queries port",
+      "itemvalue": "udp/161",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "SNMP traps port",
+      "itemvalue": "udp/162",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "SSH port",
+      "itemvalue": "tcp/22",
+      "itemlink": "https://en.wikipedia.org/wiki/Secure_Shell#Architecture"
+    },
+    {
+      "itemkey": "Syslog port",
+      "itemvalue": "udp/514",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports"
+    },
+    {
+      "itemkey": "TACACS port",
+      "itemvalue": "tcp/udp/49",
+      "itemlink": "https://en.wikipedia.org/wiki/TACACS#TACACS"
+    },
+    {
+      "itemkey": "Telnet port",
+      "itemvalue": "tcp/23",
+      "itemlink": "https://en.wikipedia.org/wiki/Telnet#Description"
+    },
+    {
+      "itemkey": "TFTP port",
+      "itemvalue": "udp/69",
+      "itemlink": "https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol#Overview"
+    },
+    {
+      "itemkey": "VoIP (RTP) port",
+      "itemvalue": "udp/5004",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
+    },
+    {
+      "itemkey": "VXLAN port",
+      "itemvalue": "udp/4789",
+      "itemlink": "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Registered_ports"
+    }
+  ]
+}

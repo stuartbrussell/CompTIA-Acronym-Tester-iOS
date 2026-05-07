@@ -11,6 +11,7 @@ import SwiftUI
 ///   - Browse button opens Wikipedia in an in-app Safari sheet
 struct QuizView: View {
     @EnvironmentObject private var store: QuizStore
+    @EnvironmentObject private var updateManager: UpdateManager
     @State private var showingSettings = false
     @State private var showingJumpTo = false
     @State private var safariURL: IdentifiedURL?
@@ -52,6 +53,19 @@ struct QuizView: View {
         .fullScreenCover(item: $safariURL) { identified in
             SafariView(url: identified.url)
                 .ignoresSafeArea()
+        }
+        .alert("Acronym Lists Updated", isPresented: $updateManager.updateReady) {
+            Button("Update Now") {
+                updateManager.applyPendingUpdate()
+            }
+            Button("Later", role: .cancel) {
+                updateManager.dismissUpdate()
+            }
+            Button("Skip This Version", role: .destructive) {
+                updateManager.skipUpdate()
+            }
+        } message: {
+            Text(updateManager.updateDescription)
         }
     }
 
@@ -282,4 +296,5 @@ struct IdentifiedURL: Identifiable {
 #Preview {
     QuizView()
         .environmentObject(QuizStore())
+        .environmentObject(UpdateManager())
 }
