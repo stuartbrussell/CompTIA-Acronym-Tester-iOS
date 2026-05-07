@@ -3,8 +3,6 @@ import Network
 import Combine
 
 // MARK: - URL constants
-// Replace PLACEHOLDER_BASE_URL with the real host once the server is set up.
-// Example: "https://raw.githubusercontent.com/you/acronym-data/main"
 private let masterListURL = URL(string: "https://raw.githubusercontent.com/stuartbrussell/CompTIA-Acronym-Tester-iOS/refs/heads/main/CompTIAAcronymTester/Resources/masterList.json")!
 
 // MARK: - UpdateManager
