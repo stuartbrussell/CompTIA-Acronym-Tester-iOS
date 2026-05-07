@@ -3,7 +3,8 @@ import Network
 import Combine
 
 // MARK: - URL constants
-private let masterListURL = URL(string: "https://raw.githubusercontent.com/stuartbrussell/CompTIA-Acronym-Tester-iOS/refs/heads/main/CompTIAAcronymTester/Resources/MasterList.json")!
+private let baseURL = "https://raw.githubusercontent.com/stuartbrussell/CompTIA-Acronym-Tester-iOS/refs/heads/main/CompTIAAcronymTester/Resources"
+private let masterListURL = URL(string: "\(baseURL)/MasterList.json")!
 
 // MARK: - UpdateManager
 
@@ -223,8 +224,8 @@ final class UpdateManager: ObservableObject {
 
     /// Download one acronym file, retrying once on transient failure.
     private func downloadFile(entry: RemoteFileEntry) async throws {
-        guard let url = URL(string: entry.link) else {
-            throw UpdateError.invalidURL(entry.link)
+        guard let url = URL(string: "\(baseURL)/\(entry.resourceName).json") else {
+            throw UpdateError.invalidURL(entry.resourceName)
         }
         var lastError: Error?
         for attempt in 1...2 {

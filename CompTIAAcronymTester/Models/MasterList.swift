@@ -11,7 +11,7 @@ import Foundation
 //       "id":           "aplus",
 //       "displayName":  "CompTIA A+ (220-1101/1102)",
 //       "resourceName": "APlus",
-//       "link":         "https://example.com/acronyms/APlus.json",
+//       "resourceName": "APlus",
 //       "version":      1
 //     },
 //     ...
@@ -40,8 +40,6 @@ struct RemoteFileEntry: Codable, Identifiable, Hashable {
     /// Filename without extension used both as the bundle resource name and
     /// as the filename when written to the Documents directory.
     let resourceName: String
-    /// Absolute HTTPS URL from which the versioned acronym JSON is fetched.
-    let link: String
     /// Data version of this acronym file. Compared against the version
     /// embedded in the file on disk to decide whether a re-download is needed.
     let version: Int
