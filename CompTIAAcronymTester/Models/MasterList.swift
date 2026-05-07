@@ -1,6 +1,6 @@
 import Foundation
 
-// MARK: - masterList.json schema
+// MARK: - MasterList.json schema
 //
 // The bundled seed and any downloaded update both use this shape:
 //
@@ -21,7 +21,7 @@ import Foundation
 // `version` on the root object is the master-list schema version.
 // `version` on each file entry is that individual acronym file's data version.
 
-/// Top-level object decoded from `masterList.json`.
+/// Top-level object decoded from `MasterList.json`.
 struct MasterList: Codable {
     /// Schema/data version of this master list. The app checks this against
     /// the bundled copy to decide whether a download is available.
@@ -30,7 +30,7 @@ struct MasterList: Codable {
     let files: [RemoteFileEntry]
 }
 
-/// One acronym-file descriptor inside `masterList.json`.
+/// One acronym-file descriptor inside `MasterList.json`.
 struct RemoteFileEntry: Codable, Identifiable, Hashable {
     /// Stable identifier — must match the `id` used in UserDefaults
     /// (e.g. "aplus", "netplus", "ports").

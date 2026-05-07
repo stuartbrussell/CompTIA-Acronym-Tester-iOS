@@ -73,10 +73,10 @@ final class UpdateManager: ObservableObject {
     /// already exist there. Must be called synchronously before `QuizStore`
     /// is initialised so that `AcronymList.all` and `JSONLoader` find the files.
     func seedIfNeeded() {
-        seedFile(named: "masterList")
+        seedFile(named: "MasterList")
 
         // Seed individual acronym files listed in the bundled master list.
-        guard let bundleURL = Bundle.main.url(forResource: "masterList", withExtension: "json"),
+        guard let bundleURL = Bundle.main.url(forResource: "MasterList", withExtension: "json"),
               let data = try? Data(contentsOf: bundleURL),
               let master = try? JSONDecoder().decode(MasterList.self, from: data) else {
             return
@@ -113,7 +113,7 @@ final class UpdateManager: ObservableObject {
                 let remoteMaster = try await fetchMasterList()
 
                 // 2. Compare against the current Documents copy.
-                let localMasterURL = URL.documentsDirectory.appendingPathComponent("masterList.json")
+                let localMasterURL = URL.documentsDirectory.appendingPathComponent("MasterList.json")
                 let localVersion = JSONLoader.version(at: localMasterURL) ?? 0
 
                 guard remoteMaster.version > localVersion else { return }
@@ -125,7 +125,7 @@ final class UpdateManager: ObservableObject {
                 try await downloadAll(entries: remoteMaster.files)
 
                 // 5. Stage the master list itself.
-                let stagingMasterURL = Self.stagingURL.appendingPathComponent("masterList.json")
+                let stagingMasterURL = Self.stagingURL.appendingPathComponent("MasterList.json")
                 let masterData = try JSONEncoder().encode(remoteMaster)
                 try masterData.write(to: stagingMasterURL, options: .atomic)
 
