@@ -5,21 +5,21 @@
       "id": "aplus",
       "displayName": "CompTIA A+ (220-1101/1102)",
       "resourceName": "APlus",
-      "link": "https://PLACEHOLDER_BASE_URL/APlus.json",
+      "link": "https://github.com/stuartbrussell/CompTIA-Acronym-Tester-iOS/blob/main/CompTIAAcronymTester/Resources/APlus.json",
       "version": 1
     },
     {
       "id": "netplus",
       "displayName": "CompTIA Network+ (N10-009)",
       "resourceName": "NetworkPlus",
-      "link": "https://PLACEHOLDER_BASE_URL/NetworkPlus.json",
+      "link": "https://github.com/stuartbrussell/CompTIA-Acronym-Tester-iOS/blob/main/CompTIAAcronymTester/Resources/NetworkPlus.json",
       "version": 1
     },
     {
       "id": "ports",
       "displayName": "Network Ports",
       "resourceName": "NetworkPorts",
-      "link": "https://PLACEHOLDER_BASE_URL/NetworkPorts.json",
+      "link": "https://github.com/stuartbrussell/CompTIA-Acronym-Tester-iOS/blob/main/CompTIAAcronymTester/Resources/NetworkPorts.json",
       "version": 1
     }
   ]
