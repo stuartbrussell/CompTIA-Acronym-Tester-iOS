@@ -23,7 +23,7 @@ struct AcronymList: Identifiable, Hashable {
         #if DEBUG
         lists.append(.init(id: "test",
                            displayName: "Test",
-                           resourceName: "test"))
+                           resourceName: "Test"))
         #endif
 
         return lists
