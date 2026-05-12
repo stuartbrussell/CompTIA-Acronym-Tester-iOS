@@ -3,7 +3,8 @@ import Network
 import Combine
 
 // MARK: - URL constants
-private let baseURL = "https://raw.githubusercontent.com/stuartbrussell/CompTIA-Acronym-Tester-iOS/refs/heads/main/CompTIAAcronymTester/Resources"
+// private let baseURL = "https://raw.githubusercontent.com/stuartbrussell/CompTIA-Acronym-Tester-iOS/refs/heads/main/CompTIAAcronymTester/Resources"
+private let baseURL = "https://raw.githubusercontent.com/stuartbrussell/CompTIA-Acronym-Tester-data/refs/heads/main/CompTIAAcronymTester/Resources"
 private let masterListURL = URL(string: "\(baseURL)/MasterList.json")!
 
 // MARK: - UpdateManager
