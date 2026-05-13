@@ -139,6 +139,7 @@ final class UpdateManager: ObservableObject {
                             let localVer = JSONLoader.version(at: localURL) ?? 0
                             return entry.version > localVer
                         }.count
+                    guard newListCount > 0 else { return }
                     self.updateDescription = newListCount == 1
                         ? "1 acronym list has been updated."
                         : "\(newListCount) acronym lists have been updated."
