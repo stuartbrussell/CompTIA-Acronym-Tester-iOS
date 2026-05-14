@@ -140,7 +140,7 @@ struct QuizView: View {
             }
         }
         .onLongPressGesture(minimumDuration: 0.4) {
-            flipCorrectness()
+            store.resetCurrentResult()
         }
         .gesture(swipeGesture)
         .animation(.default, value: store.currentIndex)
@@ -163,15 +163,6 @@ struct QuizView: View {
                     store.previous()
                 }
             }
-    }
-
-    private func flipCorrectness() {
-        switch store.currentResult() {
-        case .correct, .untested:
-            store.mark(.incorrect)
-        case .incorrect:
-            store.mark(.correct)
-        }
     }
 
     // MARK: - Correctness controls
