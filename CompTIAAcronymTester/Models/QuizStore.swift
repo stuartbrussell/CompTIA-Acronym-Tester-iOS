@@ -237,6 +237,8 @@ final class QuizStore: ObservableObject {
         saveSession()
         if reviewMode && !hasAnyIncorrect {
             reviewMode = false
+        } else if !reviewMode && !results.contains(.untested) && hasAnyIncorrect {
+            reviewMode = true
         }
     }
 

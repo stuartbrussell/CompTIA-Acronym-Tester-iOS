@@ -221,8 +221,14 @@ struct QuizView: View {
                 .tint(store.reviewMode ? .blue : .secondary.opacity(0.4))
                 .foregroundStyle(store.reviewMode ? .white : .primary)
                 .disabled(!store.hasAnyIncorrect)
+                .help("Mark at least one acronym incorrect to enable Review Mode")
                 navButton(systemImage: "chevron.right") { store.next() }
             }
+            Text("Mark an acronym incorrect to enable Review Mode")
+                .font(.caption)
+                .foregroundStyle(.secondary)
+                .multilineTextAlignment(.center)
+                .opacity(store.hasAnyIncorrect ? 0 : 1)
 
             Button {
                 openBrowse()
