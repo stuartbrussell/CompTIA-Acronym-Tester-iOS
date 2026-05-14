@@ -225,6 +225,10 @@ final class QuizStore: ObservableObject {
         revealed.toggle()
     }
 
+    func resetCurrentResult() {
+        mark(.untested)
+    }
+
     // MARK: - Marking
 
     func mark(_ result: Result) {

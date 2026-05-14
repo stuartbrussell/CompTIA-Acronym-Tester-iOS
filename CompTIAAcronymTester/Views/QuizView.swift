@@ -6,8 +6,9 @@ import SwiftUI
 ///   - Tap the card           → toggle the expansion (was: space / return)
 ///   - Swipe left on card     → next item                (was: → / ↓)
 ///   - Swipe right on card    → previous item            (was: ← / ↑)
-///   - Long-press the card    → flip correct/incorrect   (was: esc)
-///   - Correct / Incorrect pill buttons below do the same explicitly
+///   - Long-press the card    → reset result to untested (was: esc)
+///   - Correct / Incorrect pill buttons mark the current item explicitly
+///   - Review Mode button toggles review-incorrect-only mode
 ///   - Browse button opens Wikipedia in an in-app Safari sheet
 struct QuizView: View {
     @EnvironmentObject private var store: QuizStore
@@ -210,15 +211,15 @@ struct QuizView: View {
             HStack(spacing: 12) {
                 navButton(systemImage: "chevron.left") { store.previous() }
                 Button {
-                    withAnimation(.easeInOut(duration: 0.15)) {
-                        store.toggleReveal()
-                    }
+                    store.reviewMode.toggle()
                 } label: {
-                    Text(store.revealed ? "Hide" : "Reveal")
+                    Label("Review Mode", systemImage: store.reviewMode ? "checkmark.circle.fill" : "circle")
                         .font(.headline)
                         .frame(maxWidth: .infinity, minHeight: 44)
                 }
-                .buttonStyle(.bordered)
+                .buttonStyle(.borderedProminent)
+                .tint(store.reviewMode ? .blue : .secondary.opacity(0.4))
+                .foregroundStyle(store.reviewMode ? .white : .primary)
                 navButton(systemImage: "chevron.right") { store.next() }
             }
 
