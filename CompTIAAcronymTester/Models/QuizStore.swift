@@ -66,9 +66,6 @@ final class QuizStore: ObservableObject {
         }
     }
 
-    @Published var autoAdvance: Bool {
-        didSet { Defaults.autoAdvance = autoAdvance }
-    }
 
     // MARK: - Published state
 
@@ -112,7 +109,6 @@ final class QuizStore: ObservableObject {
         self.lengthFilter = Defaults.lengthFilter
         self.reviewMode = Defaults.reviewMode
         self.sessionRestoreEnabled = Defaults.sessionRestoreEnabled
-        self.autoAdvance = Defaults.autoAdvance
         reload()
     }
 
@@ -238,19 +234,12 @@ final class QuizStore: ObservableObject {
 
     func mark(_ result: Result) {
         guard results.indices.contains(currentIndex) else { return }
-        let wasUntested  = results[currentIndex] == .untested
-        let wasIncorrect = results[currentIndex] == .incorrect
         results[currentIndex] = result
         saveSession()
         if reviewMode && !hasAnyIncorrect {
             reviewMode = false
         } else if !reviewMode && !results.contains(.untested) && hasAnyIncorrect {
             reviewMode = true
-        }
-        if autoAdvance && (wasUntested && result != .untested || reviewMode && wasIncorrect && result == .correct) {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) { [weak self] in
-                self?.next()
-            }
         }
     }
 
@@ -503,7 +492,6 @@ private enum Defaults {
         static let lengthFilter          = "lengthFilter"
         static let reviewMode            = "reviewMode"
         static let sessionRestoreEnabled = "sessionRestoreEnabled"
-        static let autoAdvance           = "autoAdvance"
     }
 
     static var enabledListIDs: Set<String>? {
@@ -541,12 +529,6 @@ private enum Defaults {
     static var sessionRestoreEnabled: Bool {
         get { defaults.object(forKey: Keys.sessionRestoreEnabled) as? Bool ?? true }
         set { defaults.set(newValue, forKey: Keys.sessionRestoreEnabled) }
-    }
-
-    /// Defaults to `true` for new installs (feature is on by default).
-    static var autoAdvance: Bool {
-        get { defaults.object(forKey: Keys.autoAdvance) as? Bool ?? true }
-        set { defaults.set(newValue, forKey: Keys.autoAdvance) }
     }
 
 }
