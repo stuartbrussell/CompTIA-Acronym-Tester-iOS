@@ -11,7 +11,6 @@ struct SettingsView: View {
                 listsSection
                 filtersSection
                 sessionSection
-                reviewSection
                 resetSection
                 aboutSection
                 #if DEBUG
@@ -85,21 +84,6 @@ struct SettingsView: View {
             Text("Session")
         } footer: {
             Text("Saves your progress when you leave the app. On relaunch, acronyms you've already tested stay behind you and untested ones are ahead, freshly shuffled.")
-        }
-    }
-
-    // MARK: - Review mode
-
-    private var reviewSection: some View {
-        Section {
-            Toggle("Review incorrect only", isOn: $store.reviewMode)
-                .disabled(!store.hasAnyIncorrect)
-        } footer: {
-            if store.hasAnyIncorrect {
-                Text("Navigation skips correct/untested items. Turns off automatically once everything is marked correct.")
-            } else {
-                Text("Available after you mark at least one acronym incorrect.")
-            }
         }
     }
 
