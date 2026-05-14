@@ -80,10 +80,11 @@ struct SettingsView: View {
     private var sessionSection: some View {
         Section {
             Toggle("Resume where I left off", isOn: $store.sessionRestoreEnabled)
+            Toggle("Auto-advance after marking", isOn: $store.autoAdvance)
         } header: {
             Text("Session")
         } footer: {
-            Text("Saves your progress when you leave the app. On relaunch, acronyms you've already tested stay behind you and untested ones are ahead, freshly shuffled.")
+            Text("Resume saves your progress when you leave the app. Auto-advance moves to the next card after marking an untested item correct or incorrect.")
         }
     }
 
