@@ -220,6 +220,7 @@ struct QuizView: View {
                 .buttonStyle(.borderedProminent)
                 .tint(store.reviewMode ? .blue : .secondary.opacity(0.4))
                 .foregroundStyle(store.reviewMode ? .white : .primary)
+                .disabled(!store.hasAnyIncorrect)
                 navButton(systemImage: "chevron.right") { store.next() }
             }
 
