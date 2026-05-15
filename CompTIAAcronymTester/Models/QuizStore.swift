@@ -7,7 +7,7 @@ import Combine
 /// Mirrors the Python app's `AcronymTester` class: loads one or more JSON
 /// files, merges duplicate acronyms, supports strict-mode filtering, length
 /// filtering, shuffling, prev/next navigation, per-item correctness tracking,
-/// review mode (cycle only through incorrect items), and score display.
+/// a result filter (All / Untested / Incorrect), and score display.
 ///
 /// Note: intentionally not marked `@MainActor`. Under Xcode 26's strict
 /// concurrency, `@MainActor` on an `ObservableObject` prevents synthesis of
@@ -20,6 +20,10 @@ final class QuizStore: ObservableObject {
 
     enum Result: Equatable {
         case untested, correct, incorrect
+    }
+
+    enum FilterMode: Int {
+        case all, untested, incorrect
     }
 
     // MARK: - Configuration (persisted in UserDefaults)
@@ -46,11 +50,12 @@ final class QuizStore: ObservableObject {
         }
     }
 
-    /// Review mode: next/prev only visit items marked `.incorrect`.
-    @Published var reviewMode: Bool {
+    /// Limits navigation to items matching the selected result state.
+    /// Falls back to `.all` automatically when the filtered set becomes empty.
+    @Published var filterMode: FilterMode {
         didSet {
-            Defaults.reviewMode = reviewMode
-            jumpToFirstReviewItemIfNeeded()
+            Defaults.filterMode = filterMode
+            jumpToFirstFilteredItemIfNeeded()
         }
     }
 
@@ -107,7 +112,7 @@ final class QuizStore: ObservableObject {
         self.enabledListIDs = Defaults.enabledListIDs ?? Set(AcronymList.all.map(\.id))
         self.strictMode = Defaults.strictMode
         self.lengthFilter = Defaults.lengthFilter
-        self.reviewMode = Defaults.reviewMode
+        self.filterMode = Defaults.filterMode
         self.sessionRestoreEnabled = Defaults.sessionRestoreEnabled
         reload()
     }
@@ -189,10 +194,9 @@ final class QuizStore: ObservableObject {
         // Overlay saved session progress (no-op if disabled or nothing saved).
         restoreSessionIfNeeded()
 
-        // If review mode is on but no incorrect exists yet, turn it off so
-        // the user can actually see items.
-        if reviewMode && !hasAnyIncorrect {
-            reviewMode = false  // this triggers didSet → persists & jumps, no-op here
+        // If the active filter has no matching items, fall back to .all.
+        if filterMode != .all && !results.contains(where: { matchesFilter($0) }) {
+            filterMode = .all
         }
     }
 
@@ -200,8 +204,8 @@ final class QuizStore: ObservableObject {
 
     func next() {
         guard !activeItems.isEmpty else { return }
-        if reviewMode {
-            if let idx = nextIncorrectIndex(after: currentIndex) {
+        if filterMode != .all {
+            if let idx = nextFilteredIndex(after: currentIndex) {
                 currentIndex = idx
             }
         } else {
@@ -212,8 +216,8 @@ final class QuizStore: ObservableObject {
 
     func previous() {
         guard !activeItems.isEmpty else { return }
-        if reviewMode {
-            if let idx = previousIncorrectIndex(before: currentIndex) {
+        if filterMode != .all {
+            if let idx = previousFilteredIndex(before: currentIndex) {
                 currentIndex = idx
             }
         } else {
@@ -236,10 +240,10 @@ final class QuizStore: ObservableObject {
         guard results.indices.contains(currentIndex) else { return }
         results[currentIndex] = result
         saveSession()
-        if reviewMode && !hasAnyIncorrect {
-            reviewMode = false
-        } else if !reviewMode && !results.contains(.untested) && hasAnyIncorrect {
-            reviewMode = true
+        if filterMode == .incorrect && !hasAnyIncorrect {
+            filterMode = .all
+        } else if filterMode == .untested && !results.contains(.untested) {
+            filterMode = .all
         }
     }
 
@@ -253,8 +257,7 @@ final class QuizStore: ObservableObject {
         guard activeItems.indices.contains(index) else { return }
         currentIndex = index
         revealed = false
-        // Turn off review mode so the user can freely navigate from this card.
-        if reviewMode { reviewMode = false }
+        if filterMode != .all { filterMode = .all }
     }
 
     func resetScore() {
@@ -262,7 +265,7 @@ final class QuizStore: ObservableObject {
         results = Array(repeating: .untested, count: activeItems.count)
         currentIndex = 0
         revealed = false
-        if reviewMode { reviewMode = false }
+        if filterMode != .all { filterMode = .all }
     }
 
     // MARK: - Session persistence
@@ -434,38 +437,46 @@ final class QuizStore: ObservableObject {
     }
 #endif
 
-    // MARK: - Review mode helpers
+    // MARK: - Filter mode helpers
 
-    private func jumpToFirstReviewItemIfNeeded() {
-        guard reviewMode else { return }
-        if let idx = firstIncorrectIndex() {
+    private func jumpToFirstFilteredItemIfNeeded() {
+        guard filterMode != .all else { return }
+        if let idx = firstFilteredIndex() {
             currentIndex = idx
             revealed = false
         } else {
-            reviewMode = false
+            filterMode = .all
         }
     }
 
-    private func firstIncorrectIndex() -> Int? {
-        results.firstIndex(of: .incorrect)
+    private func matchesFilter(_ result: Result) -> Bool {
+        switch filterMode {
+        case .all:       return true
+        case .untested:  return result == .untested
+        case .incorrect: return result == .incorrect
+        }
     }
 
-    private func nextIncorrectIndex(after index: Int) -> Int? {
+    private func firstFilteredIndex() -> Int? {
+        results.indices.first { matchesFilter(results[$0]) }
+    }
+
+    private func nextFilteredIndex(after index: Int) -> Int? {
         guard !results.isEmpty else { return nil }
         let n = results.count
         for offset in 1...n {
             let i = (index + offset) % n
-            if results[i] == .incorrect { return i }
+            if matchesFilter(results[i]) { return i }
         }
         return nil
     }
 
-    private func previousIncorrectIndex(before index: Int) -> Int? {
+    private func previousFilteredIndex(before index: Int) -> Int? {
         guard !results.isEmpty else { return nil }
         let n = results.count
         for offset in 1...n {
             let i = (index - offset + n) % n
-            if results[i] == .incorrect { return i }
+            if matchesFilter(results[i]) { return i }
         }
         return nil
     }
@@ -490,7 +501,7 @@ private enum Defaults {
         static let enabledListIDs        = "enabledListIDs"
         static let strictMode            = "strictMode"
         static let lengthFilter          = "lengthFilter"
-        static let reviewMode            = "reviewMode"
+        static let filterMode            = "filterMode"
         static let sessionRestoreEnabled = "sessionRestoreEnabled"
     }
 
@@ -520,9 +531,9 @@ private enum Defaults {
         set { defaults.set(newValue, forKey: Keys.lengthFilter) }
     }
 
-    static var reviewMode: Bool {
-        get { defaults.bool(forKey: Keys.reviewMode) }
-        set { defaults.set(newValue, forKey: Keys.reviewMode) }
+    static var filterMode: QuizStore.FilterMode {
+        get { QuizStore.FilterMode(rawValue: defaults.integer(forKey: Keys.filterMode)) ?? .all }
+        set { defaults.set(newValue.rawValue, forKey: Keys.filterMode) }
     }
 
     /// Defaults to `true` for new installs (feature is on by default).

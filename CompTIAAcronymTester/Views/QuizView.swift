@@ -8,7 +8,7 @@ import SwiftUI
 ///   - Swipe right on card    → previous item            (was: ← / ↑)
 ///   - Long-press the card    → reset result to untested (was: esc)
 ///   - Correct / Incorrect pill buttons mark the current item explicitly
-///   - Review Mode button toggles review-incorrect-only mode
+///   - Segmented filter (All / Untested / Incorrect) limits navigation scope
 ///   - Browse button opens Wikipedia in an in-app Safari sheet
 struct QuizView: View {
     @EnvironmentObject private var store: QuizStore
@@ -82,6 +82,7 @@ struct QuizView: View {
                 Spacer(minLength: 0)
                 correctnessControls
                 navigationAndBrowse
+                filterPicker
             }
             .padding()
         }
@@ -204,32 +205,11 @@ struct QuizView: View {
         .foregroundStyle(isSelected ? .white : .primary)
     }
 
-    // MARK: - Bottom row: prev / reveal / next  +  Browse
+    // MARK: - Nav row: prev / browse / next
 
     private var navigationAndBrowse: some View {
-        VStack(spacing: 12) {
-            HStack(spacing: 12) {
-                navButton(systemImage: "chevron.left") { store.previous() }
-                Button {
-                    store.reviewMode.toggle()
-                } label: {
-                    Label("Review Mode", systemImage: store.reviewMode ? "checkmark.circle.fill" : "circle")
-                        .font(.headline)
-                        .frame(maxWidth: .infinity, minHeight: 44)
-                }
-                .buttonStyle(.borderedProminent)
-                .tint(store.reviewMode ? .blue : .secondary.opacity(0.4))
-                .foregroundStyle(store.reviewMode ? .white : .primary)
-                .disabled(!store.hasAnyIncorrect)
-                .help("Mark at least one acronym incorrect to enable Review Mode")
-                navButton(systemImage: "chevron.right") { store.next() }
-            }
-            Text("Mark an acronym incorrect to enable Review Mode")
-                .font(.caption)
-                .foregroundStyle(.secondary)
-                .multilineTextAlignment(.center)
-                .opacity(store.hasAnyIncorrect ? 0 : 1)
-
+        HStack(spacing: 12) {
+            navButton(systemImage: "chevron.left") { store.previous() }
             Button {
                 openBrowse()
             } label: {
@@ -239,7 +219,19 @@ struct QuizView: View {
             }
             .buttonStyle(.bordered)
             .disabled((store.currentItem?.urls.first) == nil)
+            navButton(systemImage: "chevron.right") { store.next() }
         }
+    }
+
+    // MARK: - Filter
+
+    private var filterPicker: some View {
+        Picker("Filter", selection: $store.filterMode) {
+            Text("All").tag(QuizStore.FilterMode.all)
+            Text("Untested").tag(QuizStore.FilterMode.untested)
+            Text("Incorrect").tag(QuizStore.FilterMode.incorrect)
+        }
+        .pickerStyle(.segmented)
     }
 
     private func navButton(systemImage: String, action: @escaping () -> Void) -> some View {
