@@ -213,12 +213,15 @@ struct QuizView: View {
             Button {
                 openBrowse()
             } label: {
-                Label("Browse on Wikipedia", systemImage: "safari")
-                    .font(.subheadline)
-                    .frame(maxWidth: .infinity, minHeight: 40)
+                Image("Wikipedia")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 80)
             }
-            .buttonStyle(.bordered)
+            .buttonStyle(.plain)
             .disabled((store.currentItem?.urls.first) == nil)
+            .opacity((store.currentItem?.urls.first) == nil ? 0.3 : 1)
             navButton(systemImage: "chevron.right") { store.next() }
         }
     }
@@ -238,7 +241,7 @@ struct QuizView: View {
         Button(action: action) {
             Image(systemName: systemImage)
                 .font(.title3.weight(.semibold))
-                .frame(minWidth: 56, minHeight: 44)
+                .frame(minWidth: 80, minHeight: 44)
         }
         .buttonStyle(.bordered)
     }
