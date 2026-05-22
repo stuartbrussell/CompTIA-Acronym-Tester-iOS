@@ -143,7 +143,7 @@ struct SettingsView: View {
     private func openDocumentsInFinder() {
         let path = URL.documentsDirectory.path(percentEncoded: false)
         var pid: pid_t = 0
-        var argv: [UnsafeMutablePointer<CChar>?] = [strdup("/usr/bin/open"), strdup("-a"), strdup("Finder"), strdup(path), nil]
+        var argv: [UnsafeMutablePointer<CChar>?] = [strdup("/usr/bin/open"), strdup("-a"), strdup("/System/Library/CoreServices/Finder.app"), strdup(path), nil]
         posix_spawn(&pid, "/usr/bin/open", nil, nil, &argv, nil)
         argv.compactMap { $0 }.forEach { free($0) }
     }
