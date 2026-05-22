@@ -15,6 +15,7 @@ struct QuizView: View {
     @EnvironmentObject private var updateManager: UpdateManager
     @State private var showingSettings = false
     @State private var showingJumpTo = false
+    @State private var showingAbout = false
     @State private var safariURL: IdentifiedURL?
 
     var body: some View {
@@ -23,6 +24,14 @@ struct QuizView: View {
                 .navigationTitle("Acronym Tester")
                 .navigationBarTitleDisplayMode(.inline)
                 .toolbar {
+                    ToolbarItem(placement: .topBarLeading) {
+                        Button {
+                            showingAbout = true
+                        } label: {
+                            Image(systemName: "questionmark.circle")
+                                .accessibilityLabel("About")
+                        }
+                    }
                     ToolbarItem(placement: .topBarTrailing) {
                         HStack(spacing: 4) {
                             Button {
@@ -50,6 +59,9 @@ struct QuizView: View {
         .sheet(isPresented: $showingJumpTo) {
             JumpToView()
                 .environmentObject(store)
+        }
+        .sheet(isPresented: $showingAbout) {
+            AboutView()
         }
         .fullScreenCover(item: $safariURL) { identified in
             SafariView(url: identified.url)
