@@ -125,12 +125,29 @@ struct SettingsView: View {
             } label: {
                 Label("Print Duplicates to Console", systemImage: "doc.text.magnifyingglass")
             }
+            #if targetEnvironment(simulator)
+            Button {
+                openDocumentsInFinder()
+            } label: {
+                Label("Open Documents in Finder", systemImage: "folder")
+            }
+            #endif
         } header: {
             Text("Debug")
         } footer: {
             Text("Loads all rows from selected lists and prints entries that share a key (case-insensitive) to the Xcode console.")
         }
     }
+
+    #if targetEnvironment(simulator)
+    private func openDocumentsInFinder() {
+        let path = URL.documentsDirectory.path(percentEncoded: false)
+        var pid: pid_t = 0
+        var argv: [UnsafeMutablePointer<CChar>?] = [strdup("/usr/bin/open"), strdup(path), nil]
+        posix_spawn(&pid, "/usr/bin/open", nil, nil, &argv, nil)
+        argv.compactMap { $0 }.forEach { free($0) }
+    }
+    #endif
 #endif
 }
 
