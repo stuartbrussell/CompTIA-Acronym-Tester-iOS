@@ -142,11 +142,30 @@ struct SettingsView: View {
     #if targetEnvironment(simulator)
     private func openDocumentsInFinder() {
         let path = URL.documentsDirectory.path(percentEncoded: false)
-        let script = "tell application \"Finder\" to open POSIX file \"\(path)\""
         var pid: pid_t = 0
-        var argv: [UnsafeMutablePointer<CChar>?] = [strdup("/usr/bin/osascript"), strdup("-e"), strdup(script), nil]
-        posix_spawn(&pid, "/usr/bin/osascript", nil, nil, &argv, nil)
+
+        // The simulator sets CFFIXED_USER_HOME (and DYLD_ vars) to redirect
+        // CoreFoundation — including Launch Services — to the per-device
+        // directories. Strip them so the child process sees the real macOS
+        // app registry and can open Finder normally.
+        let stripped: Set<String> = [
+            "CFFIXED_USER_HOME", "DYLD_ROOT_PATH", "DYLD_LIBRARY_PATH",
+            "DYLD_INSERT_LIBRARIES", "DYLD_FRAMEWORK_PATH",
+            "DYLD_FALLBACK_LIBRARY_PATH", "DYLD_FALLBACK_FRAMEWORK_PATH"
+        ]
+        var env: [UnsafeMutablePointer<CChar>?] = []
+        var idx = 0
+        while let entry = environ[idx] {
+            let key = String(cString: entry).prefix(while: { $0 != "=" })
+            if !stripped.contains(String(key)) { env.append(strdup(entry)) }
+            idx += 1
+        }
+        env.append(nil)
+
+        var argv: [UnsafeMutablePointer<CChar>?] = [strdup("/usr/bin/open"), strdup(path), nil]
+        posix_spawn(&pid, "/usr/bin/open", nil, nil, &argv, &env)
         argv.compactMap { $0 }.forEach { free($0) }
+        env.compactMap { $0 }.forEach { free($0) }
     }
     #endif
 #endif
