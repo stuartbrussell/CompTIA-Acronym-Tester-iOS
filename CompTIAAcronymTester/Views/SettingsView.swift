@@ -129,7 +129,7 @@ struct SettingsView: View {
             Button {
                 openDocumentsInFinder()
             } label: {
-                Label("Open Documents in Finder", systemImage: "folder")
+                Label("Copy Documents Path", systemImage: "doc.on.clipboard")
             }
             #endif
         } header: {
@@ -141,17 +141,9 @@ struct SettingsView: View {
 
     #if targetEnvironment(simulator)
     private func openDocumentsInFinder() {
-        // The simulator's lsd daemon uses an iOS-only app registry, so any
-        // approach that goes through Launch Services (open, osascript, etc.)
-        // fails. Call NSWorkspace directly in-process via the ObjC runtime
-        // instead — AppKit lives on the macOS host and is already loaded.
-        dlopen("/System/Library/Frameworks/AppKit.framework/AppKit", RTLD_LAZY)
-        guard
-            let cls = NSClassFromString("NSWorkspace"),
-            let ws = (cls as AnyObject).perform(NSSelectorFromString("sharedWorkspace"))?.takeUnretainedValue()
-        else { return }
-        let urls = [URL.documentsDirectory] as NSArray
-        _ = (ws as AnyObject).perform(NSSelectorFromString("activateFileViewerSelectingURLs:"), with: urls)
+        let path = URL.documentsDirectory.path(percentEncoded: false)
+        UIPasteboard.general.string = path
+        print("Documents path (copied to clipboard): \(path)")
     }
     #endif
 #endif
