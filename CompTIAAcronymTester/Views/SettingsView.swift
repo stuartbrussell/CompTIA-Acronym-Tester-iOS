@@ -141,7 +141,7 @@ struct SettingsView: View {
 
     #if targetEnvironment(simulator)
     private func openDocumentsInFinder() {
-        let path = URL.documentsDirectory.path(percentEncoded: false)
+        let path = URL.documentsDirectory.deletingLastPathComponent().path(percentEncoded: false)
         UIPasteboard.general.string = path
         print("Documents path (copied to clipboard): \(path)")
     }
