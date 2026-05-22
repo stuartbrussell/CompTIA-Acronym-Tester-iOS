@@ -194,10 +194,7 @@ final class QuizStore: ObservableObject {
         // Overlay saved session progress (no-op if disabled or nothing saved).
         restoreSessionIfNeeded()
 
-        // If the active filter has no matching items, fall back to .all.
-        if filterMode != .all && !results.contains(where: { matchesFilter($0) }) {
-            filterMode = .all
-        }
+        jumpToFirstFilteredItemIfNeeded()
     }
 
     // MARK: - Navigation
