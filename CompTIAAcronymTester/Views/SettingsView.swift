@@ -141,31 +141,17 @@ struct SettingsView: View {
 
     #if targetEnvironment(simulator)
     private func openDocumentsInFinder() {
-        let path = URL.documentsDirectory.path(percentEncoded: false)
-        var pid: pid_t = 0
-
-        // The simulator sets CFFIXED_USER_HOME (and DYLD_ vars) to redirect
-        // CoreFoundation — including Launch Services — to the per-device
-        // directories. Strip them so the child process sees the real macOS
-        // app registry and can open Finder normally.
-        let stripped: Set<String> = [
-            "CFFIXED_USER_HOME", "DYLD_ROOT_PATH", "DYLD_LIBRARY_PATH",
-            "DYLD_INSERT_LIBRARIES", "DYLD_FRAMEWORK_PATH",
-            "DYLD_FALLBACK_LIBRARY_PATH", "DYLD_FALLBACK_FRAMEWORK_PATH"
-        ]
-        var env: [UnsafeMutablePointer<CChar>?] = []
-        var idx = 0
-        while let entry = environ[idx] {
-            let key = String(cString: entry).prefix(while: { $0 != "=" })
-            if !stripped.contains(String(key)) { env.append(strdup(entry)) }
-            idx += 1
-        }
-        env.append(nil)
-
-        var argv: [UnsafeMutablePointer<CChar>?] = [strdup("/usr/bin/open"), strdup(path), nil]
-        posix_spawn(&pid, "/usr/bin/open", nil, nil, &argv, &env)
-        argv.compactMap { $0 }.forEach { free($0) }
-        env.compactMap { $0 }.forEach { free($0) }
+        // The simulator's lsd daemon uses an iOS-only app registry, so any
+        // approach that goes through Launch Services (open, osascript, etc.)
+        // fails. Call NSWorkspace directly in-process via the ObjC runtime
+        // instead — AppKit lives on the macOS host and is already loaded.
+        dlopen("/System/Library/Frameworks/AppKit.framework/AppKit", RTLD_LAZY)
+        guard
+            let cls = NSClassFromString("NSWorkspace"),
+            let ws = (cls as AnyObject).perform(NSSelectorFromString("sharedWorkspace"))?.takeUnretainedValue()
+        else { return }
+        let urls = [URL.documentsDirectory] as NSArray
+        _ = (ws as AnyObject).perform(NSSelectorFromString("activateFileViewerSelectingURLs:"), with: urls)
     }
     #endif
 #endif
