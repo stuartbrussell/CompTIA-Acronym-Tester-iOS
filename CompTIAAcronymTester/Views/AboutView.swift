@@ -53,7 +53,7 @@ struct AboutView: View {
                 }
 
                 Section("Settings") {
-                    row("list.bullet",            "Lists",           "Enable or disable the A+, Network+, and Network Ports acronym sets")
+                    row("list.bullet",            "Lists",           "Enable or disable individual acronym sets to focus on the exams you're studying for")
                     row("checkmark.seal",          "Strict mode",     "Show only acronyms that appear in the official CompTIA exam objectives")
                     row("textformat.size",         "Acronym length",  "Filter to a specific character count to drill on longer acronyms")
                     row("clock.arrow.circlepath",  "Session restore", "Saves progress when you leave the app and resumes where you left off on relaunch")
