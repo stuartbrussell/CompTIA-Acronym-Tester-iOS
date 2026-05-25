@@ -33,6 +33,12 @@ struct AboutView: View {
                     .padding(.vertical, 8)
                 }
 
+                Section {
+                    Text("A flashcard trainer for CompTIA certification acronyms. CompTIA exams are acronym-heavy — knowing what each one stands for is essential for both the test and the job. This app lets you drill them at your own pace, track what you know, and focus on the ones you don't.")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                }
+
                 Section("Cards") {
                     row("hand.tap",           "Tap",         "Reveal or hide the full expansion")
                     row("arrow.left",         "Swipe left",  "Go to the next card")
