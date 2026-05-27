@@ -23,6 +23,9 @@ struct QuizView: View {
             content
                 .navigationTitle("Acronym Tester")
                 .navigationBarTitleDisplayMode(.inline)
+                .background(appBackground.ignoresSafeArea())
+                .toolbarBackground(Color(red: 0.93, green: 0.94, blue: 0.98), for: .navigationBar)
+                .toolbarBackground(.visible, for: .navigationBar)
                 .toolbar {
                     ToolbarItem(placement: .topBarLeading) {
                         Button {
@@ -141,7 +144,7 @@ struct QuizView: View {
         .padding(24)
         .background(
             RoundedRectangle(cornerRadius: 24, style: .continuous)
-                .fill(.regularMaterial)
+                .fill(.white)
         )
         .overlay(
             RoundedRectangle(cornerRadius: 24, style: .continuous)
@@ -158,6 +161,17 @@ struct QuizView: View {
         }
         .gesture(swipeGesture)
         .animation(.default, value: store.currentIndex)
+    }
+
+    private var appBackground: LinearGradient {
+        LinearGradient(
+            colors: [
+                Color(red: 0.93, green: 0.94, blue: 0.98),
+                Color(red: 0.97, green: 0.97, blue: 0.99)
+            ],
+            startPoint: .top,
+            endPoint: .bottom
+        )
     }
 
     private var resultColor: Color {
